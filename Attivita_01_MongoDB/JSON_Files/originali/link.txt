@@ -1,0 +1,2 @@
+Laureates.json: https://masterdataapi.nobelprize.org/2.1/laureates?offset=0&limit=981
+NobelPrize.json: https://masterdataapi.nobelprize.org/2.1/nobelPrizes?offset=0&limit=664
