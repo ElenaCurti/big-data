@@ -1,0 +1,23 @@
+db.getCollection('lau').find({},{
+        "_id":0, 
+        "id":1, 	
+        "knownName.en":1, 
+        "givenName.en":1, 
+        "familyName.en":1, 
+        "fullName.en":1, 
+        "penname":1, 
+        "gender":1, 
+        "birth.date":1, 
+        "birth.place.cityNow.en":1, 
+        "birth.place.countryNow.en":1, 
+        "death.date":1, 
+        "death.place.cityNow.en":1, 
+        "death.place.countryNow.en":1, 
+        "orgName.en":1, 
+        "nativeName":1, 
+        "acronym":1, 
+        "founded.date":1, 
+        "founded.place.cityNow.en":1, 
+        "founded.place.countryNow.en":1, 
+        "wikipedia.english":1
+}).toArray()
