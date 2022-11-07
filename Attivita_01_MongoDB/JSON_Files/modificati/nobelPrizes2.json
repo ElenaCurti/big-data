@@ -4,7 +4,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 150782,
-        "prizeAmountAdjusted": 8722510,
         "laureates": [
             {
                 "id": "160",
@@ -20,7 +19,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 150782,
-        "prizeAmountAdjusted": 8722510,
         "laureates": [
             {
                 "id": "569",
@@ -37,7 +35,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1901-12-10",
         "prizeAmount": 150782,
-        "prizeAmountAdjusted": 8722510,
         "laureates": [
             {
                 "id": "462",
@@ -60,7 +57,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 150782,
-        "prizeAmountAdjusted": 8722510,
         "laureates": [
             {
                 "id": "1",
@@ -76,7 +72,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 150782,
-        "prizeAmountAdjusted": 8722510,
         "laureates": [
             {
                 "id": "293",
@@ -92,7 +87,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 141847,
-        "prizeAmountAdjusted": 8205634,
         "laureates": [
             {
                 "id": "161",
@@ -108,7 +102,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 141847,
-        "prizeAmountAdjusted": 8205634,
         "laureates": [
             {
                 "id": "571",
@@ -125,7 +118,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1902-12-10",
         "prizeAmount": 141847,
-        "prizeAmountAdjusted": 8205634,
         "laureates": [
             {
                 "id": "464",
@@ -148,7 +140,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 141847,
-        "prizeAmountAdjusted": 8205634,
         "laureates": [
             {
                 "id": "2",
@@ -171,7 +162,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 141847,
-        "prizeAmountAdjusted": 8205634,
         "laureates": [
             {
                 "id": "294",
@@ -187,7 +177,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 141358,
-        "prizeAmountAdjusted": 7936836,
         "laureates": [
             {
                 "id": "162",
@@ -203,7 +192,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 141358,
-        "prizeAmountAdjusted": 7936836,
         "laureates": [
             {
                 "id": "572",
@@ -220,7 +208,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1903-12-10",
         "prizeAmount": 141358,
-        "prizeAmountAdjusted": 7936836,
         "laureates": [
             {
                 "id": "466",
@@ -236,7 +223,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 141358,
-        "prizeAmountAdjusted": 7936836,
         "laureates": [
             {
                 "id": "4",
@@ -266,7 +252,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 141358,
-        "prizeAmountAdjusted": 7936836,
         "laureates": [
             {
                 "id": "295",
@@ -282,7 +267,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 140859,
-        "prizeAmountAdjusted": 7908819,
         "laureates": [
             {
                 "id": "163",
@@ -298,7 +282,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 140859,
-        "prizeAmountAdjusted": 7908819,
         "laureates": [
             {
                 "id": "573",
@@ -322,7 +305,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1904-12-10",
         "prizeAmount": 140859,
-        "prizeAmountAdjusted": 7908819,
         "laureates": [
             {
                 "id": "467",
@@ -338,7 +320,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 140859,
-        "prizeAmountAdjusted": 7908819,
         "laureates": [
             {
                 "id": "8",
@@ -354,7 +335,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 140859,
-        "prizeAmountAdjusted": 7908819,
         "laureates": [
             {
                 "id": "296",
@@ -370,7 +350,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 138089,
-        "prizeAmountAdjusted": 7753291,
         "laureates": [
             {
                 "id": "164",
@@ -386,7 +365,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 138089,
-        "prizeAmountAdjusted": 7753291,
         "laureates": [
             {
                 "id": "575",
@@ -403,7 +381,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1905-12-10",
         "prizeAmount": 138089,
-        "prizeAmountAdjusted": 7753291,
         "laureates": [
             {
                 "id": "468",
@@ -419,7 +396,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 138089,
-        "prizeAmountAdjusted": 7753291,
         "laureates": [
             {
                 "id": "9",
@@ -435,7 +411,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 138089,
-        "prizeAmountAdjusted": 7753291,
         "laureates": [
             {
                 "id": "297",
@@ -451,7 +426,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 138536,
-        "prizeAmountAdjusted": 7556149,
         "laureates": [
             {
                 "id": "165",
@@ -467,7 +441,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 138536,
-        "prizeAmountAdjusted": 7556149,
         "laureates": [
             {
                 "id": "576",
@@ -484,7 +457,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1906-12-10",
         "prizeAmount": 138536,
-        "prizeAmountAdjusted": 7556149,
         "laureates": [
             {
                 "id": "470",
@@ -500,7 +472,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 138536,
-        "prizeAmountAdjusted": 7556149,
         "laureates": [
             {
                 "id": "10",
@@ -516,7 +487,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 138536,
-        "prizeAmountAdjusted": 7556149,
         "laureates": [
             {
                 "id": "298",
@@ -539,7 +509,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 138796,
-        "prizeAmountAdjusted": 7161123,
         "laureates": [
             {
                 "id": "166",
@@ -555,7 +524,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 138796,
-        "prizeAmountAdjusted": 7161123,
         "laureates": [
             {
                 "id": "577",
@@ -572,7 +540,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1907-12-10",
         "prizeAmount": 138796,
-        "prizeAmountAdjusted": 7161123,
         "laureates": [
             {
                 "id": "471",
@@ -595,7 +562,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 138796,
-        "prizeAmountAdjusted": 7161123,
         "laureates": [
             {
                 "id": "11",
@@ -611,7 +577,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 138796,
-        "prizeAmountAdjusted": 7161123,
         "laureates": [
             {
                 "id": "300",
@@ -627,7 +592,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "167",
@@ -643,7 +607,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "578",
@@ -660,7 +623,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1908-12-10",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "473",
@@ -683,7 +645,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "12",
@@ -699,7 +660,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "301",
@@ -722,7 +682,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "168",
@@ -738,7 +697,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "579",
@@ -755,7 +713,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1909-12-10",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "475",
@@ -778,7 +735,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "13",
@@ -801,7 +757,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 139800,
-        "prizeAmountAdjusted": 7212924,
         "laureates": [
             {
                 "id": "303",
@@ -817,7 +772,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 140703,
-        "prizeAmountAdjusted": 7259514,
         "laureates": [
             {
                 "id": "169",
@@ -833,7 +787,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 140703,
-        "prizeAmountAdjusted": 7259514,
         "laureates": [
             {
                 "id": "580",
@@ -850,7 +803,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1910-12-10",
         "prizeAmount": 140703,
-        "prizeAmountAdjusted": 7259514,
         "laureates": [
             {
                 "id": "477",
@@ -866,7 +818,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 140703,
-        "prizeAmountAdjusted": 7259514,
         "laureates": [
             {
                 "id": "15",
@@ -882,7 +833,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 140703,
-        "prizeAmountAdjusted": 7259514,
         "laureates": [
             {
                 "id": "304",
@@ -898,7 +848,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 140695,
-        "prizeAmountAdjusted": 7460743,
         "laureates": [
             {
                 "id": "6",
@@ -914,7 +863,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 140695,
-        "prizeAmountAdjusted": 7460743,
         "laureates": [
             {
                 "id": "581",
@@ -931,7 +879,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1911-12-10",
         "prizeAmount": 140695,
-        "prizeAmountAdjusted": 7460743,
         "laureates": [
             {
                 "id": "478",
@@ -954,7 +901,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 140695,
-        "prizeAmountAdjusted": 7460743,
         "laureates": [
             {
                 "id": "16",
@@ -970,7 +916,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 140695,
-        "prizeAmountAdjusted": 7460743,
         "laureates": [
             {
                 "id": "305",
@@ -986,7 +931,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 140476,
-        "prizeAmountAdjusted": 6876120,
         "laureates": [
             {
                 "id": "172",
@@ -1009,7 +953,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 140476,
-        "prizeAmountAdjusted": 6876120,
         "laureates": [
             {
                 "id": "582",
@@ -1026,7 +969,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1913-12-10",
         "prizeAmount": 140476,
-        "prizeAmountAdjusted": 6876120,
         "laureates": [
             {
                 "id": "480",
@@ -1042,7 +984,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 140476,
-        "prizeAmountAdjusted": 6876120,
         "laureates": [
             {
                 "id": "17",
@@ -1058,7 +999,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 140476,
-        "prizeAmountAdjusted": 6876120,
         "laureates": [
             {
                 "id": "306",
@@ -1074,7 +1014,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 143010,
-        "prizeAmountAdjusted": 7000156,
         "laureates": [
             {
                 "id": "174",
@@ -1090,7 +1029,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 143010,
-        "prizeAmountAdjusted": 7000156,
         "laureates": [
             {
                 "id": "583",
@@ -1107,7 +1045,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1913-12-10",
         "prizeAmount": 143010,
-        "prizeAmountAdjusted": 7000156,
         "laureates": [
             {
                 "id": "481",
@@ -1123,7 +1060,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 143010,
-        "prizeAmountAdjusted": 7000156,
         "laureates": [
             {
                 "id": "18",
@@ -1139,7 +1075,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 143010,
-        "prizeAmountAdjusted": 7000156,
         "laureates": [
             {
                 "id": "307",
@@ -1156,7 +1091,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1915-11-11",
         "prizeAmount": 146900,
-        "prizeAmountAdjusted": 7190567,
         "laureates": [
             {
                 "id": "175",
@@ -1172,16 +1106,14 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 146900,
-        "prizeAmountAdjusted": 7190567
+        "prizeAmount": 146900
     },
     {
         "awardYear": 1914,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 146900,
-        "prizeAmountAdjusted": 7190567
+        "prizeAmount": 146900
     },
     {
         "awardYear": 1914,
@@ -1189,7 +1121,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1915-11-11",
         "prizeAmount": 146900,
-        "prizeAmountAdjusted": 7190567,
         "laureates": [
             {
                 "id": "19",
@@ -1206,7 +1137,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1915-10-29",
         "prizeAmount": 146900,
-        "prizeAmountAdjusted": 7190567,
         "laureates": [
             {
                 "id": "308",
@@ -1223,7 +1153,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1915-11-11",
         "prizeAmount": 149223,
-        "prizeAmountAdjusted": 6330371,
         "laureates": [
             {
                 "id": "176",
@@ -1240,7 +1169,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1916-11-09",
         "prizeAmount": 149223,
-        "prizeAmountAdjusted": 6330371,
         "laureates": [
             {
                 "id": "584",
@@ -1256,8 +1184,7 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 149223,
-        "prizeAmountAdjusted": 6330371
+        "prizeAmount": 149223
     },
     {
         "awardYear": 1915,
@@ -1265,7 +1192,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1915-11-12",
         "prizeAmount": 149223,
-        "prizeAmountAdjusted": 6330371,
         "laureates": [
             {
                 "id": "20",
@@ -1288,16 +1214,14 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 149223,
-        "prizeAmountAdjusted": 6330371
+        "prizeAmount": 149223
     },
     {
         "awardYear": 1916,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 131793,
-        "prizeAmountAdjusted": 4933193
+        "prizeAmount": 131793
     },
     {
         "awardYear": 1916,
@@ -1305,7 +1229,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1916-11-09",
         "prizeAmount": 131793,
-        "prizeAmountAdjusted": 4933193,
         "laureates": [
             {
                 "id": "585",
@@ -1321,32 +1244,28 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 131793,
-        "prizeAmountAdjusted": 4933193
+        "prizeAmount": 131793
     },
     {
         "awardYear": 1916,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 131793,
-        "prizeAmountAdjusted": 4933193
+        "prizeAmount": 131793
     },
     {
         "awardYear": 1916,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 131793,
-        "prizeAmountAdjusted": 4933193
+        "prizeAmount": 131793
     },
     {
         "awardYear": 1917,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 133823,
-        "prizeAmountAdjusted": 3991689
+        "prizeAmount": 133823
     },
     {
         "awardYear": 1917,
@@ -1354,7 +1273,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1917-11-08",
         "prizeAmount": 133823,
-        "prizeAmountAdjusted": 3991689,
         "laureates": [
             {
                 "id": "586",
@@ -1378,7 +1296,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1917-12-10",
         "prizeAmount": 133823,
-        "prizeAmountAdjusted": 3991689,
         "laureates": [
             {
                 "id": "482",
@@ -1395,7 +1312,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1918-11-12",
         "prizeAmount": 133823,
-        "prizeAmountAdjusted": 3991689,
         "laureates": [
             {
                 "id": "22",
@@ -1411,15 +1327,13 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 133823,
-        "prizeAmountAdjusted": 3991689
+        "prizeAmount": 133823
     },
     {
         "awardYear": 1918,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 138198,
-        "prizeAmountAdjusted": 2899121,
         "laureates": [
             {
                 "id": "177",
@@ -1435,23 +1349,20 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 138198,
-        "prizeAmountAdjusted": 2899121
+        "prizeAmount": 138198
     },
     {
         "awardYear": 1918,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 138198,
-        "prizeAmountAdjusted": 2899121
+        "prizeAmount": 138198
     },
     {
         "awardYear": 1918,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 138198,
-        "prizeAmountAdjusted": 2899121,
         "laureates": [
             {
                 "id": "23",
@@ -1467,23 +1378,20 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 138198,
-        "prizeAmountAdjusted": 2899121
+        "prizeAmount": 138198
     },
     {
         "awardYear": 1919,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 133127,
-        "prizeAmountAdjusted": 2420376
+        "prizeAmount": 133127
     },
     {
         "awardYear": 1919,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 133127,
-        "prizeAmountAdjusted": 2420376,
         "laureates": [
             {
                 "id": "588",
@@ -1500,7 +1408,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1920-12-10",
         "prizeAmount": 133127,
-        "prizeAmountAdjusted": 2420376,
         "laureates": [
             {
                 "id": "483",
@@ -1516,7 +1423,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 133127,
-        "prizeAmountAdjusted": 2420376,
         "laureates": [
             {
                 "id": "24",
@@ -1532,7 +1438,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 133127,
-        "prizeAmountAdjusted": 2420376,
         "laureates": [
             {
                 "id": "309",
@@ -1548,7 +1453,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 134100,
-        "prizeAmountAdjusted": 2438066,
         "laureates": [
             {
                 "id": "178",
@@ -1564,7 +1468,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 134100,
-        "prizeAmountAdjusted": 2438066,
         "laureates": [
             {
                 "id": "589",
@@ -1581,7 +1484,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1920-12-10",
         "prizeAmount": 134100,
-        "prizeAmountAdjusted": 2438066,
         "laureates": [
             {
                 "id": "484",
@@ -1597,7 +1499,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 134100,
-        "prizeAmountAdjusted": 2438066,
         "laureates": [
             {
                 "id": "25",
@@ -1613,7 +1514,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 134100,
-        "prizeAmountAdjusted": 2438066,
         "laureates": [
             {
                 "id": "310",
@@ -1629,7 +1529,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 121573,
-        "prizeAmountAdjusted": 2578698,
         "laureates": [
             {
                 "id": "179",
@@ -1645,7 +1544,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 121573,
-        "prizeAmountAdjusted": 2578698,
         "laureates": [
             {
                 "id": "590",
@@ -1662,7 +1560,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1921-12-10",
         "prizeAmount": 121573,
-        "prizeAmountAdjusted": 2578698,
         "laureates": [
             {
                 "id": "485",
@@ -1685,7 +1582,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 121573,
-        "prizeAmountAdjusted": 2578698,
         "laureates": [
             {
                 "id": "26",
@@ -1701,15 +1597,13 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 121573,
-        "prizeAmountAdjusted": 2578698
+        "prizeAmount": 121573
     },
     {
         "awardYear": 1922,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 122483,
-        "prizeAmountAdjusted": 3203014,
         "laureates": [
             {
                 "id": "180",
@@ -1725,7 +1619,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 122483,
-        "prizeAmountAdjusted": 3203014,
         "laureates": [
             {
                 "id": "592",
@@ -1742,7 +1635,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1922-12-10",
         "prizeAmount": 122483,
-        "prizeAmountAdjusted": 3203014,
         "laureates": [
             {
                 "id": "487",
@@ -1758,7 +1650,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 122483,
-        "prizeAmountAdjusted": 3203014,
         "laureates": [
             {
                 "id": "27",
@@ -1774,7 +1665,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 122483,
-        "prizeAmountAdjusted": 3203014,
         "laureates": [
             {
                 "id": "311",
@@ -1797,7 +1687,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 114935,
-        "prizeAmountAdjusted": 3226631,
         "laureates": [
             {
                 "id": "181",
@@ -1813,7 +1702,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 114935,
-        "prizeAmountAdjusted": 3226631,
         "laureates": [
             {
                 "id": "593",
@@ -1829,15 +1717,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 114935,
-        "prizeAmountAdjusted": 3226631
+        "prizeAmount": 114935
     },
     {
         "awardYear": 1923,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 114935,
-        "prizeAmountAdjusted": 3226631,
         "laureates": [
             {
                 "id": "28",
@@ -1853,7 +1739,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 114935,
-        "prizeAmountAdjusted": 3226631,
         "laureates": [
             {
                 "id": "313",
@@ -1876,15 +1761,13 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 116719,
-        "prizeAmountAdjusted": 3276714
+        "prizeAmount": 116719
     },
     {
         "awardYear": 1924,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 116719,
-        "prizeAmountAdjusted": 3276714,
         "laureates": [
             {
                 "id": "594",
@@ -1900,15 +1783,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 116719,
-        "prizeAmountAdjusted": 3276714
+        "prizeAmount": 116719
     },
     {
         "awardYear": 1924,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 116719,
-        "prizeAmountAdjusted": 3276714,
         "laureates": [
             {
                 "id": "29",
@@ -1924,7 +1805,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 116719,
-        "prizeAmountAdjusted": 3276714,
         "laureates": [
             {
                 "id": "315",
@@ -1940,7 +1820,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 118165,
-        "prizeAmountAdjusted": 3269232,
         "laureates": [
             {
                 "id": "182",
@@ -1956,7 +1835,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 118165,
-        "prizeAmountAdjusted": 3269232,
         "laureates": [
             {
                 "id": "596",
@@ -1973,7 +1851,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1926-12-10",
         "prizeAmount": 118165,
-        "prizeAmountAdjusted": 3269232,
         "laureates": [
             {
                 "id": "488",
@@ -1996,7 +1873,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 118165,
-        "prizeAmountAdjusted": 3269232,
         "laureates": [
             {
                 "id": "30",
@@ -2019,15 +1895,13 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 118165,
-        "prizeAmountAdjusted": 3269232
+        "prizeAmount": 118165
     },
     {
         "awardYear": 1926,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 116960,
-        "prizeAmountAdjusted": 3332487,
         "laureates": [
             {
                 "id": "183",
@@ -2043,7 +1917,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 116960,
-        "prizeAmountAdjusted": 3332487,
         "laureates": [
             {
                 "id": "597",
@@ -2060,7 +1933,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1926-12-10",
         "prizeAmount": 116960,
-        "prizeAmountAdjusted": 3332487,
         "laureates": [
             {
                 "id": "490",
@@ -2083,7 +1955,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 116960,
-        "prizeAmountAdjusted": 3332487,
         "laureates": [
             {
                 "id": "32",
@@ -2099,7 +1970,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 116960,
-        "prizeAmountAdjusted": 3332487,
         "laureates": [
             {
                 "id": "316",
@@ -2115,7 +1985,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 126501,
-        "prizeAmountAdjusted": 3658946,
         "laureates": [
             {
                 "id": "184",
@@ -2131,7 +2000,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 126501,
-        "prizeAmountAdjusted": 3658946,
         "laureates": [
             {
                 "id": "600",
@@ -2148,7 +2016,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1927-12-10",
         "prizeAmount": 126501,
-        "prizeAmountAdjusted": 3658946,
         "laureates": [
             {
                 "id": "492",
@@ -2171,7 +2038,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 126501,
-        "prizeAmountAdjusted": 3658946,
         "laureates": [
             {
                 "id": "33",
@@ -2194,7 +2060,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 126501,
-        "prizeAmountAdjusted": 3658946,
         "laureates": [
             {
                 "id": "317",
@@ -2210,7 +2075,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 156939,
-        "prizeAmountAdjusted": 4539342,
         "laureates": [
             {
                 "id": "185",
@@ -2226,7 +2090,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 156939,
-        "prizeAmountAdjusted": 4539342,
         "laureates": [
             {
                 "id": "601",
@@ -2242,15 +2105,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 156939,
-        "prizeAmountAdjusted": 4539342
+        "prizeAmount": 156939
     },
     {
         "awardYear": 1928,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 156939,
-        "prizeAmountAdjusted": 4539342,
         "laureates": [
             {
                 "id": "35",
@@ -2266,7 +2127,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 156939,
-        "prizeAmountAdjusted": 4539342,
         "laureates": [
             {
                 "id": "318",
@@ -2282,7 +2142,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 172760,
-        "prizeAmountAdjusted": 4996952,
         "laureates": [
             {
                 "id": "186",
@@ -2305,7 +2164,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 172760,
-        "prizeAmountAdjusted": 4996952,
         "laureates": [
             {
                 "id": "602",
@@ -2322,7 +2180,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1930-12-10",
         "prizeAmount": 172760,
-        "prizeAmountAdjusted": 4996952,
         "laureates": [
             {
                 "id": "494",
@@ -2338,7 +2195,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 172760,
-        "prizeAmountAdjusted": 4996952,
         "laureates": [
             {
                 "id": "36",
@@ -2354,7 +2210,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 172760,
-        "prizeAmountAdjusted": 4996952,
         "laureates": [
             {
                 "id": "319",
@@ -2377,7 +2232,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 172947,
-        "prizeAmountAdjusted": 5158685,
         "laureates": [
             {
                 "id": "188",
@@ -2393,7 +2247,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 172947,
-        "prizeAmountAdjusted": 5158685,
         "laureates": [
             {
                 "id": "603",
@@ -2410,7 +2263,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1930-12-10",
         "prizeAmount": 172947,
-        "prizeAmountAdjusted": 5158685,
         "laureates": [
             {
                 "id": "495",
@@ -2426,7 +2278,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 172947,
-        "prizeAmountAdjusted": 5158685,
         "laureates": [
             {
                 "id": "37",
@@ -2442,7 +2293,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 172947,
-        "prizeAmountAdjusted": 5158685,
         "laureates": [
             {
                 "id": "321",
@@ -2458,7 +2308,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 173206,
-        "prizeAmountAdjusted": 5333069,
         "laureates": [
             {
                 "id": "189",
@@ -2481,7 +2330,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 173206,
-        "prizeAmountAdjusted": 5333069,
         "laureates": [
             {
                 "id": "604",
@@ -2498,7 +2346,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1931-12-10",
         "prizeAmount": 173206,
-        "prizeAmountAdjusted": 5333069,
         "laureates": [
             {
                 "id": "496",
@@ -2521,15 +2368,13 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 173206,
-        "prizeAmountAdjusted": 5333069
+        "prizeAmount": 173206
     },
     {
         "awardYear": 1931,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 173206,
-        "prizeAmountAdjusted": 5333069,
         "laureates": [
             {
                 "id": "322",
@@ -2545,7 +2390,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 171753,
-        "prizeAmountAdjusted": 5375024,
         "laureates": [
             {
                 "id": "191",
@@ -2561,7 +2405,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 171753,
-        "prizeAmountAdjusted": 5375024,
         "laureates": [
             {
                 "id": "605",
@@ -2577,15 +2420,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 171753,
-        "prizeAmountAdjusted": 5375024
+        "prizeAmount": 171753
     },
     {
         "awardYear": 1932,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 171753,
-        "prizeAmountAdjusted": 5375024,
         "laureates": [
             {
                 "id": "38",
@@ -2601,7 +2442,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 171753,
-        "prizeAmountAdjusted": 5375024,
         "laureates": [
             {
                 "id": "323",
@@ -2624,15 +2464,13 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 170332,
-        "prizeAmountAdjusted": 5511251
+        "prizeAmount": 170332
     },
     {
         "awardYear": 1933,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 170332,
-        "prizeAmountAdjusted": 5511251,
         "laureates": [
             {
                 "id": "606",
@@ -2649,7 +2487,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1934-12-10",
         "prizeAmount": 170332,
-        "prizeAmountAdjusted": 5511251,
         "laureates": [
             {
                 "id": "498",
@@ -2665,7 +2502,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 170332,
-        "prizeAmountAdjusted": 5511251,
         "laureates": [
             {
                 "id": "39",
@@ -2688,7 +2524,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 170332,
-        "prizeAmountAdjusted": 5511251,
         "laureates": [
             {
                 "id": "325",
@@ -2704,7 +2539,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 162608,
-        "prizeAmountAdjusted": 5261333,
         "laureates": [
             {
                 "id": "192",
@@ -2720,7 +2554,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 162608,
-        "prizeAmountAdjusted": 5261333,
         "laureates": [
             {
                 "id": "607",
@@ -2737,7 +2570,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1934-12-10",
         "prizeAmount": 162608,
-        "prizeAmountAdjusted": 5261333,
         "laureates": [
             {
                 "id": "499",
@@ -2753,15 +2585,13 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 162608,
-        "prizeAmountAdjusted": 5261333
+        "prizeAmount": 162608
     },
     {
         "awardYear": 1934,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 162608,
-        "prizeAmountAdjusted": 5261333,
         "laureates": [
             {
                 "id": "326",
@@ -2791,7 +2621,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 159917,
-        "prizeAmountAdjusted": 5088026,
         "laureates": [
             {
                 "id": "193",
@@ -2814,8 +2643,7 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 159917,
-        "prizeAmountAdjusted": 5088026
+        "prizeAmount": 159917
     },
     {
         "awardYear": 1935,
@@ -2823,7 +2651,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1936-11-24",
         "prizeAmount": 159917,
-        "prizeAmountAdjusted": 5088026,
         "laureates": [
             {
                 "id": "500",
@@ -2839,7 +2666,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 159917,
-        "prizeAmountAdjusted": 5088026,
         "laureates": [
             {
                 "id": "41",
@@ -2855,7 +2681,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 159917,
-        "prizeAmountAdjusted": 5088026,
         "laureates": [
             {
                 "id": "329",
@@ -2871,7 +2696,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 159850,
-        "prizeAmountAdjusted": 5002519,
         "laureates": [
             {
                 "id": "195",
@@ -2887,7 +2711,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 159850,
-        "prizeAmountAdjusted": 5002519,
         "laureates": [
             {
                 "id": "608",
@@ -2904,7 +2727,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1936-11-24",
         "prizeAmount": 159850,
-        "prizeAmountAdjusted": 5002519,
         "laureates": [
             {
                 "id": "501",
@@ -2920,7 +2742,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 159850,
-        "prizeAmountAdjusted": 5002519,
         "laureates": [
             {
                 "id": "42",
@@ -2943,7 +2764,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 159850,
-        "prizeAmountAdjusted": 5002519,
         "laureates": [
             {
                 "id": "330",
@@ -2966,7 +2786,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 158463,
-        "prizeAmountAdjusted": 4801680,
         "laureates": [
             {
                 "id": "196",
@@ -2989,7 +2808,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 158463,
-        "prizeAmountAdjusted": 4801680,
         "laureates": [
             {
                 "id": "609",
@@ -3006,7 +2824,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1937-11-18",
         "prizeAmount": 158463,
-        "prizeAmountAdjusted": 4801680,
         "laureates": [
             {
                 "id": "502",
@@ -3022,7 +2839,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 158463,
-        "prizeAmountAdjusted": 4801680,
         "laureates": [
             {
                 "id": "44",
@@ -3045,7 +2861,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 158463,
-        "prizeAmountAdjusted": 4801680,
         "laureates": [
             {
                 "id": "332",
@@ -3061,7 +2876,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 155077,
-        "prizeAmountAdjusted": 4625656,
         "laureates": [
             {
                 "id": "198",
@@ -3077,7 +2891,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 155077,
-        "prizeAmountAdjusted": 4625656,
         "laureates": [
             {
                 "id": "610",
@@ -3094,7 +2907,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1938-11-17",
         "prizeAmount": 155077,
-        "prizeAmountAdjusted": 4625656,
         "laureates": [
             {
                 "id": "503",
@@ -3110,7 +2922,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 155077,
-        "prizeAmountAdjusted": 4625656,
         "laureates": [
             {
                 "id": "46",
@@ -3126,7 +2937,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 155077,
-        "prizeAmountAdjusted": 4625656,
         "laureates": [
             {
                 "id": "333",
@@ -3142,7 +2952,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 148822,
-        "prizeAmountAdjusted": 4304564,
         "laureates": [
             {
                 "id": "199",
@@ -3165,7 +2974,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 148822,
-        "prizeAmountAdjusted": 4304564,
         "laureates": [
             {
                 "id": "613",
@@ -3181,15 +2989,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 148822,
-        "prizeAmountAdjusted": 4304564
+        "prizeAmount": 148822
     },
     {
         "awardYear": 1939,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 148822,
-        "prizeAmountAdjusted": 4304564,
         "laureates": [
             {
                 "id": "47",
@@ -3205,7 +3011,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 148822,
-        "prizeAmountAdjusted": 4304564,
         "laureates": [
             {
                 "id": "334",
@@ -3221,127 +3026,111 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 138570,
-        "prizeAmountAdjusted": 3574731
+        "prizeAmount": 138570
     },
     {
         "awardYear": 1940,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 138570,
-        "prizeAmountAdjusted": 3574731
+        "prizeAmount": 138570
     },
     {
         "awardYear": 1940,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 138570,
-        "prizeAmountAdjusted": 3574731
+        "prizeAmount": 138570
     },
     {
         "awardYear": 1940,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 138570,
-        "prizeAmountAdjusted": 3574731
+        "prizeAmount": 138570
     },
     {
         "awardYear": 1940,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 138570,
-        "prizeAmountAdjusted": 3574731
+        "prizeAmount": 138570
     },
     {
         "awardYear": 1941,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131496,
-        "prizeAmountAdjusted": 2988403
+        "prizeAmount": 131496
     },
     {
         "awardYear": 1941,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131496,
-        "prizeAmountAdjusted": 2988403
+        "prizeAmount": 131496
     },
     {
         "awardYear": 1941,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131496,
-        "prizeAmountAdjusted": 2988403
+        "prizeAmount": 131496
     },
     {
         "awardYear": 1941,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131496,
-        "prizeAmountAdjusted": 2988403
+        "prizeAmount": 131496
     },
     {
         "awardYear": 1941,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131496,
-        "prizeAmountAdjusted": 2988403
+        "prizeAmount": 131496
     },
     {
         "awardYear": 1942,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131891,
-        "prizeAmountAdjusted": 2797555
+        "prizeAmount": 131891
     },
     {
         "awardYear": 1942,
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131891,
-        "prizeAmountAdjusted": 2797555
+        "prizeAmount": 131891
     },
     {
         "awardYear": 1942,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131891,
-        "prizeAmountAdjusted": 2797555
+        "prizeAmount": 131891
     },
     {
         "awardYear": 1942,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131891,
-        "prizeAmountAdjusted": 2797555
+        "prizeAmount": 131891
     },
     {
         "awardYear": 1942,
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 131891,
-        "prizeAmountAdjusted": 2797555
+        "prizeAmount": 131891
     },
     {
         "awardYear": 1943,
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 123691,
-        "prizeAmountAdjusted": 2566588,
         "laureates": [
             {
                 "id": "201",
@@ -3357,23 +3146,20 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 123691,
-        "prizeAmountAdjusted": 2566588
+        "prizeAmount": 123691
     },
     {
         "awardYear": 1943,
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 123691,
-        "prizeAmountAdjusted": 2566588
+        "prizeAmount": 123691
     },
     {
         "awardYear": 1943,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 123691,
-        "prizeAmountAdjusted": 2566588,
         "laureates": [
             {
                 "id": "48",
@@ -3389,7 +3175,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 123691,
-        "prizeAmountAdjusted": 2566588,
         "laureates": [
             {
                 "id": "335",
@@ -3412,7 +3197,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 121841,
-        "prizeAmountAdjusted": 2555983,
         "laureates": [
             {
                 "id": "202",
@@ -3428,7 +3212,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 121841,
-        "prizeAmountAdjusted": 2555983,
         "laureates": [
             {
                 "id": "614",
@@ -3445,7 +3228,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1945-11-12",
         "prizeAmount": 121841,
-        "prizeAmountAdjusted": 2555983,
         "laureates": [
             {
                 "id": "482",
@@ -3461,7 +3243,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 121841,
-        "prizeAmountAdjusted": 2555983,
         "laureates": [
             {
                 "id": "49",
@@ -3477,7 +3258,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 121841,
-        "prizeAmountAdjusted": 2555983,
         "laureates": [
             {
                 "id": "337",
@@ -3500,7 +3280,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 121333,
-        "prizeAmountAdjusted": 2545326,
         "laureates": [
             {
                 "id": "203",
@@ -3516,7 +3295,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 121333,
-        "prizeAmountAdjusted": 2545326,
         "laureates": [
             {
                 "id": "615",
@@ -3533,7 +3311,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1945-11-12",
         "prizeAmount": 121333,
-        "prizeAmountAdjusted": 2545326,
         "laureates": [
             {
                 "id": "505",
@@ -3549,7 +3326,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 121333,
-        "prizeAmountAdjusted": 2545326,
         "laureates": [
             {
                 "id": "50",
@@ -3565,7 +3341,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 121333,
-        "prizeAmountAdjusted": 2545326,
         "laureates": [
             {
                 "id": "339",
@@ -3595,7 +3370,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 121524,
-        "prizeAmountAdjusted": 2549333,
         "laureates": [
             {
                 "id": "204",
@@ -3625,7 +3399,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 121524,
-        "prizeAmountAdjusted": 2549333,
         "laureates": [
             {
                 "id": "617",
@@ -3642,7 +3415,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1946-11-14",
         "prizeAmount": 121524,
-        "prizeAmountAdjusted": 2549333,
         "laureates": [
             {
                 "id": "506",
@@ -3665,7 +3437,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 121524,
-        "prizeAmountAdjusted": 2549333,
         "laureates": [
             {
                 "id": "51",
@@ -3681,7 +3452,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 121524,
-        "prizeAmountAdjusted": 2549333,
         "laureates": [
             {
                 "id": "342",
@@ -3697,7 +3467,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 146115,
-        "prizeAmountAdjusted": 2967378,
         "laureates": [
             {
                 "id": "207",
@@ -3713,7 +3482,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 146115,
-        "prizeAmountAdjusted": 2967378,
         "laureates": [
             {
                 "id": "618",
@@ -3730,7 +3498,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1947-10-30",
         "prizeAmount": 146115,
-        "prizeAmountAdjusted": 2967378,
         "laureates": [
             {
                 "id": "508",
@@ -3754,7 +3521,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 146115,
-        "prizeAmountAdjusted": 2967378,
         "laureates": [
             {
                 "id": "52",
@@ -3770,7 +3536,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 146115,
-        "prizeAmountAdjusted": 2967378,
         "laureates": [
             {
                 "id": "343",
@@ -3800,7 +3565,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 159773,
-        "prizeAmountAdjusted": 3112313,
         "laureates": [
             {
                 "id": "208",
@@ -3816,7 +3580,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 159773,
-        "prizeAmountAdjusted": 3112313,
         "laureates": [
             {
                 "id": "619",
@@ -3832,15 +3595,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 159773,
-        "prizeAmountAdjusted": 3112313
+        "prizeAmount": 159773
     },
     {
         "awardYear": 1948,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 159773,
-        "prizeAmountAdjusted": 3112313,
         "laureates": [
             {
                 "id": "53",
@@ -3856,7 +3617,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 159773,
-        "prizeAmountAdjusted": 3112313,
         "laureates": [
             {
                 "id": "346",
@@ -3872,7 +3632,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 156290,
-        "prizeAmountAdjusted": 2983576,
         "laureates": [
             {
                 "id": "209",
@@ -3888,7 +3647,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 156290,
-        "prizeAmountAdjusted": 2983576,
         "laureates": [
             {
                 "id": "620",
@@ -3905,7 +3663,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1949-10-12",
         "prizeAmount": 156290,
-        "prizeAmountAdjusted": 2983576,
         "laureates": [
             {
                 "id": "510",
@@ -3921,7 +3678,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 156290,
-        "prizeAmountAdjusted": 2983576,
         "laureates": [
             {
                 "id": "54",
@@ -3937,7 +3693,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 156290,
-        "prizeAmountAdjusted": 2983576,
         "laureates": [
             {
                 "id": "347",
@@ -3960,7 +3715,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 164304,
-        "prizeAmountAdjusted": 3105508,
         "laureates": [
             {
                 "id": "210",
@@ -3983,7 +3737,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 164304,
-        "prizeAmountAdjusted": 3105508,
         "laureates": [
             {
                 "id": "621",
@@ -4000,7 +3753,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1950-09-22",
         "prizeAmount": 164304,
-        "prizeAmountAdjusted": 3105508,
         "laureates": [
             {
                 "id": "511",
@@ -4016,7 +3768,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 164304,
-        "prizeAmountAdjusted": 3105508,
         "laureates": [
             {
                 "id": "55",
@@ -4032,7 +3783,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 164304,
-        "prizeAmountAdjusted": 3105508,
         "laureates": [
             {
                 "id": "349",
@@ -4062,7 +3812,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 167612,
-        "prizeAmountAdjusted": 2734798,
         "laureates": [
             {
                 "id": "212",
@@ -4085,7 +3834,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 167612,
-        "prizeAmountAdjusted": 2734798,
         "laureates": [
             {
                 "id": "622",
@@ -4101,7 +3849,6 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "prizeAmount": 167612,
-        "prizeAmountAdjusted": 2734798,
         "laureates": [
             {
                 "id": "512",
@@ -4117,7 +3864,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 167612,
-        "prizeAmountAdjusted": 2734798,
         "laureates": [
             {
                 "id": "56",
@@ -4140,7 +3886,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 167612,
-        "prizeAmountAdjusted": 2734798,
         "laureates": [
             {
                 "id": "352",
@@ -4156,7 +3901,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 171135,
-        "prizeAmountAdjusted": 2592831,
         "laureates": [
             {
                 "id": "214",
@@ -4179,7 +3923,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 171135,
-        "prizeAmountAdjusted": 2592831,
         "laureates": [
             {
                 "id": "623",
@@ -4196,7 +3939,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1953-10-30",
         "prizeAmount": 171135,
-        "prizeAmountAdjusted": 2592831,
         "laureates": [
             {
                 "id": "513",
@@ -4212,7 +3954,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 171135,
-        "prizeAmountAdjusted": 2592831,
         "laureates": [
             {
                 "id": "58",
@@ -4235,7 +3976,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 171135,
-        "prizeAmountAdjusted": 2592831,
         "laureates": [
             {
                 "id": "353",
@@ -4251,7 +3991,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 175293,
-        "prizeAmountAdjusted": 2614331,
         "laureates": [
             {
                 "id": "216",
@@ -4267,7 +4006,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 175293,
-        "prizeAmountAdjusted": 2614331,
         "laureates": [
             {
                 "id": "624",
@@ -4284,7 +4022,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1953-10-30",
         "prizeAmount": 175293,
-        "prizeAmountAdjusted": 2614331,
         "laureates": [
             {
                 "id": "514",
@@ -4300,7 +4037,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 175293,
-        "prizeAmountAdjusted": 2614331,
         "laureates": [
             {
                 "id": "60",
@@ -4316,7 +4052,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 175293,
-        "prizeAmountAdjusted": 2614331,
         "laureates": [
             {
                 "id": "354",
@@ -4339,7 +4074,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 181647,
-        "prizeAmountAdjusted": 2688094,
         "laureates": [
             {
                 "id": "217",
@@ -4355,7 +4089,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 181647,
-        "prizeAmountAdjusted": 2688094,
         "laureates": [
             {
                 "id": "625",
@@ -4372,7 +4105,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1955-11-05",
         "prizeAmount": 181647,
-        "prizeAmountAdjusted": 2688094,
         "laureates": [
             {
                 "id": "515",
@@ -4389,7 +4121,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 181647,
-        "prizeAmountAdjusted": 2688094,
         "laureates": [
             {
                 "id": "61",
@@ -4412,7 +4143,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 181647,
-        "prizeAmountAdjusted": 2688094,
         "laureates": [
             {
                 "id": "356",
@@ -4443,7 +4173,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1955-11-02",
         "prizeAmount": 190214,
-        "prizeAmountAdjusted": 2730214,
         "laureates": [
             {
                 "id": "218",
@@ -4460,7 +4189,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1955-10-27",
         "prizeAmount": 190214,
-        "prizeAmountAdjusted": 2730214,
         "laureates": [
             {
                 "id": "626",
@@ -4476,8 +4204,7 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 190214,
-        "prizeAmountAdjusted": 2730214
+        "prizeAmount": 190214
     },
     {
         "awardYear": 1955,
@@ -4485,7 +4212,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1955-11-02",
         "prizeAmount": 190214,
-        "prizeAmountAdjusted": 2730214,
         "laureates": [
             {
                 "id": "63",
@@ -4509,7 +4235,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1955-10-20",
         "prizeAmount": 190214,
-        "prizeAmountAdjusted": 2730214,
         "laureates": [
             {
                 "id": "359",
@@ -4525,7 +4250,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 200123,
-        "prizeAmountAdjusted": 2748452,
         "laureates": [
             {
                 "id": "219",
@@ -4548,7 +4272,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 200123,
-        "prizeAmountAdjusted": 2748452,
         "laureates": [
             {
                 "id": "627",
@@ -4564,15 +4287,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 200123,
-        "prizeAmountAdjusted": 2748452
+        "prizeAmount": 200123
     },
     {
         "awardYear": 1956,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 200123,
-        "prizeAmountAdjusted": 2748452,
         "laureates": [
             {
                 "id": "65",
@@ -4602,7 +4323,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 200123,
-        "prizeAmountAdjusted": 2748452,
         "laureates": [
             {
                 "id": "360",
@@ -4632,7 +4352,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 208629,
-        "prizeAmountAdjusted": 2746709,
         "laureates": [
             {
                 "id": "221",
@@ -4648,7 +4367,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 208629,
-        "prizeAmountAdjusted": 2746709,
         "laureates": [
             {
                 "id": "628",
@@ -4665,7 +4383,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1957-10-03",
         "prizeAmount": 208629,
-        "prizeAmountAdjusted": 2746709,
         "laureates": [
             {
                 "id": "516",
@@ -4681,7 +4398,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 208629,
-        "prizeAmountAdjusted": 2746709,
         "laureates": [
             {
                 "id": "68",
@@ -4704,7 +4420,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 208629,
-        "prizeAmountAdjusted": 2746709,
         "laureates": [
             {
                 "id": "363",
@@ -4720,7 +4435,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 214559,
-        "prizeAmountAdjusted": 2694692,
         "laureates": [
             {
                 "id": "222",
@@ -4736,7 +4450,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 214559,
-        "prizeAmountAdjusted": 2694692,
         "laureates": [
             {
                 "id": "629",
@@ -4753,7 +4466,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1958-11-10",
         "prizeAmount": 214559,
-        "prizeAmountAdjusted": 2694692,
         "laureates": [
             {
                 "id": "517",
@@ -4769,7 +4481,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 214559,
-        "prizeAmountAdjusted": 2694692,
         "laureates": [
             {
                 "id": "70",
@@ -4799,7 +4510,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 214559,
-        "prizeAmountAdjusted": 2694692,
         "laureates": [
             {
                 "id": "364",
@@ -4829,7 +4539,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 220678,
-        "prizeAmountAdjusted": 2753427,
         "laureates": [
             {
                 "id": "223",
@@ -4845,7 +4554,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 220678,
-        "prizeAmountAdjusted": 2753427,
         "laureates": [
             {
                 "id": "630",
@@ -4862,7 +4570,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1959-11-05",
         "prizeAmount": 220678,
-        "prizeAmountAdjusted": 2753427,
         "laureates": [
             {
                 "id": "518",
@@ -4878,7 +4585,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 220678,
-        "prizeAmountAdjusted": 2753427,
         "laureates": [
             {
                 "id": "72",
@@ -4901,7 +4607,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 220678,
-        "prizeAmountAdjusted": 2753427,
         "laureates": [
             {
                 "id": "367",
@@ -4925,7 +4630,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1960-11-03",
         "prizeAmount": 225987,
-        "prizeAmountAdjusted": 2713265,
         "laureates": [
             {
                 "id": "224",
@@ -4942,7 +4646,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1960-10-26",
         "prizeAmount": 225987,
-        "prizeAmountAdjusted": 2713265,
         "laureates": [
             {
                 "id": "631",
@@ -4959,7 +4662,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1961-10-23",
         "prizeAmount": 225987,
-        "prizeAmountAdjusted": 2713265,
         "laureates": [
             {
                 "id": "519",
@@ -4976,7 +4678,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1960-11-03",
         "prizeAmount": 225987,
-        "prizeAmountAdjusted": 2713265,
         "laureates": [
             {
                 "id": "74",
@@ -4993,7 +4694,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1960-10-20",
         "prizeAmount": 225987,
-        "prizeAmountAdjusted": 2713265,
         "laureates": [
             {
                 "id": "369",
@@ -5016,7 +4716,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 250233,
-        "prizeAmountAdjusted": 2930643,
         "laureates": [
             {
                 "id": "225",
@@ -5032,7 +4731,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 250233,
-        "prizeAmountAdjusted": 2930643,
         "laureates": [
             {
                 "id": "633",
@@ -5049,7 +4747,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1961-10-23",
         "prizeAmount": 250233,
-        "prizeAmountAdjusted": 2930643,
         "laureates": [
             {
                 "id": "520",
@@ -5065,7 +4762,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 250233,
-        "prizeAmountAdjusted": 2930643,
         "laureates": [
             {
                 "id": "75",
@@ -5088,7 +4784,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 250233,
-        "prizeAmountAdjusted": 2930643,
         "laureates": [
             {
                 "id": "371",
@@ -5104,7 +4799,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 257220,
-        "prizeAmountAdjusted": 2888429,
         "laureates": [
             {
                 "id": "226",
@@ -5127,7 +4821,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 257220,
-        "prizeAmountAdjusted": 2888429,
         "laureates": [
             {
                 "id": "634",
@@ -5144,7 +4837,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1963-10-10",
         "prizeAmount": 257220,
-        "prizeAmountAdjusted": 2888429,
         "laureates": [
             {
                 "id": "217",
@@ -5160,7 +4852,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 257220,
-        "prizeAmountAdjusted": 2888429,
         "laureates": [
             {
                 "id": "77",
@@ -5176,7 +4867,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 257220,
-        "prizeAmountAdjusted": 2888429,
         "laureates": [
             {
                 "id": "372",
@@ -5206,7 +4896,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 265000,
-        "prizeAmountAdjusted": 2890771,
         "laureates": [
             {
                 "id": "228",
@@ -5229,7 +4918,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 265000,
-        "prizeAmountAdjusted": 2890771,
         "laureates": [
             {
                 "id": "635",
@@ -5246,7 +4934,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1963-10-10",
         "prizeAmount": 265000,
-        "prizeAmountAdjusted": 2890771,
         "laureates": [
             {
                 "id": "482",
@@ -5269,7 +4956,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 265000,
-        "prizeAmountAdjusted": 2890771,
         "laureates": [
             {
                 "id": "78",
@@ -5299,7 +4985,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 265000,
-        "prizeAmountAdjusted": 2890771,
         "laureates": [
             {
                 "id": "375",
@@ -5329,7 +5014,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 273000,
-        "prizeAmountAdjusted": 2879320,
         "laureates": [
             {
                 "id": "230",
@@ -5345,7 +5029,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 273000,
-        "prizeAmountAdjusted": 2879320,
         "laureates": [
             {
                 "id": "637",
@@ -5362,7 +5045,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1964-10-14",
         "prizeAmount": 273000,
-        "prizeAmountAdjusted": 2879320,
         "laureates": [
             {
                 "id": "524",
@@ -5378,7 +5060,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 273000,
-        "prizeAmountAdjusted": 2879320,
         "laureates": [
             {
                 "id": "81",
@@ -5408,7 +5089,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 273000,
-        "prizeAmountAdjusted": 2879320,
         "laureates": [
             {
                 "id": "378",
@@ -5431,7 +5111,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 282000,
-        "prizeAmountAdjusted": 2833358,
         "laureates": [
             {
                 "id": "231",
@@ -5447,7 +5126,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 282000,
-        "prizeAmountAdjusted": 2833358,
         "laureates": [
             {
                 "id": "638",
@@ -5464,7 +5142,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1965-10-26",
         "prizeAmount": 282000,
-        "prizeAmountAdjusted": 2833358,
         "laureates": [
             {
                 "id": "525",
@@ -5481,7 +5158,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 282000,
-        "prizeAmountAdjusted": 2833358,
         "laureates": [
             {
                 "id": "84",
@@ -5511,7 +5187,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 282000,
-        "prizeAmountAdjusted": 2833358,
         "laureates": [
             {
                 "id": "380",
@@ -5541,7 +5216,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 300000,
-        "prizeAmountAdjusted": 2835149,
         "laureates": [
             {
                 "id": "232",
@@ -5557,7 +5231,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 300000,
-        "prizeAmountAdjusted": 2835149,
         "laureates": [
             {
                 "id": "639",
@@ -5580,15 +5253,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was allocated to the Special Fund of this prize section.",
-        "prizeAmount": 300000,
-        "prizeAmountAdjusted": 2835149
+        "prizeAmount": 300000
     },
     {
         "awardYear": 1966,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 300000,
-        "prizeAmountAdjusted": 2835149,
         "laureates": [
             {
                 "id": "87",
@@ -5604,7 +5275,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 300000,
-        "prizeAmountAdjusted": 2835149,
         "laureates": [
             {
                 "id": "383",
@@ -5627,7 +5297,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 320000,
-        "prizeAmountAdjusted": 2895166,
         "laureates": [
             {
                 "id": "233",
@@ -5657,7 +5326,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 320000,
-        "prizeAmountAdjusted": 2895166,
         "laureates": [
             {
                 "id": "641",
@@ -5673,15 +5341,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section.",
-        "prizeAmount": 320000,
-        "prizeAmountAdjusted": 2895166
+        "prizeAmount": 320000
     },
     {
         "awardYear": 1967,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 320000,
-        "prizeAmountAdjusted": 2895166,
         "laureates": [
             {
                 "id": "88",
@@ -5697,7 +5363,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 320000,
-        "prizeAmountAdjusted": 2895166,
         "laureates": [
             {
                 "id": "385",
@@ -5727,7 +5392,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 350000,
-        "prizeAmountAdjusted": 3107674,
         "laureates": [
             {
                 "id": "236",
@@ -5743,7 +5407,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 350000,
-        "prizeAmountAdjusted": 3107674,
         "laureates": [
             {
                 "id": "642",
@@ -5760,7 +5423,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1968-10-09",
         "prizeAmount": 350000,
-        "prizeAmountAdjusted": 3107674,
         "laureates": [
             {
                 "id": "526",
@@ -5776,7 +5438,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 350000,
-        "prizeAmountAdjusted": 3107674,
         "laureates": [
             {
                 "id": "89",
@@ -5792,7 +5453,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 350000,
-        "prizeAmountAdjusted": 3107674,
         "laureates": [
             {
                 "id": "388",
@@ -5822,7 +5482,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "237",
@@ -5845,7 +5504,6 @@
         "category": "Economic Sciences",
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "677",
@@ -5868,7 +5526,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "643",
@@ -5885,7 +5542,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1969-10-20",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "527",
@@ -5902,7 +5558,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "90",
@@ -5918,7 +5573,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 375000,
-        "prizeAmountAdjusted": 3239253,
         "laureates": [
             {
                 "id": "391",
@@ -5949,7 +5603,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1970-10-27",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "239",
@@ -5966,7 +5619,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1970-10-26",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "679",
@@ -5983,7 +5635,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1970-10-08",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "644",
@@ -6000,7 +5651,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1970-10-21",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "528",
@@ -6017,7 +5667,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1970-10-27",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "91",
@@ -6041,7 +5690,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1970-10-15",
         "prizeAmount": 400000,
-        "prizeAmountAdjusted": 3235593,
         "laureates": [
             {
                 "id": "394",
@@ -6071,7 +5719,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "240",
@@ -6087,7 +5734,6 @@
         "category": "Economic Sciences",
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "680",
@@ -6103,7 +5749,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "645",
@@ -6120,7 +5765,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1971-10-21",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "529",
@@ -6136,7 +5780,6 @@
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "93",
@@ -6152,7 +5795,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 450000,
-        "prizeAmountAdjusted": 3382087,
         "laureates": [
             {
                 "id": "397",
@@ -6168,7 +5810,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394,
         "laureates": [
             {
                 "id": "241",
@@ -6199,7 +5840,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1972-10-25",
         "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394,
         "laureates": [
             {
                 "id": "681",
@@ -6222,7 +5862,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394,
         "laureates": [
             {
                 "id": "647",
@@ -6238,15 +5877,13 @@
         "category": "Peace",
         "categoryFullName": "The Nobel Peace Prize",
         "topMotivation": "No Nobel Prize was awarded this year. The prize money for 1972 was allocated to the Main Fund.",
-        "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394
+        "prizeAmount": 480000
     },
     {
         "awardYear": 1972,
         "category": "Physics",
         "categoryFullName": "The Nobel Prize in Physics",
         "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394,
         "laureates": [
             {
                 "id": "66",
@@ -6276,7 +5913,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 480000,
-        "prizeAmountAdjusted": 3406394,
         "laureates": [
             {
                 "id": "398",
@@ -6300,7 +5936,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1973-10-23",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "244",
@@ -6324,7 +5959,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1973-10-18",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "683",
@@ -6340,7 +5974,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "648",
@@ -6357,7 +5990,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1973-10-17",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "530",
@@ -6381,7 +6013,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1973-10-23",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "97",
@@ -6411,7 +6042,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 510000,
-        "prizeAmountAdjusted": 3392300,
         "laureates": [
             {
                 "id": "400",
@@ -6442,7 +6072,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1974-10-15",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "246",
@@ -6459,7 +6088,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1974-10-09",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "684",
@@ -6482,7 +6110,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "649",
@@ -6506,7 +6133,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1974-10-09",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "532",
@@ -6530,7 +6156,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1974-10-15",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "100",
@@ -6553,7 +6178,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 550000,
-        "prizeAmountAdjusted": 3322627,
         "laureates": [
             {
                 "id": "403",
@@ -6584,7 +6208,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1975-10-17",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "247",
@@ -6608,7 +6231,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1975-10-14",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "686",
@@ -6632,7 +6254,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "1975-10-23",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "651",
@@ -6649,7 +6270,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1975-10-09",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "534",
@@ -6666,7 +6286,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1975-10-17",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "102",
@@ -6697,7 +6316,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1975-10-16",
         "prizeAmount": 630000,
-        "prizeAmountAdjusted": 3465908,
         "laureates": [
             {
                 "id": "406",
@@ -6728,7 +6346,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1976-10-18",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "249",
@@ -6745,7 +6362,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1976-10-14",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "688",
@@ -6761,7 +6377,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "652",
@@ -6778,7 +6393,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1977-10-10",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "535",
@@ -6802,7 +6416,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1976-10-18",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "105",
@@ -6826,7 +6439,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1976-10-14",
         "prizeAmount": 681000,
-        "prizeAmountAdjusted": 3403217,
         "laureates": [
             {
                 "id": "409",
@@ -6850,7 +6462,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1977-10-11",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "250",
@@ -6867,7 +6478,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1977-10-14",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "689",
@@ -6890,7 +6500,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "653",
@@ -6907,7 +6516,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1977-10-10",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "537",
@@ -6924,7 +6532,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1977-10-11",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "107",
@@ -6954,7 +6561,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 700000,
-        "prizeAmountAdjusted": 3136854,
         "laureates": [
             {
                 "id": "411",
@@ -6985,7 +6591,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1978-10-17",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "251",
@@ -7002,7 +6607,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1978-10-16",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "691",
@@ -7018,7 +6622,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "654",
@@ -7035,7 +6638,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1978-10-27",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "538",
@@ -7059,7 +6661,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1978-10-17",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "110",
@@ -7089,7 +6690,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 725000,
-        "prizeAmountAdjusted": 2951013,
         "laureates": [
             {
                 "id": "414",
@@ -7120,7 +6720,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1979-10-15",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "252",
@@ -7144,7 +6743,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1979-10-16",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "692",
@@ -7167,7 +6765,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "655",
@@ -7184,7 +6781,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1979-10-27",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "540",
@@ -7201,7 +6797,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1979-10-15",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "113",
@@ -7232,7 +6827,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1979-10-11",
         "prizeAmount": 800000,
-        "prizeAmountAdjusted": 3042231,
         "laureates": [
             {
                 "id": "417",
@@ -7256,7 +6850,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1980-10-14",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "254",
@@ -7287,7 +6880,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1980-10-15",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "694",
@@ -7303,7 +6895,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "657",
@@ -7320,7 +6911,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1980-10-27",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "541",
@@ -7337,7 +6927,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1980-10-12",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "116",
@@ -7361,7 +6950,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1980-10-10",
         "prizeAmount": 880000,
-        "prizeAmountAdjusted": 2942067,
         "laureates": [
             {
                 "id": "419",
@@ -7392,7 +6980,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1981-10-19",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "257",
@@ -7416,7 +7003,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1981-10-13",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "695",
@@ -7432,7 +7018,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "658",
@@ -7449,7 +7034,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1981-10-14",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "515",
@@ -7467,7 +7051,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1981-10-19",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "118",
@@ -7498,7 +7081,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1981-10-09",
         "prizeAmount": 1000000,
-        "prizeAmountAdjusted": 2982813,
         "laureates": [
             {
                 "id": "422",
@@ -7529,7 +7111,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1982-10-18",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "259",
@@ -7546,7 +7127,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1982-10-20",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "696",
@@ -7562,7 +7142,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "659",
@@ -7579,7 +7158,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1982-10-13",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "543",
@@ -7603,7 +7181,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1982-10-18",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "121",
@@ -7620,7 +7197,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1982-10-11",
         "prizeAmount": 1150000,
-        "prizeAmountAdjusted": 3158777,
         "laureates": [
             {
                 "id": "425",
@@ -7651,7 +7227,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1983-10-19",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "260",
@@ -7668,7 +7243,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1983-10-17",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "697",
@@ -7684,7 +7258,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "660",
@@ -7701,7 +7274,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1983-10-05",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "545",
@@ -7718,7 +7290,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1983-10-19",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "122",
@@ -7741,7 +7312,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 1500000,
-        "prizeAmountAdjusted": 3782695,
         "laureates": [
             {
                 "id": "428",
@@ -7758,7 +7328,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1984-10-17",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "261",
@@ -7775,7 +7344,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1984-10-18",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "698",
@@ -7791,7 +7359,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "661",
@@ -7808,7 +7375,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1984-10-05",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "546",
@@ -7825,7 +7391,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1984-10-17",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "124",
@@ -7848,7 +7413,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 1650000,
-        "prizeAmountAdjusted": 3850672,
         "laureates": [
             {
                 "id": "429",
@@ -7879,7 +7443,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1985-10-15",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "262",
@@ -7903,7 +7466,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1985-10-15",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "699",
@@ -7919,7 +7481,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "662",
@@ -7936,7 +7497,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1985-10-05",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "547",
@@ -7954,7 +7514,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1985-10-16",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "126",
@@ -7970,7 +7529,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 1800000,
-        "prizeAmountAdjusted": 3913667,
         "laureates": [
             {
                 "id": "432",
@@ -7994,7 +7552,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1986-10-15",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "264",
@@ -8025,7 +7582,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1986-10-16",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "700",
@@ -8041,7 +7597,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "663",
@@ -8058,7 +7613,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1986-10-14",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "548",
@@ -8075,7 +7629,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1986-10-15",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "127",
@@ -8105,7 +7658,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 2000000,
-        "prizeAmountAdjusted": 4172678,
         "laureates": [
             {
                 "id": "434",
@@ -8129,7 +7681,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1987-10-14",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "267",
@@ -8160,7 +7711,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1987-10-21",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "701",
@@ -8176,7 +7726,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "664",
@@ -8193,7 +7742,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1987-10-13",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "549",
@@ -8210,7 +7758,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1987-10-14",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "130",
@@ -8233,7 +7780,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 2175000,
-        "prizeAmountAdjusted": 4352280,
         "laureates": [
             {
                 "id": "436",
@@ -8250,7 +7796,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1988-10-19",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "270",
@@ -8281,7 +7826,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1988-10-18",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "702",
@@ -8297,7 +7841,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "665",
@@ -8314,7 +7857,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1988-09-29",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "550",
@@ -8331,7 +7873,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1988-10-19",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "132",
@@ -8361,7 +7902,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 2500000,
-        "prizeAmountAdjusted": 4729931,
         "laureates": [
             {
                 "id": "437",
@@ -8392,7 +7932,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1989-10-12",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "273",
@@ -8416,7 +7955,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1989-10-11",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "703",
@@ -8432,7 +7970,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "666",
@@ -8449,7 +7986,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1989-10-05",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "551",
@@ -8466,7 +8002,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1989-10-12",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "135",
@@ -8497,7 +8032,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1989-10-09",
         "prizeAmount": 3000000,
-        "prizeAmountAdjusted": 5337372,
         "laureates": [
             {
                 "id": "440",
@@ -8521,7 +8055,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1990-10-17",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "275",
@@ -8538,7 +8071,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1990-10-16",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "704",
@@ -8568,7 +8100,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "667",
@@ -8585,7 +8116,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1990-10-15",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "552",
@@ -8602,7 +8132,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1990-10-17",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "138",
@@ -8632,7 +8161,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 4000000,
-        "prizeAmountAdjusted": 6443882,
         "laureates": [
             {
                 "id": "442",
@@ -8655,7 +8183,6 @@
         "category": "Chemistry",
         "categoryFullName": "The Nobel Prize in Chemistry",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "276",
@@ -8672,7 +8199,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1991-10-15",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "707",
@@ -8688,7 +8214,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "668",
@@ -8705,7 +8230,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1991-10-14",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "553",
@@ -8722,7 +8246,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1991-10-16",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "141",
@@ -8738,7 +8261,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 6000000,
-        "prizeAmountAdjusted": 8831149,
         "laureates": [
             {
                 "id": "444",
@@ -8762,7 +8284,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1992-10-12",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "277",
@@ -8779,7 +8300,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1992-10-13",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "708",
@@ -8795,7 +8315,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "669",
@@ -8812,7 +8331,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1992-10-16",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "554",
@@ -8829,7 +8347,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1992-10-14",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "142",
@@ -8845,7 +8362,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 6500000,
-        "prizeAmountAdjusted": 9350791,
         "laureates": [
             {
                 "id": "446",
@@ -8870,7 +8386,6 @@
         "dateAwarded": "1993-10-13",
         "topMotivation": "for contributions to the developments of methods within DNA-based chemistry",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "278",
@@ -8894,7 +8409,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1993-10-12",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "709",
@@ -8917,7 +8431,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "670",
@@ -8934,7 +8447,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1993-10-15",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "555",
@@ -8958,7 +8470,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1993-10-13",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "143",
@@ -8982,7 +8493,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1993-10-11",
         "prizeAmount": 6700000,
-        "prizeAmountAdjusted": 9208279,
         "laureates": [
             {
                 "id": "448",
@@ -9006,7 +8516,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1994-10-12",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "280",
@@ -9023,7 +8532,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1994-10-11",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "711",
@@ -9053,7 +8561,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "671",
@@ -9070,7 +8577,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1994-10-14",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "557",
@@ -9102,7 +8608,6 @@
         "dateAwarded": "1994-10-12",
         "topMotivation": "for pioneering contributions to the development of neutron scattering techniques for studies of condensed matter",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "145",
@@ -9126,7 +8631,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1994-10-10",
         "prizeAmount": 7000000,
-        "prizeAmountAdjusted": 9417195,
         "laureates": [
             {
                 "id": "450",
@@ -9150,7 +8654,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1995-10-11",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "281",
@@ -9181,7 +8684,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1995-10-10",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "714",
@@ -9197,7 +8699,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "672",
@@ -9214,7 +8715,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1995-10-13",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "560",
@@ -9239,7 +8739,6 @@
         "dateAwarded": "1995-10-11",
         "topMotivation": "for pioneering experimental contributions to lepton physics",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "147",
@@ -9263,7 +8762,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1995-10-09",
         "prizeAmount": 7200000,
-        "prizeAmountAdjusted": 9446598,
         "laureates": [
             {
                 "id": "452",
@@ -9294,7 +8792,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1996-10-09",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "284",
@@ -9325,7 +8822,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1996-10-08",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "715",
@@ -9348,7 +8844,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "673",
@@ -9365,7 +8860,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1996-10-11",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "562",
@@ -9389,7 +8883,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1996-10-09",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "149",
@@ -9420,7 +8913,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1996-10-07",
         "prizeAmount": 7400000,
-        "prizeAmountAdjusted": 9662517,
         "laureates": [
             {
                 "id": "455",
@@ -9444,7 +8936,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1997-10-15",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "287",
@@ -9475,7 +8966,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1997-10-14",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "717",
@@ -9498,7 +8988,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "674",
@@ -9515,7 +9004,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1997-10-10",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "564",
@@ -9540,7 +9028,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1997-10-15",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "152",
@@ -9571,7 +9058,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1997-10-06",
         "prizeAmount": 7500000,
-        "prizeAmountAdjusted": 9746426,
         "laureates": [
             {
                 "id": "457",
@@ -9588,7 +9074,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1998-10-13",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "290",
@@ -9612,7 +9097,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1998-10-14",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "719",
@@ -9628,7 +9112,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "675",
@@ -9645,7 +9128,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1998-10-16",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "566",
@@ -9669,7 +9151,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1998-10-13",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "155",
@@ -9699,7 +9180,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 7600000,
-        "prizeAmountAdjusted": 9889843,
         "laureates": [
             {
                 "id": "458",
@@ -9730,7 +9210,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "1999-10-12",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "292",
@@ -9747,7 +9226,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "1999-10-13",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "720",
@@ -9763,7 +9241,6 @@
         "category": "Literature",
         "categoryFullName": "The Nobel Prize in Literature",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "676",
@@ -9780,7 +9257,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "1999-10-15",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "568",
@@ -9798,7 +9274,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "1999-10-12",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "158",
@@ -9822,7 +9297,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "1999-10-11",
         "prizeAmount": 7900000,
-        "prizeAmountAdjusted": 10231411,
         "laureates": [
             {
                 "id": "461",
@@ -9839,7 +9313,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2000-10-10",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "729",
@@ -9870,7 +9343,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2000-10-11",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "732",
@@ -9894,7 +9366,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2000-10-12",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "734",
@@ -9911,7 +9382,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2000-10-13",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "725",
@@ -9929,7 +9399,6 @@
         "dateAwarded": "2000-10-10",
         "topMotivation": "for basic work on information and communication technology",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "726",
@@ -9960,7 +9429,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2000-10-09",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 11538617,
         "laureates": [
             {
                 "id": "722",
@@ -9991,7 +9459,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2001-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "741",
@@ -10022,7 +9489,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2001-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "744",
@@ -10053,7 +9519,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2001-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "747",
@@ -10070,7 +9535,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2001-10-12",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "748",
@@ -10095,7 +9559,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2001-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "738",
@@ -10126,7 +9589,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2001-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12518033,
         "laureates": [
             {
                 "id": "735",
@@ -10158,7 +9620,6 @@
         "dateAwarded": "2002-10-09",
         "topMotivation": "for the development of methods for identification and structure analyses of biological macromolecules",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "756",
@@ -10189,7 +9650,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2002-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "759",
@@ -10213,7 +9673,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2002-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "761",
@@ -10230,7 +9689,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2002-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "762",
@@ -10247,7 +9705,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2002-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "753",
@@ -10278,7 +9735,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2002-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12252888,
         "laureates": [
             {
                 "id": "750",
@@ -10310,7 +9766,6 @@
         "dateAwarded": "2003-10-08",
         "topMotivation": "for discoveries concerning channels in cell membranes",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "769",
@@ -10334,7 +9789,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2003-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "771",
@@ -10358,7 +9812,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2003-10-02",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "763",
@@ -10375,7 +9828,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2003-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "773",
@@ -10392,7 +9844,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2003-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "766",
@@ -10423,7 +9874,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2003-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 12021411,
         "laureates": [
             {
                 "id": "764",
@@ -10447,7 +9897,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2004-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "779",
@@ -10478,7 +9927,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2004-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "786",
@@ -10502,7 +9950,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2004-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "782",
@@ -10519,7 +9966,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2004-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "783",
@@ -10536,7 +9982,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2004-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "776",
@@ -10567,7 +10012,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2004-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11976161,
         "laureates": [
             {
                 "id": "774",
@@ -10591,7 +10035,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2005-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "794",
@@ -10622,7 +10065,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2005-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "799",
@@ -10646,7 +10088,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2005-10-13",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "801",
@@ -10663,7 +10104,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2005-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "797",
@@ -10688,7 +10128,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2005-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "791",
@@ -10719,7 +10158,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2005-10-03",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11923798,
         "laureates": [
             {
                 "id": "789",
@@ -10743,7 +10181,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2006-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "806",
@@ -10760,7 +10197,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2006-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "807",
@@ -10777,7 +10213,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2006-10-12",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "808",
@@ -10794,7 +10229,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2006-10-13",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "809",
@@ -10818,7 +10252,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2006-10-03",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "804",
@@ -10842,7 +10275,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2006-10-02",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11762169,
         "laureates": [
             {
                 "id": "802",
@@ -10866,7 +10298,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2007-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "816",
@@ -10883,7 +10314,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2007-10-15",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "820",
@@ -10914,7 +10344,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2007-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "817",
@@ -10931,7 +10360,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2007-10-12",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "818",
@@ -10956,7 +10384,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2007-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "814",
@@ -10980,7 +10407,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2007-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11506932,
         "laureates": [
             {
                 "id": "811",
@@ -11011,7 +10437,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2008-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "829",
@@ -11042,7 +10467,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2008-10-13",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "834",
@@ -11059,7 +10483,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2008-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "832",
@@ -11076,7 +10499,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2008-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "833",
@@ -11093,7 +10515,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2008-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "826",
@@ -11124,7 +10545,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2008-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11124709,
         "laureates": [
             {
                 "id": "823",
@@ -11155,7 +10575,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2009-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "841",
@@ -11186,7 +10605,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2009-10-12",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "846",
@@ -11210,7 +10628,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2009-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "844",
@@ -11227,7 +10644,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2009-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "845",
@@ -11244,7 +10660,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2009-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "838",
@@ -11274,7 +10689,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11157218,
         "laureates": [
             {
                 "id": "835",
@@ -11305,7 +10719,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2010-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "851",
@@ -11336,7 +10749,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2010-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "856",
@@ -11367,7 +10779,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2010-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "854",
@@ -11384,7 +10795,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2010-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "855",
@@ -11401,7 +10811,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2010-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "849",
@@ -11424,7 +10833,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 11015580,
         "laureates": [
             {
                 "id": "848",
@@ -11441,7 +10849,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2011-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "867",
@@ -11458,7 +10865,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2011-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "872",
@@ -11482,7 +10888,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2011-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "868",
@@ -11499,7 +10904,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2011-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "869",
@@ -11530,7 +10934,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2011-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "864",
@@ -11560,7 +10963,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10736783,
         "laureates": [
             {
                 "id": "861",
@@ -11591,7 +10993,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2012-10-10",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "878",
@@ -11615,7 +11016,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2012-10-15",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "882",
@@ -11639,7 +11039,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2012-10-11",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "880",
@@ -11656,7 +11055,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2012-10-12",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "881",
@@ -11674,7 +11072,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2012-10-09",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "876",
@@ -11697,7 +11094,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8512821,
         "laureates": [
             {
                 "id": "874",
@@ -11721,7 +11117,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2013-10-09",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "889",
@@ -11752,7 +11147,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2013-10-14",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "894",
@@ -11783,7 +11177,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2013-10-10",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "892",
@@ -11800,7 +11193,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2013-10-11",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "893",
@@ -11818,7 +11210,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2013-10-08",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "887",
@@ -11841,7 +11232,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8517568,
         "laureates": [
             {
                 "id": "884",
@@ -11872,7 +11262,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2014-10-08",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "909",
@@ -11903,7 +11292,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2014-10-13",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "915",
@@ -11920,7 +11308,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2014-10-09",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "912",
@@ -11937,7 +11324,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2014-10-10",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "913",
@@ -11961,7 +11347,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2014-10-07",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "906",
@@ -11991,7 +11376,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8531844,
         "laureates": [
             {
                 "id": "903",
@@ -12022,7 +11406,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2015-10-07",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "921",
@@ -12053,7 +11436,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2015-10-12",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "926",
@@ -12070,7 +11452,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2015-10-08",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "924",
@@ -12087,7 +11468,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2015-10-09",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "925",
@@ -12104,7 +11484,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2015-10-06",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "919",
@@ -12127,7 +11506,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8536613,
         "laureates": [
             {
                 "id": "916",
@@ -12158,7 +11536,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2016-10-05",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "931",
@@ -12189,7 +11566,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2016-10-10",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "935",
@@ -12213,7 +11589,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2016-10-13",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "937",
@@ -12230,7 +11605,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2016-10-07",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "934",
@@ -12247,7 +11621,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2016-10-04",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "928",
@@ -12277,7 +11650,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 8000000,
-        "prizeAmountAdjusted": 8451577,
         "laureates": [
             {
                 "id": "927",
@@ -12294,7 +11666,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2017-10-04",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "944",
@@ -12325,7 +11696,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2017-10-09",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "949",
@@ -12342,7 +11712,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2017-10-05",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "947",
@@ -12359,7 +11728,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2017-10-06",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "948",
@@ -12377,7 +11745,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2017-10-03",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "941",
@@ -12407,7 +11774,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9342577,
         "laureates": [
             {
                 "id": "938",
@@ -12438,7 +11804,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2018-10-03",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9163200,
         "laureates": [
             {
                 "id": "963",
@@ -12468,7 +11833,6 @@
         "category": "Economic Sciences",
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9163200,
         "laureates": [
             {
                 "id": "968",
@@ -12492,7 +11856,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2019-10-10",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "979",
@@ -12509,7 +11872,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2018-10-05",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9163200,
         "laureates": [
             {
                 "id": "966",
@@ -12534,7 +11896,6 @@
         "dateAwarded": "2018-10-02",
         "topMotivation": "for groundbreaking inventions in the field of laser physics",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9163200,
         "laureates": [
             {
                 "id": "960",
@@ -12564,7 +11925,6 @@
         "category": "Physiology or Medicine",
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9163200,
         "laureates": [
             {
                 "id": "958",
@@ -12588,7 +11948,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2019-10-09",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "976",
@@ -12619,7 +11978,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2019-10-14",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "982",
@@ -12650,7 +12008,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2019-10-10",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "980",
@@ -12667,7 +12024,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2019-10-11",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "981",
@@ -12685,7 +12041,6 @@
         "dateAwarded": "2019-10-08",
         "topMotivation": "for contributions to our understanding of the evolution of the universe and Earth’s place in the cosmos",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "973",
@@ -12716,7 +12071,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2019-10-07",
         "prizeAmount": 9000000,
-        "prizeAmountAdjusted": 9000000,
         "laureates": [
             {
                 "id": "970",
@@ -12747,7 +12101,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2020-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "991",
@@ -12771,7 +12124,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2020-10-12",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "995",
@@ -12795,7 +12147,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2020-10-08",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "993",
@@ -12812,7 +12163,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2020-10-09",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "994",
@@ -12830,7 +12180,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2020-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "988",
@@ -12861,7 +12210,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2020-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "985",
@@ -12892,7 +12240,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2021-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1002",
@@ -12916,7 +12263,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2021-10-11",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1007",
@@ -12947,7 +12293,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2021-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1004",
@@ -12964,7 +12309,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2021-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1005",
@@ -12989,7 +12333,6 @@
         "dateAwarded": "2021-10-05",
         "topMotivation": "for groundbreaking contributions to our understanding of complex physical systems",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "999",
@@ -13020,7 +12363,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2021-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "997",
@@ -13044,7 +12386,6 @@
         "categoryFullName": "The Nobel Prize in Chemistry",
         "dateAwarded": "2022-10-05",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1015",
@@ -13075,7 +12416,6 @@
         "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
         "dateAwarded": "2011-10-10",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1021",
@@ -13106,7 +12446,6 @@
         "categoryFullName": "The Nobel Prize in Literature",
         "dateAwarded": "2022-10-06",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1017",
@@ -13123,7 +12462,6 @@
         "categoryFullName": "The Nobel Peace Prize",
         "dateAwarded": "2022-10-07",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1018",
@@ -13154,7 +12492,6 @@
         "categoryFullName": "The Nobel Prize in Physics",
         "dateAwarded": "2022-10-04",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1012",
@@ -13185,7 +12522,6 @@
         "categoryFullName": "The Nobel Prize in Physiology or Medicine",
         "dateAwarded": "2022-10-03",
         "prizeAmount": 10000000,
-        "prizeAmountAdjusted": 10000000,
         "laureates": [
             {
                 "id": "1011",
