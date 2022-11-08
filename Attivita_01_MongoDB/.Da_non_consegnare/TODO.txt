@@ -1,0 +1,4 @@
+- Cambiare il numero della matricola 
+- Inserire indici ? 
+- INSERIRE motivation e portion nella stampa dei premi nobel
+- Cambiare path_cartella_file_json con il path in locale
