@@ -2,3 +2,4 @@
 - Inserire indici ? 
 - INSERIRE motivation e portion nella stampa dei premi nobel
 - Cambiare path_cartella_file_json con il path in locale
+- C:\Users\utente\AppData\Local\Temp\ipykernel_16804\594976240.py:40: DeprecationWarning: count is deprecated. Use estimated_document_count or count_documents instead. Please note that $where must be replaced by $expr, $near must be replaced by $geoWithin with $center, and $nearSphere must be replaced by $geoWithin with $centerSpher
