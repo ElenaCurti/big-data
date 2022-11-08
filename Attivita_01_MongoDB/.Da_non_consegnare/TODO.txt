@@ -3,3 +3,7 @@
 - INSERIRE motivation e portion nella stampa dei premi nobel
 - Cambiare path_cartella_file_json con il path in locale
 - C:\Users\utente\AppData\Local\Temp\ipykernel_16804\594976240.py:40: DeprecationWarning: count is deprecated. Use estimated_document_count or count_documents instead. Please note that $where must be replaced by $expr, $near must be replaced by $geoWithin with $center, and $nearSphere must be replaced by $geoWithin with $centerSpher
+- Scrivere che gli input non vengono mostrati nel pdf. 
+- Scrivere che l'output di alcuni comandi è stato troncato per comodita'
+- Togliere il page break e metterlo correttamente
+- Magari mettere tutti i pezzi di codice in funzioni e poi mettere una sezione Applicazione in cui vengono richiamate
