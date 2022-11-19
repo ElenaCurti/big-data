@@ -1,0 +1,41 @@
+
+Confronto Oracle NoSQL, Redis, Voldemort:
+	EXPERIMENTAL EVALUATION OF NOSQL DATABASES -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://d1wqtxts1xzle7.cloudfront.net/56327684/6314ijdms01-with-cover-page-v2.pdf?Expires=1668864806&Signature=TSZmsXUQs6Mu3-0jgCCek1yxBENEro~nL0W0eeW1EkS~AqIXfp~GDeAKiJoTBexbcVwh9CCkcZlJbuvPjl4EGAjnyTM9U2zSGvxybkpTk2Qai98nDzYXr3VpflF9Ft~6o5D-jyRTJXH9K6SCsAL8tSSE9FLNi9VEtL5n2foqM6drQv7QsatytC6TllJLxVAkvoxqSj21LEjAxlwSNy8zPgGXxhJPOrZHB4szb76x9HB0Cbg1NxRp2L~0bEczOY1TnMZCaSGtuNp-ULi1WYyNw-Ab3vnwvL19n5SLMh15gHXYcdRANGAvj7NLCOuLMTC4gLfqCVRr~7pJoe2JmZ1lfg__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+
+Solo Redis e Oracle:
+	A comparison of data models and APIs of NoSQL datastores  -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.researchgate.net/profile/Francesca-Bugiotti/publication/283367372_A_comparison_of_data_models_and_APIs_of_NoSQL_datastores/links/5e9d5a70a6fdcca7892850e5/A-comparison-of-data-models-and-APIs-of-NoSQL-datastores.pdf
+	The challenges of key-value stores -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://repository.ukim.mk/bitstream/20.500.12188/8267/1/CIIT2020_paper_28.pdf
+	Comparison of query performance in relational a non-relation databases -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://pdf.sciencedirectassets.com/308315/1-s2.0-S2352146519X0006X/1-s2.0-S2352146519301887/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFUaCXVzLWVhc3QtMSJIMEYCIQC5w4tG71zaumwGZOQ43x92RIsErf3sOUMHzvhJrQIYbgIhAMxnyq%2BqsGCnOmFK7aC%2BdJNpII3IBc71HqNvQVn%2FoMRWKswECF4QBRoMMDU5MDAzNTQ2ODY1IgxI80n7gLg%2Fmz9RiaAqqQQU%2F335ZLAqrNWIr7UTQl42EaPo2AEtcVWPiKyqBgSDQWEXoMvliGLp%2FQGjiHGC8jR3lzwhkpSgRLEYdtxHLKQZyKa3fpCgl4Dle4A%2BFrgCftAUTyEqcocNUayNiiB68ch355oUCCUbUgwEZeab9IXicWThhuuTPHntz5lN8XhWjWaBAb3%2FumP77jv4gAcbNnSjaKzTZDP6hKFPNvYbozKSI9ZFkoL1hhnax04CrkCqNdhYSK6AmazY0iZxMBYAs08kd9eL4GCVnoQmbAlfTOWYC7ivKYD5sl0Kzz3Fg3PqLvQCrC4ZtGYlt9D8eLJmBpCQ6WX3nZBb8EnEtJzDEBmHOBjG9BX7Z8aX%2BjS61wT9zWhNeWCBvFWBVAOPnC167p1QGUBjyjPu9P1uQF%2BtNAEEQWEARUnfPYGxnowAhjeqeFy1VN%2Fg8K57ZlwAieWVy1Eo0EC9T39yjzriC8sqZUvkL8tCQ24ZQ5Gj67D8owOEgjaqIIYDX8UJ3BMhUt9E50uqow3JY5CgxNEXLcasKAU9LcjatYRvVsbh93PbVVm5I0xn%2Bo5sxVXl0yRf4IowASYWjUcYvDEq5gaS398xfJqYPnIKZlFBIs4AyLIPXwb5FVBsngwhy8xA5thPHpDvZ6mdBcAyLQqinzhqvxW2rOXgXJa93vyOxuyklmrsRjtpcHwXnc4G4C%2FofahqzLMOHeBTYs%2BnMCF%2FnOMTR7jDVs7dFISvztZ08%2B9oMOSj45sGOqgBHafT7hsLbgMlNM8ad72letMN7a56zRopQIZnnNvi9sXubGpgnQNOyizIf0WPjXCvvr85vM0Mc3puq134vILKzN31%2F51qu1uqqfrACxQBzjx9%2FpHPIEz61nAuFpv7TlT7mHLMl%2F%2FGQkuf9RVRKgYlDlh%2BEUo%2Bo%2FPM9%2FDSMvc21dqT1JZnhKxlMBEBdLCs442ObpAb6VB0E93QwWWNc%2FGwvVVpKjBO%2FlWV&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221119T140329Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYU6I7KOLF%2F20221119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e81d743a6061c484c6aa97b709f0102c3160f460a3b1eaca27c75ecd6ddef76b&hash=c9aa8f7044ab39b973595f25fdb6a8b55b0446decbd24bffffbc638dc5c6739a&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2352146519301887&tid=spdf-42a8c8ea-fd5f-4a1d-a765-ae674e34229d&sid=73eb369d4d4049455c2b4c08741ff8eeceb1gxrqb&type=client&ua=5551015a59045b5d55&rr=76c97d535c7f375b
+
+Redis vs Voldemort: 
+	Supply of a key value database redis in-memory by data from a relational database -> https://ieeexplore.ieee.org/abstract/document/8379066?casa_token=lpP1pkYQy08AAAAA:bBHtkSlkechWMlJXvLRmswUA7uhtmoaGHX2kNMCqlRrdddXym9hdHg7LJTy-MTL_sv8anMw
+	Data in the time of COVID-19: a general methodology to select and secure a NoSQL DBMS for medical data -> https://peerj.com/articles/cs-297/
+	A Survey of Cloud Database Systems -> (https://ieeexplore.ieee.org/abstract/document/6401099?casa_token=C0s64AeOnsQAAAAA:-PXFyha6cNDwchb_AMtB_Gsb26ClclKhtqFsoq5EajO94aJutD6Mpv5gIr6s93d_4-Luxms	)
+	https://link.springer.com/chapter/10.1007/978-3-030-16181-1_57
+	A New Model for Testing CRUD Operations in a NoSQL Database -> https://ieeexplore.ieee.org/abstract/document/7474073?casa_token=lW1_hlZFEdYAAAAA:Oo01VamBSRjVpahyeRRXFLazL_BkZ9eSgAXW0nxyUae9YUcf5j63YArMdoi3HpQc6065lnw
+	Scalable SQL and NoSQL Data Stores -> https://dl.acm.org/doi/pdf/10.1145/1978915.1978919
+	Data management in cloud environments: NoSQL and NewSQL data stores -> https://link.springer.com/article/10.1186/2192-113X-2-22
+	Journal of Computer Science IJCSIS April 2017 Full Volume.pdf -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://d1wqtxts1xzle7.cloudfront.net/55895472/Journal_of_Computer_Science_IJCSIS_April_2017_Full_Volume-with-cover-page-v2.pdf?Expires=1668869789&Signature=hPMBhVZuDbTqN4gzp889DNKasHYNv2uVQLwzkffT5FPcP6StrCpI5r0JOstQ2zszink3e9thlfSyW2pDwjKMfMmwiEenZUDnkRmxsVHqeqiD2aFII9mfNOl5dtp1FkljoVh1BzWIoc48xPIfd1~DyTA4reuLxYFDq1NoN97zNmEqS3VMJncaIudJhR6iB1emjieUvk-Vy2nY8WtWMxvjJy5XHOmu1CbcbVR7KKfSdPh2LkZWO1PLGQmc-J4LYg~rthGvdwT5ciE2ArCYK5x0FDNw77cH1wHo6yFkDDHkPKR2rigoUBPh46f8ATQuSEAO4TI78mUINqcOK2OendWm~g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+-----------
+
+Oracle NOSQL:
+	Oracle nosql database  -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://scholarworks.bridgeport.edu/xmlui/bitstream/handle/123456789/1559/161.pdf?sequence=1&isAllowed=y
+	An Extended Classification and Comparison of NoSQL Big Data Models -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/ftp/arxiv/papers/1509/1509.08035.pdf
+	A Study over NoSQL Performance -> https://docs.oracle.com/en/database/other-databases/nosql-database/21.1/security/introducing-oracle-nosql-database-security.html
+
+Redis:
+	https://redis.io/docs/management/security/
+	https://ieeexplore.ieee.org/abstract/document/7979888?casa_token=XRYBlnNj7UAAAAAA:Irlcbm5iOrX8zrI_mpDLCuhaROuRMYPSli4nYu-JsxiG9LgHZl4OQgpDlvedd-WZrg2AGgo
+
+Voldemort:
+	Retrospective Lightweight Distributed Snapshots Using Loosely Synchronized Clocks -> https://ieeexplore.ieee.org/abstract/document/7980150?casa_token=3zlqEXX0aJcAAAAA:itXAp2zkWtN2vXAxtKh4keMmJRhuoDvhVj0FhxukBi4dHeb-hDhzV35FWz-PnNMnyRzfzdE
+	Performance and scalability of voldemort NoSQL -> https://ieeexplore.ieee.org/abstract/document/7170484/keywords#keywords
+	chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.usenix.org/legacy/events/fast12/poster_refereed/Sumbalyposter.pdf
+
+-----------
+
+
+Confronto tra NoSQL e traditional database:
+	A Comparison between Characteristics of NoSQL Databases and Traditional Databases -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.researchgate.net/profile/Mitko-Radoev/publication/321799978_A_Comparison_between_Characteristics_of_NoSQL_Databases_and_Traditional_Databases/links/5e82dc62299bf1a91b8d1a37/A-Comparison-between-Characteristics-of-NoSQL-Databases-and-Traditional-Databases.pdf
+
+
