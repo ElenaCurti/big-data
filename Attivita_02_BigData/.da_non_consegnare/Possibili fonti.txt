@@ -16,6 +16,7 @@ Redis vs Voldemort:
 	Scalable SQL and NoSQL Data Stores -> https://dl.acm.org/doi/pdf/10.1145/1978915.1978919
 	Data management in cloud environments: NoSQL and NewSQL data stores -> https://link.springer.com/article/10.1186/2192-113X-2-22
 	Journal of Computer Science IJCSIS April 2017 Full Volume.pdf -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://d1wqtxts1xzle7.cloudfront.net/55895472/Journal_of_Computer_Science_IJCSIS_April_2017_Full_Volume-with-cover-page-v2.pdf?Expires=1668869789&Signature=hPMBhVZuDbTqN4gzp889DNKasHYNv2uVQLwzkffT5FPcP6StrCpI5r0JOstQ2zszink3e9thlfSyW2pDwjKMfMmwiEenZUDnkRmxsVHqeqiD2aFII9mfNOl5dtp1FkljoVh1BzWIoc48xPIfd1~DyTA4reuLxYFDq1NoN97zNmEqS3VMJncaIudJhR6iB1emjieUvk-Vy2nY8WtWMxvjJy5XHOmu1CbcbVR7KKfSdPh2LkZWO1PLGQmc-J4LYg~rthGvdwT5ciE2ArCYK5x0FDNw77cH1wHo6yFkDDHkPKR2rigoUBPh46f8ATQuSEAO4TI78mUINqcOK2OendWm~g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+	Solving Big Data Challenges for Enterprise Application Performance Management -> chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://vldb.org/pvldb/vol5/p1724_tilmannrabl_vldb2012.pdf
 -----------
 
 Oracle NOSQL:
