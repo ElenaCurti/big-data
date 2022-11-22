@@ -1,0 +1,473 @@
+[
+    {
+        "awardYear": 1901,
+        "category": "Chemistry",
+        "categoryFullName": "The Nobel Prize in Chemistry",
+        "prizeAmount": 150782,
+        "laureates": [
+            {
+                "id": "160",
+                "knownName": "Jacobus H. van 't Hoff",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "in recognition of the extraordinary services he has rendered by the discovery of the laws of chemical dynamics and osmotic pressure in solutions"
+            }
+        ]
+    },
+    {
+        "awardYear": 1901,
+        "category": "Literature",
+        "categoryFullName": "The Nobel Prize in Literature",
+        "prizeAmount": 150782,
+        "laureates": [
+            {
+                "id": "569",
+                "knownName": "Sully Prudhomme",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "in special recognition of his poetic composition, which gives evidence of lofty idealism, artistic perfection and a rare combination of the qualities of both heart and intellect"
+            }
+        ]
+    },
+    {
+        "awardYear": 1901,
+        "category": "Peace",
+        "categoryFullName": "The Nobel Peace Prize",
+        "dateAwarded": "1901-12-10",
+        "prizeAmount": 150782,
+        "laureates": [
+            {
+                "id": "462",
+                "knownName": "Henry Dunant",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for his humanitarian efforts to help wounded soldiers and create international understanding"
+            },
+            {
+                "id": "463",
+                "knownName": "Frédéric Passy",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "for his lifelong work for international peace conferences, diplomacy and arbitration"
+            }
+        ]
+    },
+    {
+        "awardYear": 1901,
+        "category": "Physics",
+        "categoryFullName": "The Nobel Prize in Physics",
+        "prizeAmount": 150782,
+        "laureates": [
+            {
+                "id": "1",
+                "knownName": "Wilhelm Conrad Röntgen",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him"
+            }
+        ]
+    },
+    {
+        "awardYear": 1901,
+        "category": "Physiology or Medicine",
+        "categoryFullName": "The Nobel Prize in Physiology or Medicine",
+        "prizeAmount": 150782,
+        "laureates": [
+            {
+                "id": "293",
+                "knownName": "Emil von Behring",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "for his work on serum therapy, especially its application against diphtheria, by which he has opened a new road in the domain of medical science and thereby placed in the hands of the physician a victorious weapon against illness and deaths"
+            }
+        ]
+    },
+    {
+        "awardYear": 1902,
+        "category": "Chemistry",
+        "categoryFullName": "The Nobel Prize in Chemistry",
+        "prizeAmount": 141847,
+        "laureates": [
+            {
+                "id": "161",
+                "knownName": "Emil Fischer",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "in recognition of the extraordinary services he has rendered by his work on sugar and purine syntheses"
+            }
+        ]
+    },
+    {
+        "awardYear": 1902,
+        "category": "Literature",
+        "categoryFullName": "The Nobel Prize in Literature",
+        "prizeAmount": 141847,
+        "laureates": [
+            {
+                "id": "571",
+                "knownName": "Theodor Mommsen",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "the greatest living master of the art of historical writing, with special reference to his monumental work, <I>A history of Rome</I>"
+            }
+        ]
+    },
+    {
+        "awardYear": 1902,
+        "category": "Peace",
+        "categoryFullName": "The Nobel Peace Prize",
+        "dateAwarded": "1902-12-10",
+        "prizeAmount": 141847,
+        "laureates": [
+            {
+                "id": "464",
+                "knownName": "Élie Ducommun",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for his untiring and skilful directorship of the Bern Peace Bureau"
+            },
+            {
+                "id": "465",
+                "knownName": "Albert Gobat",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "for his eminently practical administration of the Inter-Parliamentary Union"
+            }
+        ]
+    },
+    {
+        "awardYear": 1902,
+        "category": "Physics",
+        "categoryFullName": "The Nobel Prize in Physics",
+        "prizeAmount": 141847,
+        "laureates": [
+            {
+                "id": "2",
+                "knownName": "Hendrik A. Lorentz",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena"
+            },
+            {
+                "id": "3",
+                "knownName": "Pieter Zeeman",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "in recognition of the extraordinary service they rendered by their researches into the influence of magnetism upon radiation phenomena"
+            }
+        ]
+    },
+    {
+        "awardYear": 1902,
+        "category": "Physiology or Medicine",
+        "categoryFullName": "The Nobel Prize in Physiology or Medicine",
+        "prizeAmount": 141847,
+        "laureates": [
+            {
+                "id": "294",
+                "knownName": "Ronald Ross",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "for his work on malaria, by which he has shown how it enters the organism and thereby has laid the foundation for successful research on this disease and methods of combating it"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Chemistry",
+        "categoryFullName": "The Nobel Prize in Chemistry",
+        "dateAwarded": "2021-10-06",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1002",
+                "knownName": "Benjamin List",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for the development of asymmetric organocatalysis"
+            },
+            {
+                "id": "1003",
+                "knownName": "David W.C. MacMillan",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "for the development of asymmetric organocatalysis"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Economic Sciences",
+        "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
+        "dateAwarded": "2021-10-11",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1007",
+                "knownName": "David Card",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for his empirical contributions to labour economics"
+            },
+            {
+                "id": "1008",
+                "knownName": "Joshua D. Angrist",
+                "portion": "1/4",
+                "sortOrder": "2",
+                "motivation": "for their methodological contributions to the analysis of causal relationships"
+            },
+            {
+                "id": "1009",
+                "knownName": "Guido W. Imbens",
+                "portion": "1/4",
+                "sortOrder": "3",
+                "motivation": "for their methodological contributions to the analysis of causal relationships"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Literature",
+        "categoryFullName": "The Nobel Prize in Literature",
+        "dateAwarded": "2021-10-07",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1004",
+                "knownName": "Abdulrazak Gurnah",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "for his uncompromising and compassionate penetration of the effects of colonialism and the fate of the refugee in the gulf between cultures and continents"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Peace",
+        "categoryFullName": "The Nobel Peace Prize",
+        "dateAwarded": "2021-10-07",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1005",
+                "knownName": "Maria Ressa",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace"
+            },
+            {
+                "id": "1006",
+                "knownName": "Dmitry Muratov",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "for their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Physics",
+        "categoryFullName": "The Nobel Prize in Physics",
+        "dateAwarded": "2021-10-05",
+        "topMotivation": "for groundbreaking contributions to our understanding of complex physical systems",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "999",
+                "knownName": "Syukuro Manabe",
+                "portion": "1/4",
+                "sortOrder": "1",
+                "motivation": "for the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming"
+            },
+            {
+                "id": "1000",
+                "knownName": "Klaus Hasselmann",
+                "portion": "1/4",
+                "sortOrder": "2",
+                "motivation": "for the physical modelling of Earth’s climate, quantifying variability and reliably predicting global warming"
+            },
+            {
+                "id": "1001",
+                "knownName": "Giorgio Parisi",
+                "portion": "1/2",
+                "sortOrder": "3",
+                "motivation": "for the discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales"
+            }
+        ]
+    },
+    {
+        "awardYear": 2021,
+        "category": "Physiology or Medicine",
+        "categoryFullName": "The Nobel Prize in Physiology or Medicine",
+        "dateAwarded": "2021-10-04",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "997",
+                "knownName": "David Julius",
+                "portion": "1/2",
+                "sortOrder": "1",
+                "motivation": "for their discoveries of receptors for temperature and touch"
+            },
+            {
+                "id": "998",
+                "knownName": "Ardem Patapoutian",
+                "portion": "1/2",
+                "sortOrder": "2",
+                "motivation": "for their discoveries of receptors for temperature and touch"
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Chemistry",
+        "categoryFullName": "The Nobel Prize in Chemistry",
+        "dateAwarded": "2022-10-05",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1015",
+                "knownName": "Carolyn Bertozzi",
+                "portion": "1/3",
+                "sortOrder": "1",
+                "motivation": "for the development of click chemistry and bioorthogonal chemistry"
+            },
+            {
+                "id": "1016",
+                "knownName": "Morten Meldal",
+                "portion": "1/3",
+                "sortOrder": "2",
+                "motivation": "for the development of click chemistry and bioorthogonal chemistry"
+            },
+            {
+                "id": "743",
+                "knownName": "K. Barry Sharpless",
+                "portion": "1/3",
+                "sortOrder": "3",
+                "motivation": "for the development of click chemistry and bioorthogonal chemistry"
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Economic Sciences",
+        "categoryFullName": "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel",
+        "dateAwarded": "2011-10-10",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1021",
+                "knownName": "Ben Bernanke",
+                "portion": "1/3",
+                "sortOrder": "1",
+                "motivation": "for research on banks and financial crises"
+            },
+            {
+                "id": "1022",
+                "knownName": "Douglas Diamond",
+                "portion": "1/3",
+                "sortOrder": "2",
+                "motivation": "for research on banks and financial crises"
+            },
+            {
+                "id": "1023",
+                "knownName": "Philip Dybvig",
+                "portion": "1/3",
+                "sortOrder": "3",
+                "motivation": "for research on banks and financial crises"
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Literature",
+        "categoryFullName": "The Nobel Prize in Literature",
+        "dateAwarded": "2022-10-06",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1017",
+                "knownName": "Annie Ernaux",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "for the courage and clinical acuity with which she uncovers the roots, estrangements and  collective restraints of personal memory"
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Peace",
+        "categoryFullName": "The Nobel Peace Prize",
+        "dateAwarded": "2022-10-07",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1018",
+                "knownName": "Ales Bialiatski",
+                "portion": "1/3",
+                "sortOrder": "1",
+                "motivation": "The Peace Prize laureates represent civil society in their home countries. They have for many years promoted the right to criticise power and protect the fundamental rights of citizens. They have made an outstanding effort to document war crimes, human right abuses and the abuse of power. Together they demonstrate the significance of civil society for peace and democracy."
+            },
+            {
+                "id": "1019",
+                "orgName": "Memorial",
+                "portion": "1/3",
+                "sortOrder": "2",
+                "motivation": "The Peace Prize laureates represent civil society in their home countries. They have for many years promoted the right to criticise power and protect the fundamental rights of citizens. They have made an outstanding effort to document war crimes, human right abuses and the abuse of power. Together they demonstrate the significance of civil society for peace and democracy."
+            },
+            {
+                "id": "1020",
+                "orgName": "Center for Civil Liberties",
+                "portion": "1/3",
+                "sortOrder": "3",
+                "motivation": "The Peace Prize laureates represent civil society in their home countries. They have for many years promoted the right to criticise power and protect the fundamental rights of citizens. They have made an outstanding effort to document war crimes, human right abuses and the abuse of power. Together they demonstrate the significance of civil society for peace and democracy."
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Physics",
+        "categoryFullName": "The Nobel Prize in Physics",
+        "dateAwarded": "2022-10-04",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1012",
+                "knownName": "Alain Aspect",
+                "portion": "1/3",
+                "sortOrder": "1",
+                "motivation": "for experiments with entangled photons, establishing the violation of Bell inequalities and  pioneering quantum information science"
+            },
+            {
+                "id": "1013",
+                "knownName": "John Clauser",
+                "portion": "1/3",
+                "sortOrder": "2",
+                "motivation": "for experiments with entangled photons, establishing the violation of Bell inequalities and  pioneering quantum information science"
+            },
+            {
+                "id": "1014",
+                "knownName": "Anton Zeilinger",
+                "portion": "1/3",
+                "sortOrder": "3",
+                "motivation": "for experiments with entangled photons, establishing the violation of Bell inequalities and  pioneering quantum information science"
+            }
+        ]
+    },
+    {
+        "awardYear": 2022,
+        "category": "Physiology or Medicine",
+        "categoryFullName": "The Nobel Prize in Physiology or Medicine",
+        "dateAwarded": "2022-10-03",
+        "prizeAmount": 10000000,
+        "laureates": [
+            {
+                "id": "1011",
+                "knownName": "Svante Pääbo",
+                "portion": "1",
+                "sortOrder": "1",
+                "motivation": "for his discoveries concerning the genomes of extinct hominins and human evolution"
+            }
+        ]
+    }
+]
