@@ -5,6 +5,7 @@ from redis.commands.json.path import Path
 nome_file_json = "nobelPrizes.json"
 nome_database = 'premi_nobel'
 
+
 # Apro la connessione col server
 r = redis.Redis(db=0)
 
