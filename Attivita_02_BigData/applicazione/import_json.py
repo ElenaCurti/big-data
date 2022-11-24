@@ -14,7 +14,7 @@ with open(nome_file_json) as data_file:
     dati_json = json.load(data_file)
 lista_json = list(dati_json)
  
-# (Questo for va messo solo in fase di debug)
+# (Ripristino il database)
 for i in range(len(lista_json)):
     r.delete(nome_database+":"+str(i)) 
 
