@@ -17850,8 +17850,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <center>Progetto realizzato da Elena Curti (matr. 185431)
-<h1 id="Recipes">Recipes<a class="anchor-link" href="#Recipes">&#182;</a></h1></center>
-
+<h1 id="Ricette">Ricette<a class="anchor-link" href="#Ricette">&#182;</a></h1></center>
+<h2 id="Introduzione">Introduzione<a class="anchor-link" href="#Introduzione">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -17890,15 +17890,32 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Operazioni-iniziali">Operazioni iniziali<a class="anchor-link" href="#Operazioni-iniziali">&#182;</a></h2><p>Per il corretto funzionamento del progetto proposto, è necessario creare il DBMS e importarci i dati, seguendo i seguenti passi. <br>
-Da Neo4j creare un nuovo progetto. Scegliere una tra le seguenti alternative:</p>
+<h2 id="Operazioni-iniziali">Operazioni iniziali<a class="anchor-link" href="#Operazioni-iniziali">&#182;</a></h2><p>Per il corretto funzionamento del progetto proposto, è necessario:</p>
 <ul>
-<li>Dal progetto appena creato, aggiungere al progetto il file <a href="data/neo4j.dump">neo4j.dump</a>. Creare poi un nuovo DBMS dal file dump (scegliendo come nome &quot;neo4j&quot;, come password &quot;pass&quot; e come versione 5.2.0). Aggiungere il plugin APOC. Premere su Start.</li>
-<li>Dal progetto appena creato, aggiungere un DBMS locale (scegliendo come nome, password e versione i valori indicati al punto sopra). Aggiungere il plugin APOC. Premere su Start e poi su Open. Eseguire tutti i comandi riportati nel file <a href="data/import_commands.txt">import_commands.txt</a>.</li>
+<li>Creare un nuovo progetto Neo4j</li>
+<li>Creare all'interno del progetto un DMBS (scegliendo come nome &quot;neo4j&quot;, come password &quot;pass&quot; e come versione 5.2.0)</li>
+<li>Aggiungere il plugin APOC.</li>
+<li>Premere su Start.</li>
 </ul>
-<br>
-Eseguire poi le celle di codice, nell'ordine proposto
-<h2 id="Connessione-e-autenticazione">Connessione e autenticazione<a class="anchor-link" href="#Connessione-e-autenticazione">&#182;</a></h2>
+<!-- 
+Da Neo4j creare un nuovo progetto. Scegliere una tra le seguenti alternative:
+- Dal progetto appena creato, aggiungere al progetto il file [neo4j.dump](data/neo4j.dump). Creare poi un nuovo DBMS dal file dump (scegliendo come nome "neo4j", come password "pass" e come versione 5.2.0). Aggiungere il plugin APOC. Premere su Start.
+- Dal progetto appena creato, aggiungere un DBMS locale (scegliendo come nome, password e versione i valori indicati al punto sopra). Aggiungere il plugin APOC. Premere su Start e poi su Open. Eseguire tutti i comandi riportati nel file [import_commands.txt](data/import_commands.txt).
+<br>-->
+<p>Eseguire poi le celle di codice, nell'ordine proposto</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Connessione-e-autenticazione">Connessione e autenticazione<a class="anchor-link" href="#Connessione-e-autenticazione">&#182;</a></h2><p>Per effettuare la connessione al database, eseguire il seguente script:</p>
+
 </div>
 </div>
 </div>
@@ -17907,16 +17924,13 @@ Eseguire poi le celle di codice, nell'ordine proposto
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">py2neo</span> <span class="kn">import</span> <span class="n">Graph</span>
 <span class="n">graph</span> <span class="o">=</span> <span class="n">Graph</span><span class="p">(</span><span class="s2">&quot;bolt://localhost:7687&quot;</span><span class="p">,</span>  <span class="n">auth</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;neo4j&quot;</span><span class="p">,</span> <span class="s2">&quot;pass&quot;</span><span class="p">))</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Connessione al database riuscita! </span><span class="se">\n</span><span class="s2">Ecco 5 ricette d&#39;esempio:&quot;</span><span class="p">)</span>
-<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;MATCH (p:Recipe) RETURN p.name LIMIT 5&quot;</span>
-<span class="k">for</span> <span class="n">rec</span> <span class="ow">in</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span><span class="nb">str</span><span class="p">(</span><span class="n">rec</span><span class="p">)[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Connessione al database eseguita correttamente!&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -17936,13 +17950,7 @@ Eseguire poi le celle di codice, nell'ordine proposto
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Connessione al database riuscita! 
-Ecco 5 ricette d&#39;esempio:
-	 Tomato &amp; mozzarella couscous salad
-	 Baked nectarines &amp; raspberries with almonds &amp; honey
-	 Chocolate &amp; caramel ombre cake
-	 Chicken, goat&#39;s cheese &amp; cherry tomato bake
-	 Chipotle chicken tacos with pineapple salsa
+<pre>Connessione al database eseguita correttamente!
 </pre>
 </div>
 </div>
@@ -17958,7 +17966,7 @@ Ecco 5 ricette d&#39;esempio:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Schema">Schema<a class="anchor-link" href="#Schema">&#182;</a></h1><p>Di seguito è riportata la visualizzazione sottoforma di grafo del comando:</p>
+<h1 id="Schema-e-dati-originali">Schema e dati originali<a class="anchor-link" href="#Schema-e-dati-originali">&#182;</a></h1><p>Lo use case originale è stato trovato sul sito <a href="https://neo4j.com/graphgists/dd3dedcf-c377-4575-84f4-4d0d30b2a4c5/">Recipes Neo4j</a>. Ha la seguente struttura iniziale:</p>
 <pre><code>    call db.schema.visualization()
 </code></pre>
 
@@ -17984,7 +17992,19 @@ Ecco 5 ricette d&#39;esempio:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Aggiunta-degli-indici">Aggiunta degli indici<a class="anchor-link" href="#Aggiunta-degli-indici">&#182;</a></h2><p>Per migliorare la performance delle cypher query sono stati aggiunti i seguenti indici: 
+<p>I nodi Ingredient, Author, Collection, DietType, Keyword hanno un solo campo &quot;name&quot; che ne rappresenta il nome. <br>
+Il nodo Recipe ha le seguenti proprietà:</p>
+<ul>
+    <li>id: campo che identifica univocamente la ricetta </li>
+    <li>cookingTime: tempo di cottura </li>
+    <li>description: descrizione della ricetta </li>
+    <li>name: nome della ricetta </li>
+    <li>preparationTime: tempo di preparazione </li>
+    <li>skillLevel: difficoltà </li>
+</ul>
+Gli archi non hanno proprietà. <br><br>
+<p>Per importare i dati e aggiungere gli indici ho usato il seguente script. <br>
+Lo usecase originale ha previsto i seguenti indici per migliorare la performance delle cypher query:
     <ul>
         <li><i>id</i> su Recipe</li>
         <li><i>name</i> su Ingredient</li>
@@ -17993,8 +18013,649 @@ Ecco 5 ricette d&#39;esempio:
         <li><i>name</i> su Author</li>
         <li><i>name</i> su Collection</li>
     </ul>
-Per creare gli indici è stato usato il seguente script. Il comando <code>CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.id)</code> è equivalente a <code>CREATE INDEX IF NOT EXISTS ON :Recipe(name)</code>. Il primo, però, è compatibile con la versione 5.2.0 di Neo4j.</p>
+Il comando <code>CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.id)</code> è equivalente a <code>CREATE INDEX IF NOT EXISTS ON :Recipe(id)</code>. Il primo, però, è compatibile con la versione 5.2.0 di Neo4j.</p>
 
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Inserimento dei dati in corso... &quot;</span><span class="p">)</span>
+
+<span class="c1"># Ricette</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.title AS title,</span>
+<span class="s2">       value.page.article.description AS description,</span>
+<span class="s2">       value.page.recipe.cooking_time AS cookingTime,</span>
+<span class="s2">       value.page.recipe.prep_time AS preparationTime,</span>
+<span class="s2">       value.page.recipe.skill_level AS skillLevel</span>
+<span class="s2">MERGE (r:Recipe {id: id})</span>
+<span class="s2">SET r.cookingTime = cookingTime,</span>
+<span class="s2">    r.preparationTime = preparationTime,</span>
+<span class="s2">    r.name = title,</span>
+<span class="s2">    r.description = description,</span>
+<span class="s2">    r.skillLevel = skillLevel;</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.id);        // CREATE INDEX IF NOT EXISTS ON :Recipe(id)  &quot;&quot;&quot;</span><span class="p">)</span>
+
+<span class="c1"># Autori</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">//import authors and connect to recipes</span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.article.author AS author</span>
+<span class="s2">MERGE (a:Author {name: author})</span>
+<span class="s2">WITH a,id</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">MERGE (a)-[:WROTE]-&gt;(r);</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;CREATE INDEX IF NOT EXISTS FOR (n:Author) ON (n.name);&quot;&quot;&quot;</span> <span class="p">)</span>
+
+<span class="c1"># Ingredienti</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;//import ingredients and connect to recipes</span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.recipe.ingredients AS ingredients</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">FOREACH (ingredient IN ingredients |</span>
+<span class="s2">  MERGE (i:Ingredient {name: ingredient})</span>
+<span class="s2">  MERGE (r)-[:CONTAINS_INGREDIENT]-&gt;(i)</span>
+<span class="s2">);&quot;&quot;&quot;</span> <span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;CREATE INDEX IF NOT EXISTS FOR (n:Ingredient) ON (n.name);&quot;&quot;&quot;</span> <span class="p">)</span>
+
+<span class="c1"># DietType</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;//import dietTypes and connect to recipes</span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.recipe.diet_types AS dietTypes</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">FOREACH (dietType IN dietTypes |</span>
+<span class="s2">  MERGE (d:DietType {name: dietType})</span>
+<span class="s2">  MERGE (r)-[:DIET_TYPE]-&gt;(d)</span>
+<span class="s2">);&quot;&quot;&quot;</span> <span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;CREATE INDEX IF NOT EXISTS FOR (n:DietType) ON (n.name);&quot;&quot;&quot;</span> <span class="p">)</span>
+
+<span class="c1"># Collections</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;//import collections and connect to recipes</span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.recipe.collections AS collections</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">FOREACH (collection IN collections |</span>
+<span class="s2">  MERGE (c:Collection {name: collection})</span>
+<span class="s2">  MERGE (r)-[:COLLECTION]-&gt;(c)</span>
+<span class="s2">);&quot;&quot;&quot;</span> <span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;CREATE INDEX IF NOT EXISTS FOR (n:Collection) ON (n.name);&quot;&quot;&quot;</span> <span class="p">)</span>
+
+<span class="c1"># Keyword</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;//import keywords and connect to recipes</span>
+<span class="s2">CALL apoc.load.json(&#39;https://raw.githubusercontent.com/neo4j-examples/graphgists/master/browser-guides/data/stream_clean.json&#39;) YIELD value</span>
+<span class="s2">WITH value.page.article.id AS id,</span>
+<span class="s2">       value.page.recipe.keywords AS keywords</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">FOREACH (keyword IN keywords |</span>
+<span class="s2">  MERGE (k:Keyword {name: keyword})</span>
+<span class="s2">  MERGE (r)-[:KEYWORD]-&gt;(k)</span>
+<span class="s2">);&quot;&quot;&quot;</span>
+<span class="c1"># graph.run(cq)</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;CREATE INDEX IF NOT EXISTS FOR (n:Keyword) ON (n.name);&quot;&quot;&quot;</span> 
+<span class="c1"># graph.run(cq)</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Tutti i dati sono stati importati correttamente!&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Inserimento dei dati in corso... 
+Tutti i dati sono stati importati correttamente!
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Modifiche-effettuate">Modifiche effettuate<a class="anchor-link" href="#Modifiche-effettuate">&#182;</a></h2><p>Per arricchire il progetto ho deciso di aggiungere dei dati presi da Kaggle e di eseguire alcune modifiche allo schema originale.</p>
+<br>
+<mark>TODOaggiunti altri campi dal file originale  <br>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Definisco un&#39;eccezione usata nel seguito</span>
+<span class="k">class</span> <span class="nc">MiaStopExecution</span><span class="p">(</span><span class="ne">Exception</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Il raise di questa classe provoca l&#39;interruzione dell&#39;esecizione della cella, senza interrompere il kernel&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">_render_traceback_</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<span class="c1"># Prima di effettuare le modifiche, copio i file necessari nella cartella &quot;import&quot; del DBMS, mediante il seguente script:</span>
+<span class="kn">import</span> <span class="nn">os</span> 
+<span class="kn">import</span> <span class="nn">shutil</span>
+
+<span class="n">DATA_FOLDER</span> <span class="o">=</span><span class="s2">&quot;data&quot;</span><span class="o">+</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">sep</span>
+<span class="n">cq</span> <span class="o">=</span><span class="s2">&quot;&quot;&quot;CALL dbms.listConfig() YIELD name, value</span>
+<span class="s2">WHERE name=&quot;server.directories.import&quot;</span>
+<span class="s2">RETURN value&quot;&quot;&quot;</span>
+<span class="n">dir_import</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span><span class="o">.</span><span class="n">evaluate</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cartella import del DMBS: &quot;</span> <span class="o">+</span> <span class="n">dir_import</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">file_name</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;FoodData.csv&quot;</span><span class="p">,</span> <span class="s2">&quot;gz_recipe.csv&quot;</span><span class="p">]:</span><span class="c1">#os.listdir(DATA_FOLDER):</span>
+    <span class="n">source</span> <span class="o">=</span> <span class="n">DATA_FOLDER</span> <span class="o">+</span> <span class="n">file_name</span>
+    <span class="n">destination</span> <span class="o">=</span> <span class="n">dir_import</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">sep</span> <span class="o">+</span> <span class="n">file_name</span>
+    <span class="n">shutil</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="n">source</span><span class="p">,</span> <span class="n">destination</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Cartella import del DMBS: D:\Elena\_Elena\Shared\Universita\Magistrale\Big_data\Anno_22_23\TO_DEL_QUANDO_ESAME_DATO\Neo4J\relate-data\dbmss\dbms-b3e0a01c-d1be-4257-8d27-97054bc0e187\import
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="1.-Rimozione-di-Keyword">1. Rimozione di Keyword<a class="anchor-link" href="#1.-Rimozione-di-Keyword">&#182;</a></h3><p>Ho deciso di rimuovere il nodo Keyword. Ho quindi evitato di eseguire le ultime due cypher query nello script precedente. Alternativamente, avrei potuto anche usare il seguente comando:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;MATCH (n:Keyword) DETACH DELETE n&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+(No data)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="2.-Aggiunta-di-altre-ricette">2. Aggiunta di altre ricette<a class="anchor-link" href="#2.-Aggiunta-di-altre-ricette">&#182;</a></h3><p>Per arricchire il dataset, ho deciso di inserire altre ricette al database. Ho quindi scaricato il file <a href="data/gz_recipe.csv">gz_recipe.csv</a> da <a href="https://www.kaggle.com/datasets/edoardoscarpaci/italian-food-recipes">https://www.kaggle.com/datasets/edoardoscarpaci/italian-food-recipes</a>, contenente delle ricette estratte dal sito <a href="https://www.giallozafferano.it/">GialloZafferano</a>. <br>
+Il file scaricato contiene i seguenti campi:</p>
+<ul>
+<li>id: id che identifica univocamente la ricetta (intero da 0 a 5938).</li>
+<li>Nome: nome del piatto</li>
+<li>Categoria: categoria della ricetta (Primi, Secondi, ...)</li>
+<li>Link: link della ricetta</li>
+<li>Persone/Pezzi: numero di persone o pezzi della ricetta</li>
+<li>Ingredienti: lista di ingredienti e relative quantità. Ad esempio: [['Mascarpone', '750g'], ['Uova', '260g']]</li>
+<li>Steps: contenuto della ricetta</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Per i inserire questi dati ho deciso di:</p>
+<ul>
+<li>Aggiungere a Recipe le proprietà<ul>
+<li>&quot;fonte&quot; che avrà il valore &quot;GialloZafferano&quot; o &quot;BBC GoodFood&quot;</li>
+<li>&quot;persone_pezzi&quot; per indicare il numero di persone o pezzi</li>
+</ul>
+</li>
+<li>Aggiungere a CONTAINS_INGREDIENTS una proprietà &quot;quantita&quot;, contenente la quantità di un ingrediente in una ricetta</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Come precedentemente spiegato, il campo id di Recipe è univoco nelle ricette già inserite. Aggiungendo i dati da un altra sorgente, si potrebbero avere dei record con lo stesso id. Prima di inserire le nuove ricette, quindi, controllo che gli id delle nuove ricette siano tutti diversi da quelli delle ricette già inserite. In questo caso, per fortuna, non ci sono conflitti sugli id e si può procedere con gli inserimenti.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Aggiungo le ricette di GialloZafferano. </span>
+
+<span class="c1"># Controllo che non ci siano già ricette con gli id</span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">LOAD CSV WITH HEADERS FROM &#39;file:///gz_recipe.csv&#39; AS value</span>
+<span class="s2">MATCH (r:Recipe {id:value[&quot;id&quot;]})</span>
+<span class="s2">WHERE r.fonte IS NULL OR r.fonte&lt;&gt;&quot;GialloZafferano&quot;</span>
+<span class="s2">return count(r)</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="k">if</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span><span class="o">.</span><span class="n">evaluate</span><span class="p">()</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Le ricette di BBC e quelle di GialloZafferano hanno degli id in comune!&quot;</span><span class="p">)</span>
+    <span class="k">raise</span><span class="p">(</span><span class="n">MiaStopExecution</span><span class="p">)</span>
+
+<span class="c1"># Inserisco le ricette</span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">LOAD CSV WITH HEADERS FROM &#39;file:///gz_recipe.csv&#39; AS value</span>
+<span class="s2">MERGE (r:Recipe {id: value[&quot;id&quot;]})</span>
+<span class="s2">SET r.name = value[&quot;Nome&quot;],</span>
+<span class="s2">    r.description = value[&quot;Steps&quot;],</span>
+<span class="s2">    r.persone_pezzi = value[&quot;Persone/Pezzi&quot;],</span>
+<span class="s2">    r.fonte = &quot;GialloZafferano&quot;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;MATCH (r:Recipe) WHERE r.fonte IS NULL SET r.fonte=&quot;BBC GoodFood&quot; &quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+
+<span class="c1"># Inserisco gli ingredienti</span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">LOAD CSV WITH HEADERS FROM &#39;file:///gz_recipe.csv&#39; AS value</span>
+<span class="s2">WITH value[&quot;id&quot;] AS id, replace(value[&quot;Ingredienti&quot;], &#39;&quot;&#39;, &quot;&quot;) AS ris1</span>
+<span class="s2">WITH id, replace(ris1, &quot;[[&quot;, &quot;&quot;) AS ris2</span>
+<span class="s2">WITH id,replace(ris2, &quot;]]&quot;, &quot;&quot;) AS ris3</span>
+<span class="s2">WITH id,split(ris3, &quot;], [&quot;) AS ingrs_list</span>
+<span class="s2">MATCH (r:Recipe {id:id})</span>
+<span class="s2">WHERE ingrs_list[0]&lt;&gt;&quot;[]&quot;   // Alcune ricette non hanno ingredienti nè descrizione (es. Churros red velvet), quindi le rimuovo</span>
+<span class="s2">FOREACH (ingr_quantita_string IN ingrs_list |</span>
+<span class="s2">    MERGE (i:Ingredient {name: split(ingr_quantita_string, &quot;, &quot;)[0]})</span>
+<span class="s2">    MERGE (r)-[:CONTAINS_INGREDIENT {quantita: split(ingr_quantita_string, &quot;, &quot;)[1]}]-&gt;(i)</span>
+<span class="s2">)</span>
+<span class="s2">&quot;&quot;&quot;</span> 
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+
+
+<span class="c1"># Creo le categorie </span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">LOAD CSV WITH HEADERS FROM &#39;file:///gz_recipe.csv&#39; AS value</span>
+<span class="s2">MATCH (r:Recipe {id:value[&quot;id&quot;]})</span>
+<span class="s2">WHERE value[&quot;Categoria&quot;] IS NOT NULL</span>
+<span class="s2">MERGE (c:Collection {name: value[&quot;Categoria&quot;]})</span>
+<span class="s2">MERGE (r)-[:COLLECTION]-&gt;(c)</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+(No data)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="3.-Inserimento-degli-allergeni">3. Inserimento degli allergeni<a class="anchor-link" href="#3.-Inserimento-degli-allergeni">&#182;</a></h3><p>Ho aggiunto un campo &quot;is_allergene&quot; al nodo Ingredient. Ho inizialmente scaricato da <a href="https://www.kaggle.com/datasets/boltcutters/food-allergens-and-allergies">https://www.kaggle.com/datasets/boltcutters/food-allergens-and-allergies</a> un file (<a href="data/FoodData.csv">FoodData.csv</a>) con l'elenco degli allergeni. Ho quindi impostato gli ingredienti del database contenuti nel file con is_allergene=True. Ho invece settato is_allergene=False per i restanti ingredienti.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Setto gli allergeni</span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;LOAD CSV WITH HEADERS FROM &#39;file:///FoodData.csv&#39; AS value</span>
+<span class="s2">MATCH (i:Ingredient)</span>
+<span class="s2">WHERE toLower(i.name) CONTAINS toLower(value[&quot;Food&quot;]) </span>
+<span class="s2">SET i.is_allergene=True;&quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+
+<span class="c1"># Setto i restanti ingredienti come non allergeni</span>
+<span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">MATCH (i:Ingredient)</span>
+<span class="s2">WHERE i.is_allergene IS NULL</span>
+<span class="s2">SET i.is_allergene=False; &quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+(No data)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="4.-Nuovo-indice">4. Nuovo indice<a class="anchor-link" href="#4.-Nuovo-indice">&#182;</a></h3><p>Per velocizzare in futuro la ricerca dei nomi delle ricette, ho deciso di inserire un nuovo indice sulla proprietà name di Recipe.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot; CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.name);&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+(No data)
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Schema-finale">Schema finale<a class="anchor-link" href="#Schema-finale">&#182;</a></h3><p>Dopo le modifiche, lo schema finale è il seguente:</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="img/db_schema_finale.png" alt="schema" /></p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_full_table</span><span class="p">(</span><span class="n">query</span><span class="p">):</span>
+    <span class="c1"># Stampo l&#39;intestazione</span>
+    <span class="n">intestazione</span><span class="o">=</span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+    <span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">i</span><span class="si">:</span><span class="s2">25</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">intestazione</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">()</span>
+    <span class="p">[</span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;-&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">intestazione</span><span class="p">))]</span>
+    <span class="nb">print</span><span class="p">()</span>
+
+    <span class="c1"># Stampo i dati</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span> 
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">d</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">str</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="si">:</span><span class="s2">25</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">()</span>
+
+<span class="n">print_full_table</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.nodeTypeProperties&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>nodeType                 nodeLabels               propertyName             propertyTypes            mandatory                
+-----------------------------------------------------------------------------------------------------------------------------
+:`Author`                [&#39;Author&#39;]               name                     [&#39;String&#39;]               True                     
+:`Ingredient`            [&#39;Ingredient&#39;]           name                     [&#39;String&#39;]               True                     
+:`DietType`              [&#39;DietType&#39;]             name                     [&#39;String&#39;]               True                     
+:`Collection`            [&#39;Collection&#39;]           name                     [&#39;String&#39;]               True                     
+:`Recipe`                [&#39;Recipe&#39;]               id                       [&#39;String&#39;]               True                     
+:`Recipe`                [&#39;Recipe&#39;]               cookingTime              [&#39;Long&#39;]                 False                    
+:`Recipe`                [&#39;Recipe&#39;]               preparationTime          [&#39;Long&#39;]                 False                    
+:`Recipe`                [&#39;Recipe&#39;]               name                     [&#39;String&#39;]               True                     
+:`Recipe`                [&#39;Recipe&#39;]               description              [&#39;String&#39;]               False                    
+:`Recipe`                [&#39;Recipe&#39;]               skillLevel               [&#39;String&#39;]               False                    
+:`Recipe`                [&#39;Recipe&#39;]               persone_pezzi            [&#39;String&#39;]               False                    
+:`Recipe`                [&#39;Recipe&#39;]               fonte                    [&#39;String&#39;]               True                     
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_full_table</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.relTypeProperties&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>relType                  propertyName             propertyTypes            mandatory                
+----------------------------------------------------------------------------------------------------
+:`WROTE`                 None                     None                     False                    
+:`CONTAINS_INGREDIENT`   quantita                 [&#39;String&#39;]               False                    
+:`DIET_TYPE`             None                     None                     False                    
+:`COLLECTION`            None                     None                     False                    
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Interrogazioni">Interrogazioni<a class="anchor-link" href="#Interrogazioni">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -18003,23 +18664,10 @@ Per creare gli indici è stato usato il seguente script. Il comando <code>CREATE
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">run_multiple_query</span><span class="p">(</span><span class="n">multiple_query</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">query</span> <span class="ow">in</span> <span class="n">multiple_query</span><span class="o">.</span><span class="n">splitlines</span><span class="p">():</span>
-        <span class="k">if</span> <span class="n">query</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span> <span class="k">continue</span>
-        <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
-
-<span class="n">cq_versione5</span><span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.id);        // CREATE INDEX IF NOT EXISTS ON :Recipe(name) </span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:Ingredient) ON (n.name);</span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:Keyword) ON (n.name);</span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:DietType) ON (n.name);</span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:Author) ON (n.name);</span>
-<span class="s2">CREATE INDEX IF NOT EXISTS FOR (n:Collection) ON (n.name);</span>
-<span class="s2">&quot;&quot;&quot;</span> 
-<span class="n">run_multiple_query</span><span class="p">(</span><span class="n">cq_versione5</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
@@ -18027,6 +18675,39 @@ Per creare gli indici è stato usato il seguente script. Il comando <code>CREATE
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Inserimenti">Inserimenti<a class="anchor-link" href="#Inserimenti">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Modifiche">Modifiche<a class="anchor-link" href="#Modifiche">&#182;</a></h2>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Cancellazioni">Cancellazioni<a class="anchor-link" href="#Cancellazioni">&#182;</a></h2>
+</div>
+</div>
+</div>
 </div>
 </body>
 
