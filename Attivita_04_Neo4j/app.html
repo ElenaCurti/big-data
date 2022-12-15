@@ -17853,7 +17853,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <h1 id="Ricette">Ricette<a class="anchor-link" href="#Ricette">&#182;</a></h1></center>
 <h2 id="Introduzione">Introduzione<a class="anchor-link" href="#Introduzione">&#182;</a></h2><p>In questo progetto viene realizzato un database con Neo4j. In esso verranno memorizzate delle ricette, i relativi ingredienti, autori, categorie e tipi di dieta. La struttura del database è stata realizzata partendo dallo usecase &quot;Recipe&quot; fornito da Neo4j.</p>
 <br>
-Nel seguito, verranno inizialmente spiegate le operazioni iniziali per il corretto funzionamento dell'applicazione. Verranno poi mostrati lo schema e i dati dello use case  originale. Verrà spiegato come è stato modificato lo schema e quali dati sono stati aggiunti e rimossi. Infine, verranno mostrate delle interrogazioni, modifiche e cancellazioni.
+Nel seguito, verranno inizialmente spiegate le operazioni iniziali per il corretto funzionamento dell'applicazione. Verranno poi mostrati lo schema e i dati dello use case  originale. Verrà spiegato come è stato modificato lo schema e quali dati sono stati aggiunti e rimossi. Infine, verranno mostrate delle interrogazioni, modifiche e cancellazioni dei dati.
 
 </div>
 </div>
@@ -17900,12 +17900,7 @@ Nel seguito, verranno inizialmente spiegate le operazioni iniziali per il corret
 <li>Aggiungere il plugin APOC.</li>
 <li>Premere su Start.</li>
 </ul>
-<!-- 
-Da Neo4j creare un nuovo progetto. Scegliere una tra le seguenti alternative:
-- Dal progetto appena creato, aggiungere al progetto il file [neo4j.dump](data/neo4j.dump). Creare poi un nuovo DBMS dal file dump (scegliendo come nome "neo4j", come password "pass" e come versione 5.2.0). Aggiungere il plugin APOC. Premere su Start.
-- Dal progetto appena creato, aggiungere un DBMS locale (scegliendo come nome, password e versione i valori indicati al punto sopra). Aggiungere il plugin APOC. Premere su Start e poi su Open. Eseguire tutti i comandi riportati nel file [import_commands.txt](data/import_commands.txt).
-<br>-->
-<p>Eseguire poi le celle di codice, nell'ordine proposto</p>
+<p>Eseguire poi le celle di codice, nell'ordine proposto.</p>
 
 </div>
 </div>
@@ -18021,8 +18016,8 @@ Lo usecase originale ha previsto i seguenti indici per migliorare la performance
 <li>è memorizzato in locale, allora va inserito nella cartella &quot;import&quot; del DBMS. Va inoltre inserito nella cartella &quot;conf&quot; un file &quot;apoc.conf&quot; con scritto &quot;apoc.import.file.enabled=true&quot; (e riavviato il database). Infine, il percorso deve essere in formato <a href="https://en.wikipedia.org/wiki/File_URI_scheme">URI</a>.</li>
 <li>è memorizzato in rete (come in questo caso), il comando funziona in automatico, se il computer è connesso ad Internet.</li>
 </ul>
-<p>Il comando <code>MERGE</code> serve a selezionare un nodo (o un arco) ed eventualmente a crearlo. E' una sorta di combinazione di <code>MATCH</code> e <code>CREATE</code>.</p>
-<p>Il comando <code>FOREACH (elem IN list | ...codice... )</code> serve a eseguire il codice per ogni elemento <code>elem</code> nella lista <code>list</code>.</p>
+<p>Il comando <code>MERGE</code> serve eventualmente a creare un nodo (o un arco) e a selezionarlo. E' una sorta di combinazione di <code>MATCH</code> e <code>CREATE</code>.</p>
+<p>Il comando <code>FOREACH (elem IN list | codice )</code> serve a eseguire il codice per ogni elemento <code>elem</code> nella lista <code>list</code>.</p>
 <p>Il comando <code>CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.id)</code> è equivalente a <code>CREATE INDEX IF NOT EXISTS ON :Recipe(id)</code>. Il primo, però, è compatibile con la versione 5.2.0 di Neo4j.</p>
 
 </div>
@@ -18213,7 +18208,7 @@ Tutti i dati sono stati importati correttamente!
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Cartella import del DMBS: D:\Elena\_Elena\Shared\Universita\Magistrale\Big_data\Anno_22_23\TO_DEL_QUANDO_ESAME_DATO\Neo4J\relate-data\dbmss\dbms-108c38bb-8fe4-4c95-b4e6-d1b3bbdad61e\import
+<pre>Cartella import del DMBS: D:\Elena\_Elena\Shared\Universita\Magistrale\Big_data\Neo4J\relate-data\dbmss\dbms-108c38bb-8fe4-4c95-b4e6-d1b3bbdad61e\import
 </pre>
 </div>
 </div>
@@ -18841,7 +18836,7 @@ Qualche suggerimento per la scelta degli ingredienti:
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>ingrediente</th><th>is_allergene</th></tr><tr><td style="text-align:left">Limone candito</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">chopped fresh chives</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">melon</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">garlic baguettes</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">piping bag</td><td style="text-align:left">false</td></tr></table>
+<table><tr><th>ingrediente</th><th>is_allergene</th></tr><tr><td style="text-align:left">raw cacao powder</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">puffed wheat</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">Aroma allarancia</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">pain de campagne</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">rice vinegar</td><td style="text-align:left">true</td></tr></table>
 </div>
 
 </div>
@@ -18873,10 +18868,10 @@ Qualche suggerimento per la scelta degli ingredienti:
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>
-Ricette trovate con gli ingredienti Confettura di prugne ,  Uova: 
+Ricette trovate con gli ingredienti Confettura di prugne ,  uova: 
 	 Crostata alla crema e prugne
-	 Girelle alla marmellata
 	 Treccine di sfoglia
+	 Girelle alla marmellata
 </pre>
 </div>
 </div>
@@ -18981,8 +18976,8 @@ description: Make up a batch of this boozy lemony drink - it&#39;s great as a ho
 id: 102024
 skillLevel: Easy
 cookingTime: 0
-Categorie: [&#39;Lemon&#39;, &#34;New Year&#39;s Eve cocktails&#34;, &#39;Our top 25 drink&#39;]
-Ingredienti: [&#39;vodka &#39;, &#39;lemon (Allergene!) &#39;, &#39;caster sugar (Allergene!) &#39;, &#39;water &#39;]
+Categorie: [&#39;Our top 25 drink&#39;, &#39;Lemon&#39;, &#34;New Year&#39;s Eve cocktails&#34;]
+Ingredienti: [&#39;caster sugar (Allergene!) &#39;, &#39;water &#39;, &#39;lemon (Allergene!) &#39;, &#39;vodka &#39;]
 ---------------
 persone_pezzi: 10
 fonte: GialloZafferano
@@ -18990,7 +18985,7 @@ name: Limoncello
 description: Per realizzare il limoncello lavate i limoni sotto il getto dell’acqua corrente sfregate la buccia con una spugnetta nuova per eliminare eventuali impurità, quindi asciugate i limoni con un canovaccio Sbucciate i limoni con un pelapatate, dovrete prelevare solo la scorza gialla e non la parte bianca che risulterebbe amara Prendete un recipiente di vetro con chiusura ermetica, versate all’interno l’alcol richiudete il barattolo Trascorsi i 30 giorni recuperate le scorze e preparate lo sciroppo: in un tegame versate l’acqua portate al bollore lo sciroppo e, una volta raggiunto il bollore spegnete il fuoco, versate lo sciroppo in una brocca Agitate il barattolo per mescolare lo sciroppo, quindi lasciatelo ancora riposare Trascorso il tempo di riposo riprendete il barattolo con il liquore, agitatelo e poi filtratelo attraverso un colino (13-14) e raccogliete il liquore all’interno di una bottiglia. Il vostro limoncello fatto in casa è pronto per essere degustato 
 id: 385
 Categorie: [&#39;Bevande&#39;]
-Ingredienti: [&#39;Alcol puro 500ml&#39;, &#39;Limoni 5&#39;, &#39;Zucchero 600g&#39;, &#39;Acqua 750ml&#39;]
+Ingredienti: [&#39;Limoni 5&#39;, &#39;Zucchero 600g&#39;, &#39;Alcol puro 500ml&#39;, &#39;Acqua 750ml&#39;]
 </pre>
 </div>
 </div>
@@ -19120,7 +19115,7 @@ Opzione scelta: tempo_preparazione
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>a.name</th><th>num_ricette</th><th>alcune_ricette</th></tr><tr><td style="text-align:left">Good Food</td><td style="text-align:right">3441</td><td style="text-align:left">[&quot;Finbar&#039;s veggie spag bol&quot;, &#039;Very chocolatey cake&#039;, &quot;The River Cafe&#039;s winter minestrone&quot;, &#039;Lemon sole with crab &amp; tarragon butter sauce&#039;, &#039;Homemade chicken nachos&#039;]</td></tr><tr><td style="text-align:left">Sara Buenfeld</td><td style="text-align:right">664</td><td style="text-align:left">[&#039;Peach &amp; orange yogurt pots with ginger oats&#039;, &#039;Leek &amp; goat\u00e2\u20ac\u2122s cheese traybake tart&#039;, &#039;Smoked salmon souffl\u00c3\u00a9 tart&#039;, &#039;Egyptian courgettes with dukkah sprinkle&#039;, &#039;Chicken liver parfait with sultanas &amp; raisins&#039;]</td></tr><tr><td style="text-align:left">Barney Desmazery</td><td style="text-align:right">646</td><td style="text-align:left">[&#039;Indian spiced greens&#039;, &#039;Caramel ripple cheesecake cups &#039;, &#039;Crushed raspberry creams&#039;, &#039;Bonfire Night baked potatoes&#039;, &#039;Chicken pesto wrap&#039;]</td></tr><tr><td style="text-align:left">Cassie Best</td><td style="text-align:right">638</td><td style="text-align:left">[&#039;Five-spice mix&#039;, &#039;Banana &amp; custard drip cake&#039;, &#039;Vanilla cherry pie&#039;, &#039;Quick pickled onions&#039;, &#039;White forest meringue roulade&#039;]</td></tr><tr><td style="text-align:left">Sarah Cook</td><td style="text-align:right">515</td><td style="text-align:left">[&#039;Nearly spring peas&#039;, &#039;Free-form asparagus &amp; potato tart&#039;, &#039;Lighter apple &amp; pear pie&#039;, &#039;Mexican steak with homemade refried beans&#039;, &#039;Red cabbage &amp; potato hash&#039;]</td></tr></table>
+<table><tr><th>a.name</th><th>num_ricette</th><th>alcune_ricette</th></tr><tr><td style="text-align:left">Good Food</td><td style="text-align:right">3441</td><td style="text-align:left">[&#039;Tandoori tilapia with spicy sweet potato mash &amp; tomato salad&#039;, &#039;Best ever tiramisu&#039;, &#039;Duck, apricot &amp; pine nut pastilla&#039;, &#039;Raspberry tiramisu &#039;, &#039;Classic smoked salmon crostini&#039;]</td></tr><tr><td style="text-align:left">Sara Buenfeld</td><td style="text-align:right">664</td><td style="text-align:left">[&#039;Thai curry fish cakes with sweet chilli dressing&#039;, &#039;Cranberry &amp; clementine jelly&#039;, &#039;Jam &amp; white chocolate roly-poly&#039;, &#039;South Indian coconut &amp; prawn curry&#039;, &#039;Turkey salad on rye&#039;]</td></tr><tr><td style="text-align:left">Barney Desmazery</td><td style="text-align:right">646</td><td style="text-align:left">[&#039;Crispy bacon-basted turkey&#039;, &#039;Burnt butter cabbage&#039;, &#039;Tea-smoked salmon with herb mayonnaise&#039;, &#039;Poached plums&#039;, &#039;Creamy cucumber with gravadlax&#039;]</td></tr><tr><td style="text-align:left">Cassie Best</td><td style="text-align:right">638</td><td style="text-align:left">[&#039;English rose cake&#039;, &#039;Gingerbread B\u00c3\u00bbche de No\u00c3\u00abl&#039;, &#039;Crunchy prawn &amp; noodle salad&#039;, &#039;Spanish meatball &amp; butter bean stew&#039;, &#039;Golden couscous with apricots &amp; crispy onions&#039;]</td></tr><tr><td style="text-align:left">Sarah Cook</td><td style="text-align:right">515</td><td style="text-align:left">[&#039;Spring chicken paella&#039;, &#039;Iced trifle slice&#039;, &#039;Potato curry with lime &amp; cucumber raita&#039;, &#039;Salted caramel &amp; macadamia pralines&#039;, &#039;Shredded greens salad&#039;]</td></tr></table>
 </div>
 
 </div>
@@ -19136,7 +19131,7 @@ Opzione scelta: tempo_preparazione
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Stampa-le-ricette-suggerite">Stampa le ricette suggerite<a class="anchor-link" href="#Stampa-le-ricette-suggerite">&#182;</a></h3><p>Partendo da una ricetta ('Chocolate chia pudding'), il seguente script stampa le ricette suggerite, in base alle categorie, ai tipi di dieta e all'autore/autrice in comune.</p>
+<h3 id="Stampa-le-ricette-suggerite">Stampa le ricette suggerite<a class="anchor-link" href="#Stampa-le-ricette-suggerite">&#182;</a></h3><p>Partendo da una ricetta ('Chocolate chia pudding'), il seguente script stampa le ricette suggerite, in base alle categorie, ai tipi di dieta e all'autore/autrice comuni.</p>
 
 </div>
 </div>
@@ -19180,7 +19175,7 @@ Opzione scelta: tempo_preparazione
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>ricetta_suggerita</th><th>categorie_comuni</th><th>diete_comuni</th><th>n_dati_comuni</th><th>autore_comune</th></tr><tr><td style="text-align:left">Quinoa stew with squash, prunes &amp; pomegranate</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Easy vegan&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;, &#039;Dairy-free&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Guacamole &amp; mango salad with black beans</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Healthy&#039;, &#039;Gluten-free&#039;, &#039;Low-calorie&#039;, &#039;Vegetarian&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan chickpea curry jacket potatoes</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Easy vegan&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Vegetarian&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Chargrilled vegetable tacos with smoky salsa</td><td style="text-align:left">[&#039;Healthy vegan&#039;, &#039;Easy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Healthy&#039;, &#039;Low-calorie&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan Eton mess</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegetarian&#039;, &#039;Gluten-free&#039;, &#039;Dairy-free&#039;, &#039;Egg-free&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">10</td><td style="text-align:left">Sophie Godwin</td></tr></table>
+<table><tr><th>ricetta_suggerita</th><th>categorie_comuni</th><th>diete_comuni</th><th>n_dati_comuni</th><th>autore_comune</th></tr><tr><td style="text-align:left">Quinoa stew with squash, prunes &amp; pomegranate</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Healthy vegan&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Dairy-free&#039;, &#039;Vegetarian&#039;, &#039;Gluten-free&#039;, &#039;Healthy&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Guacamole &amp; mango salad with black beans</td><td style="text-align:left">[&#039;Vegan summer&#039;, &#039;Healthy vegan&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Low-calorie&#039;, &#039;Gluten-free&#039;, &#039;Vegetarian&#039;, &#039;Healthy&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Chargrilled vegetable tacos with smoky salsa</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Vegan summer&#039;, &#039;Healthy vegan&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Low-calorie&#039;, &#039;Healthy&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan chickpea curry jacket potatoes</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Healthy vegan&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Vegetarian&#039;, &#039;Vegan&#039;, &#039;Gluten-free&#039;, &#039;Healthy&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan Eton mess</td><td style="text-align:left">[&#039;Vegan summer&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Vegan&#039;, &#039;Vegetarian&#039;, &#039;Dairy-free&#039;, &#039;Egg-free&#039;]</td><td style="text-align:right">10</td><td style="text-align:left">Sophie Godwin</td></tr></table>
 </div>
 
 </div>
@@ -19277,7 +19272,7 @@ Opzione scelta: tempo_preparazione
 
 <span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
 <span class="s2">MATCH (r_gz:Recipe {fonte:&quot;GialloZafferano&quot;}), (r_bbc:Recipe {fonte:&quot;BBC GoodFood&quot;})</span>
-<span class="s2">WITH apoc.coll.intersection(COLLECT(DISTINCT r_gz.name), COLLECT(DISTINCT r_bbc.name)) as ricette_comuni</span>
+<span class="s2">WITH apoc.coll.intersection(COLLECT(DISTINCT r_gz.name), COLLECT(DISTINCT r_bbc.name)) as ricette_comuni //WHERE r_gz.name=r_bbc.name</span>
 <span class="s2">RETURN size(ricette_comuni) AS num_ricette_comuni, ricette_comuni</span>
 <span class="s2">&quot;&quot;&quot;</span>
 <span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
@@ -19351,7 +19346,7 @@ Nomi delle ricette:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
@@ -19382,7 +19377,7 @@ Nomi delle ricette:
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>ricetta</th><th>ingredienti</th></tr><tr><td style="text-align:left">Sweet shop bark</td><td style="text-align:left">[&#039;chocolate&#039;, &#039;white chocolate&#039;, &#039;treats&#039;]</td></tr><tr><td style="text-align:left">Risotto con piselli pancetta e maggiorana</td><td style="text-align:left">[&#039;Burro&#039;, &#039;Brodo vegetale&#039;, &#039;Olio extravergine doliva&#039;, &#039;Parmigiano Reggiano DOP&#039;, &#039;Vino bianco&#039;, &#039;Maggiorana&#039;, &#039;Pisellini&#039;, &#039;Riso Carnaroli&#039;, &#039;Scalogno&#039;, &#039;Pancetta (tesa)&#039;]</td></tr><tr><td style="text-align:left">Pappardelle con zucchine trifolate e crema di ricotta all’arancia</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Aglio&#039;, &#039;Scorza darancia&#039;, &#039;Ricotta vaccina&#039;, &#039;Zucchine&#039;, &#039;Pappardelle alluovo&#039;]</td></tr><tr><td style="text-align:left">Samosa di tonno</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Aglio&#039;, &#039;Prezzemolo&#039;, &#039;Olio di semi&#039;, &#039;Patate&#039;, &#039;Tonno sottolio&#039;, &#039;Scalogno&#039;, &#039;Pasta fillo&#039;]</td></tr><tr><td style="text-align:left">Fagiolini all&#039;aglio e mollica croccante</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Aglio&#039;, &#039;Prezzemolo&#039;, &#039;Pane raffermo&#039;, &#039;Fagiolini&#039;]</td></tr></table>
+<table><tr><th>ricetta</th><th>ingredienti</th></tr><tr><td style="text-align:left">Parfait alle mandorle</td><td style="text-align:left">[&#039;Zucchero&#039;, &#039;Zucchero&#039;, &#039;Burro&#039;, &#039;Tuorli&#039;, &#039;Acqua&#039;, &#039;Acqua&#039;, &#039;Panna fresca liquida&#039;, &#039;Cioccolato fondente&#039;, &#039;Mandorle pelate&#039;]</td></tr><tr><td style="text-align:left">Crostoni al formaggio</td><td style="text-align:left">[&#039;Burro&#039;, &#039;Pepe nero&#039;, &#039;Panna fresca liquida&#039;, &#039;Rosmarino&#039;, &#039;Grana Padano DOP&#039;, &#039;Pane casereccio&#039;, &#039;Edamer&#039;, &#039;Emmentaler&#039;]</td></tr><tr><td style="text-align:left">Pasteis de nata</td><td style="text-align:left">[&#039;Zucchero&#039;, &#039;Farina 00&#039;, &#039;Burro&#039;, &#039;Sale fino&#039;, &#039;Tuorli&#039;, &#039;Acqua&#039;, &#039;Farina Manitoba&#039;, &#039;Panna fresca liquida&#039;]</td></tr><tr><td style="text-align:left">Pettole</td><td style="text-align:left">[&#039;Zucchero&#039;, &#039;Farina 00&#039;, &#039;Acqua&#039;, &#039;Lievito di birra fresco&#039;, &#039;Miele&#039;, &#039;Sale grosso&#039;, &#039;Olio di semi&#039;, &#039;Olive nere&#039;, &#039;Olive verdi&#039;]</td></tr><tr><td style="text-align:left">Fusilloni con salsiccia, datterini gialli e provolone</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Vino bianco&#039;, &#039;Timo&#039;, &#039;Salsiccia&#039;, &#039;Scalogno&#039;, &#039;Provolone&#039;, &#039;Pomodorini datterini&#039;, &#039;Fusilloni&#039;]</td></tr></table>
 </div>
 
 </div>
@@ -19408,7 +19403,7 @@ Nomi delle ricette:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ingrediente</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
@@ -19498,7 +19493,7 @@ Hai scelto di impostare come allergene l&#39;ingrediente Farina 00.
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
 
 
 
@@ -19519,7 +19514,7 @@ Hai scelto di impostare come allergene l&#39;ingrediente Farina 00.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Cancellazioni">Cancellazioni<a class="anchor-link" href="#Cancellazioni">&#182;</a></h2><p>Ho inserito il seguente script per dare la possibilità all'utente di cancellare una ricetta. Ho inserito &quot;DETACH&quot; per eliminare anche gli archi legati al nodo da eliminare.</p>
+<h2 id="Cancellazioni">Cancellazioni<a class="anchor-link" href="#Cancellazioni">&#182;</a></h2><p>Ho inserito il seguente script per dare la possibilità all'utente di cancellare una ricetta. Ho inserito <code>DETACH</code> per eliminare anche gli archi legati al nodo da eliminare.</p>
 
 </div>
 </div>

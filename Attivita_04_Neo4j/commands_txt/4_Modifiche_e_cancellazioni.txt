@@ -1,0 +1,6 @@
+// Modifica un ingrediente come allergene
+MATCH (i:Ingredient) WHERE i.name="Farina 00" SET i.is_allergene=True;
+
+
+// Elimina una ricetta
+MATCH (r:Recipe {name: 'Tiramisù'}) DETACH DELETE (r)

@@ -1,0 +1,92 @@
+// ************ 1. Stampa una ricetta con due ingredienti ************ 
+
+MATCH (i1:Ingredient)<-[:CONTAINS_INGREDIENT]-(r:Recipe)-[:CONTAINS_INGREDIENT]->(i2:Ingredient)
+WHERE
+toLower(i1.name) CONTAINS toLower('confettura di prugne') AND
+toLower(i2.name) CONTAINS toLower('uova')
+RETURN r;
+
+
+// ************ 2. Stampa i dettagli di una ricetta ************ 
+MATCH (r:Recipe)
+WHERE toLower(r.name) = toLower('Limoncello')
+OPTIONAL MATCH (a:Author)-[:WROTE]->(r)
+OPTIONAL MATCH (c:Collection)<-[:COLLECTION]-(r)
+OPTIONAL MATCH (d:DietType)<-[:DIET_TYPE]-(r)
+OPTIONAL MATCH (i:Ingredient)<-[r_i:CONTAINS_INGREDIENT]-(r)
+RETURN r AS ricetta, COLLECT(DISTINCT c) AS categorie, COLLECT(DISTINCT i) AS
+ingredienti, COLLECT(DISTINCT d) AS tipi_dieta, COLLECT(DISTINCT r_i) AS
+quantita_ingredienti;
+
+
+// ************ 3. Quali sono le ricette più veloci da preparare? ************
+MATCH (r:Recipe)
+WHERE r.preparationTime<>0
+RETURN r.name AS ricetta, r.cookingTime AS tempo_cottura, r.preparationTime as
+tempo_preparazione, r.cookingTime+r.preparationTime AS tempo_totale
+ORDER BY tempo_preparazione LIMIT 3;
+
+
+// ************ 4. Chi ha scritto più ricette? ************
+MATCH (a:Author)-[:WROTE]->(r:Recipe)
+WITH a, COUNT(r) AS num_ricette, COLLECT(r.name)[..5] AS alcune_ricette //
+RETURN a.name, num_ricette, alcune_ricette
+ORDER BY num_ricette DESC
+LIMIT 5;
+
+
+// ************ 5. Stampa le ricette suggerite ************
+MATCH (r:Recipe {name:'Chocolate chia pudding'})-[:COLLECTION]->(c:Collection)<-
+[:COLLECTION]-(r2:Recipe)
+OPTIONAL MATCH (r)-[:DIET_TYPE]->(d:DietType)<-[:DIET_TYPE]-(r2)
+OPTIONAL MATCH (r)<-[:WROTE]-(a:Author)-[:WROTE]->(r2)
+WITH r2, COUNT(*) AS n_dati_comuni, COLLECT(DISTINCT d.name) AS
+diete_comuni,COLLECT(DISTINCT c.name) AS categorie_comuni, a.name AS
+autore_comune
+RETURN r2.name AS ricetta_suggerita, categorie_comuni, diete_comuni,
+n_dati_comuni, autore_comune
+ORDER BY n_dati_comuni DESC, autore_comune IS NULL
+LIMIT 5;
+
+
+// ************ 6. Quali ingredienti sono usati più spesso con la pasta? ************ 
+MATCH (pasta:Ingredient)<-[:CONTAINS_INGREDIENT]-()-[:CONTAINS_INGREDIENT]->
+(i:Ingredient)
+WHERE toLower(pasta.name)="pasta"
+WITH i, count(*) as frequenza
+RETURN i.name AS ingrediente, frequenza
+ORDER BY frequenza DESC
+LIMIT 10;
+
+
+// ************ 7. Ricette presenti sia su GialloZafferano, sia su BBC GoodFood ************ 
+MATCH (r_gz:Recipe {fonte:"GialloZafferano"}), (r_bbc:Recipe {fonte:"BBC
+GoodFood"})
+WITH apoc.coll.intersection(COLLECT(DISTINCT r_gz.name), COLLECT(DISTINCT
+r_bbc.name)) as ricette_comuni
+RETURN size(ricette_comuni) AS num_ricette_comuni, ricette_comuni;
+
+
+
+// ************ 8. Quali ricette non contengono allergeni? ************ 
+MATCH (r:Recipe)-[:CONTAINS_INGREDIENT]->(i:Ingredient)
+WITH r, COLLECT(i.is_allergene) AS are_allergeni, COLLECT(i.name) AS
+ingredienti
+WHERE all(x IN are_allergeni WHERE NOT x)
+RETURN r.name AS ricetta, ingredienti
+ORDER BY rand()
+LIMIT 5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

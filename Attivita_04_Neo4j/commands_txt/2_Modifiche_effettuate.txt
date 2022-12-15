@@ -1,0 +1,65 @@
+SHOW INDEXES WHERE labelsOrTypes=['Recipe'] AND properties=['id'];
+
+// --- Sostituire nome_indice_id_ricette con il valore restituito col comando precedente alla colonna "name"
+DROP INDEX nome_indice_id_ricette IF EXISTS;
+
+
+
+// I restanti comandi possono essere copiati e incollati senza modifiche
+CREATE CONSTRAINT id_ricetta_univoco IF NOT EXISTS FOR (r:Recipe) REQUIRE r.id IS UNIQUE;
+
+
+LOAD CSV WITH HEADERS FROM 'file:///gz_recipe.csv' AS value
+MERGE (r:Recipe {id: value["id"]})
+SET r.name = value["Nome"],
+r.description = value["Steps"],
+r.persone_pezzi = value["Persone/Pezzi"],
+r.fonte = "GialloZafferano";
+
+MATCH (r:Recipe) WHERE r.fonte IS NULL SET r.fonte="BBC GoodFood";
+
+LOAD CSV WITH HEADERS FROM 'file:///gz_recipe.csv' AS value
+WITH value["id"] AS id, replace(value["Ingredienti"], '"', "") AS ris1
+WITH id, replace(ris1, "[[", "") AS ris2
+WITH id,replace(ris2, "]]", "") AS ris3
+WITH id,replace(ris3, "'", "") AS ris4
+WITH id,split(ris4, "], [") AS ingrs_list
+MATCH (r:Recipe {id:id})
+WHERE ingrs_list[0]<>"[]" // Alcune ricette non hanno ingredienti nè descrizione (es. Churros red velvet)
+FOREACH (ingr_quantita_string IN ingrs_list |
+MERGE (i:Ingredient {name: split(ingr_quantita_string, ", ")[0]})
+MERGE (r)-[:CONTAINS_INGREDIENT {quantita: split(ingr_quantita_string, ", ")[1]}]->(i)
+);
+
+
+LOAD CSV WITH HEADERS FROM 'file:///gz_recipe.csv' AS value
+MATCH (r:Recipe {id:value["id"]})
+WHERE value["Categoria"] IS NOT NULL
+MERGE (c:Collection {name: value["Categoria"]})
+MERGE (r)-[:COLLECTION]->(c);
+
+
+LOAD CSV WITH HEADERS FROM 'file:///FoodData.csv' AS value
+LOAD CSV WITH HEADERS FROM 'file:///allergens.csv' AS value2
+MATCH (i:Ingredient)
+WHERE
+toLower(i.name) CONTAINS toLower(value["Food"]) OR
+toLower(i.name) CONTAINS toLower(value2["en"]) OR
+toLower(i.name) CONTAINS toLower(value2["it"])
+SET i.is_allergene=True;
+
+
+MATCH (i:Ingredient)
+WHERE i.is_allergene IS NULL
+SET i.is_allergene=False;
+
+
+CREATE INDEX IF NOT EXISTS FOR (n:Recipe) ON (n.name);
+
+
+// Per vedere lo schema finale:
+call db.schema.visualization();
+
+CALL db.schema.relTypeProperties;
+SHOW INDEX;
+SHOW CONSTRAINT;
