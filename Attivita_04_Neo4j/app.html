@@ -18205,7 +18205,7 @@ Tutti i dati sono stati importati correttamente!
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Cartella import del DMBS: D:\Elena\_Elena\Shared\Universita\Magistrale\Big_data\Anno_22_23\TO_DEL_QUANDO_ESAME_DATO\Neo4J\relate-data\dbmss\dbms-b3e0a01c-d1be-4257-8d27-97054bc0e187\import
+<pre>Cartella import del DMBS: D:\Elena\_Elena\Shared\Universita\Magistrale\Big_data\Anno_22_23\TO_DEL_QUANDO_ESAME_DATO\Neo4J\relate-data\dbmss\dbms-72c86399-90b1-401d-b763-be4b59a3b68f\import
 </pre>
 </div>
 </div>
@@ -18574,9 +18574,12 @@ Il file scaricato contiene i seguenti campi:</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.nodeTypeProperties&quot;</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">1000</span>
-<span class="n">ris</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">1000</span><span class="p">):</span>
+    <span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+    <span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="n">n</span>
+    <span class="k">return</span> <span class="n">ris</span>
+
+<span class="n">print_first_n</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.nodeTypeProperties&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18614,9 +18617,7 @@ Il file scaricato contiene i seguenti campi:</p>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.relTypeProperties&quot;</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">1000</span>
-<span class="n">ris</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_first_n</span><span class="p">(</span><span class="s2">&quot;CALL db.schema.relTypeProperties&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18697,9 +18698,7 @@ Il file scaricato contiene i seguenti campi:</p>
 <span class="s2">ORDER BY num</span>
 <span class="s2">LIMIT 5</span>
 <span class="s2">&quot;&quot;&quot;</span>
-<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">display</span><span class="p">(</span><span class="n">ris</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
 
 <span class="c1"># Chiedo il primo ingrediente e stampo gli ingredienti più usati con esso</span>
 <span class="n">ingrediente1</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
@@ -18716,9 +18715,8 @@ Il file scaricato contiene i seguenti campi:</p>
 <span class="s2">ORDER BY num DESC</span>
 <span class="s2">LIMIT 5</span>
 <span class="s2">&quot;&quot;&quot;</span>
-<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">display</span><span class="p">(</span><span class="n">ris</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
+
 
 <span class="c1"># Chiedo il secondo ingrediente</span>
 <span class="n">ingrediente2</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
@@ -18777,7 +18775,7 @@ Qualche suggerimento per la scelta degli ingredienti:
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>ingrediente</th><th>is_allergene</th></tr><tr><td style="text-align:left">can mixed beans</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">preserved lemon</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">Pak choi</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">Cellentani</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">extra dry vermouth</td><td style="text-align:left">false</td></tr></table>
+<table><tr><th>ingrediente</th><th>is_allergene</th></tr><tr><td style="text-align:left">Schiacciate La Bottega di Olivia&amp;Marino</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">coconut rice</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">tier</td><td style="text-align:left">false</td></tr><tr><td style="text-align:left">black onion seed</td><td style="text-align:left">true</td></tr><tr><td style="text-align:left">merguez sausage</td><td style="text-align:left">false</td></tr></table>
 </div>
 
 </div>
@@ -18811,8 +18809,8 @@ Qualche suggerimento per la scelta degli ingredienti:
 <pre>
 Ricette trovate con gli ingredienti Confettura di prugne ,  Uova: 
 	 Crostata alla crema e prugne
-	 Treccine di sfoglia
 	 Girelle alla marmellata
+	 Treccine di sfoglia
 </pre>
 </div>
 </div>
@@ -18837,7 +18835,7 @@ Ricette trovate con gli ingredienti Confettura di prugne ,  Uova:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Chiedo il nome della ricetta</span>
@@ -18845,9 +18843,11 @@ Ricette trovate con gli ingredienti Confettura di prugne ,  Uova:
 <span class="k">while</span> <span class="n">nome_ricetta</span><span class="o">==</span><span class="s2">&quot;&quot;</span><span class="p">:</span> 
     <span class="n">nome_ricetta</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Inserisci nome della ricetta: &quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ricetta scelta:&quot;</span><span class="p">,</span> <span class="n">nome_ricetta</span><span class="p">)</span>
+<span class="c1">#nome_ricetta=&quot;Limoncello&quot;</span>
 
 <span class="c1"># Cerco la ricetta e tutti i relativi dati</span>
-<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;MATCH (r:Recipe) </span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">MATCH (r:Recipe) </span>
 <span class="s2">WHERE toLower(r.name) = toLower(&#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">nome_ricetta</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;)</span>
 <span class="s2">OPTIONAL MATCH (a:Author)-[:WROTE]-&gt;(r)</span>
 <span class="s2">OPTIONAL MATCH (c:Collection)&lt;-[:COLLECTION]-(r)</span>
@@ -18906,8 +18906,25 @@ Ricette trovate con gli ingredienti Confettura di prugne ,  Uova:
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ricetta scelta: chocoloate chia pudding
---- Nessuna ricetta trovata --- 
+<pre>Ricetta scelta: Limoncello
+---------------
+fonte: BBC GoodFood
+name: Limoncello
+preparationTime: 900
+description: Make up a batch of this boozy lemony drink - it&#39;s great as a homemade gift or poured over ice cream
+id: 102024
+skillLevel: Easy
+cookingTime: 0
+Categorie: [&#39;Lemon&#39;, &#34;New Year&#39;s Eve cocktails&#34;, &#39;Our top 25 drink&#39;]
+Ingredienti: [&#39;vodka &#39;, &#39;lemon (Allergene!) &#39;, &#39;caster sugar (Allergene!) &#39;, &#39;water &#39;]
+---------------
+persone_pezzi: 10
+fonte: GialloZafferano
+name: Limoncello
+description: Per realizzare il limoncello lavate i limoni sotto il getto dell’acqua corrente sfregate la buccia con una spugnetta nuova per eliminare eventuali impurità, quindi asciugate i limoni con un canovaccio Sbucciate i limoni con un pelapatate, dovrete prelevare solo la scorza gialla e non la parte bianca che risulterebbe amara Prendete un recipiente di vetro con chiusura ermetica, versate all’interno l’alcol richiudete il barattolo Trascorsi i 30 giorni recuperate le scorze e preparate lo sciroppo: in un tegame versate l’acqua portate al bollore lo sciroppo e, una volta raggiunto il bollore spegnete il fuoco, versate lo sciroppo in una brocca Agitate il barattolo per mescolare lo sciroppo, quindi lasciatelo ancora riposare Trascorso il tempo di riposo riprendete il barattolo con il liquore, agitatelo e poi filtratelo attraverso un colino (13-14) e raccogliete il liquore all’interno di una bottiglia. Il vostro limoncello fatto in casa è pronto per essere degustato 
+id: 385
+Categorie: [&#39;Bevande&#39;]
+Ingredienti: [&#39;Alcol puro 500ml&#39;, &#39;Limoni 5&#39;, &#39;Zucchero 600g&#39;, &#39;Acqua 750ml&#39;]
 </pre>
 </div>
 </div>
@@ -18932,10 +18949,11 @@ Ricette trovate con gli ingredienti Confettura di prugne ,  Uova:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Scegli un&#39;opzione. Ricetta piu&#39; veloce in base a: </span><span class="se">\n\t</span><span class="s2">1. Tempo di preparazione</span><span class="se">\n\t</span><span class="s2">2. Tempo di cottura</span><span class="se">\n\t</span><span class="s2">3. Tempo totale&quot;</span><span class="p">)</span>
+<span class="c1"># opzione = &quot;1&quot;</span>
 <span class="n">opzione</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
 <span class="k">while</span> <span class="n">opzione</span><span class="o">==</span><span class="s2">&quot;&quot;</span><span class="p">:</span>
     <span class="n">opzione</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;&gt;&gt; &quot;</span><span class="p">)</span>
@@ -18976,7 +18994,7 @@ Opzione scelta: tempo_preparazione
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
 
 
 
@@ -19010,14 +19028,12 @@ Opzione scelta: tempo_preparazione
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;MATCH (a:Author)-[:WROTE]-&gt;(r:Recipe)</span>
-<span class="s2">WITH a, COUNT(r) AS num_ricette, COLLECT(r.name)[..5] AS alcune_ricette // Seleziono solo le prime cinque, per nons</span>
+<span class="s2">WITH a, COUNT(r) AS num_ricette, COLLECT(r.name)[..5] AS alcune_ricette // Seleziono solo le prime cinque ricette</span>
 <span class="s2">RETURN a.name, num_ricette, alcune_ricette</span>
 <span class="s2">ORDER BY num_ricette DESC</span>
 <span class="s2">LIMIT 5</span>
 <span class="s2">&quot;&quot;&quot;</span>
-<span class="n">res</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">res</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">display</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -19038,7 +19054,7 @@ Opzione scelta: tempo_preparazione
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>a.name</th><th>num_ricette</th><th>alcune_ricette</th></tr><tr><td style="text-align:left">Good Food</td><td style="text-align:right">3441</td><td style="text-align:left">[&#039;Zesty lentil &amp; haddock pilaf&#039;, &#039;Fruity figgy flapjacks&#039;, &#039;Beef &amp; mozzarella meatballs&#039;, &#039;Stuffed summer tomatoes&#039;, &#039;Lamb kebabs &amp; Greek salad&#039;]</td></tr><tr><td style="text-align:left">Sara Buenfeld</td><td style="text-align:right">664</td><td style="text-align:left">[&#039;Very simple Margherita pizza&#039;, &#039;Sweet &amp; spicy apricot chicken&#039;, &#039;Healthy tuna lettuce wraps&#039;, &#039;Prawn &amp; fennel bisque&#039;, &#039;Blueberry soured cream cake with cheesecake frosting&#039;]</td></tr><tr><td style="text-align:left">Barney Desmazery</td><td style="text-align:right">646</td><td style="text-align:left">[&#039;Christmas poussin&#039;, &#039;Stuffed pork medallions&#039;, &#039;Cheese &amp; Marmite sausage rolls&#039;, &#039;Violet creams&#039;, &#039;Next level apple crumble&#039;]</td></tr><tr><td style="text-align:left">Cassie Best</td><td style="text-align:right">638</td><td style="text-align:left">[&#039;Pear, nut &amp; blackberry Bircher&#039;, &#039;Chicken with mustard lentils&#039;, &#039;Pea &amp; bacon pasties&#039;, &#039;Pepper, pesto &amp; sweetcorn calzones&#039;, &#039;Mini Christmas cake&#039;]</td></tr><tr><td style="text-align:left">Sarah Cook</td><td style="text-align:right">515</td><td style="text-align:left">[&#039;Leftover veg &amp; orange cake&#039;, &#039;Free-form asparagus &amp; potato tart&#039;, &#039;Baked camembert pie for sharing&#039;, &#039;Chicken, apricot &amp; pork pie&#039;, &#039;Malted walnut seed loaf&#039;]</td></tr></table>
+<table><tr><th>a.name</th><th>num_ricette</th><th>alcune_ricette</th></tr><tr><td style="text-align:left">Good Food</td><td style="text-align:right">3441</td><td style="text-align:left">[&quot;Finbar&#039;s veggie spag bol&quot;, &#039;Very chocolatey cake&#039;, &quot;The River Cafe&#039;s winter minestrone&quot;, &#039;Lemon sole with crab &amp; tarragon butter sauce&#039;, &#039;Homemade chicken nachos&#039;]</td></tr><tr><td style="text-align:left">Sara Buenfeld</td><td style="text-align:right">664</td><td style="text-align:left">[&#039;Peach &amp; orange yogurt pots with ginger oats&#039;, &#039;Leek &amp; goat\u00e2\u20ac\u2122s cheese traybake tart&#039;, &#039;Smoked salmon souffl\u00c3\u00a9 tart&#039;, &#039;Egyptian courgettes with dukkah sprinkle&#039;, &#039;Chicken liver parfait with sultanas &amp; raisins&#039;]</td></tr><tr><td style="text-align:left">Barney Desmazery</td><td style="text-align:right">646</td><td style="text-align:left">[&#039;Indian spiced greens&#039;, &#039;Caramel ripple cheesecake cups &#039;, &#039;Crushed raspberry creams&#039;, &#039;Bonfire Night baked potatoes&#039;, &#039;Chicken pesto wrap&#039;]</td></tr><tr><td style="text-align:left">Cassie Best</td><td style="text-align:right">638</td><td style="text-align:left">[&#039;Five-spice mix&#039;, &#039;Banana &amp; custard drip cake&#039;, &#039;Vanilla cherry pie&#039;, &#039;Quick pickled onions&#039;, &#039;White forest meringue roulade&#039;]</td></tr><tr><td style="text-align:left">Sarah Cook</td><td style="text-align:right">515</td><td style="text-align:left">[&#039;Nearly spring peas&#039;, &#039;Free-form asparagus &amp; potato tart&#039;, &#039;Lighter apple &amp; pear pie&#039;, &#039;Mexican steak with homemade refried beans&#039;, &#039;Red cabbage &amp; potato hash&#039;]</td></tr></table>
 </div>
 
 </div>
@@ -19063,20 +19079,17 @@ Opzione scelta: tempo_preparazione
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_ricette</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">MATCH (r:Recipe)-[:CONTAINS_INGREDIENT]-&gt;(i:Ingredient)</span>
 <span class="s2">WITH r, COLLECT(i.is_allergene) AS are_allergeni, COLLECT(i.name) AS ingredienti</span>
 <span class="s2">WHERE all(x IN are_allergeni WHERE NOT x)</span>
 <span class="s2">RETURN r.name AS ricetta, ingredienti</span>
 <span class="s2">ORDER BY rand()</span>
-<span class="s2">LIMIT &quot;&quot;&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">num_ricette</span><span class="p">)</span>
-<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="n">num_ricette</span>
-<span class="n">ris</span>
+<span class="s2">LIMIT 5 &quot;&quot;&quot;</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -19090,14 +19103,14 @@ Opzione scelta: tempo_preparazione
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputArea-child">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>ricetta</th><th>ingredienti</th></tr><tr><td style="text-align:left">Insalata di cavolo e scalogni</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Sale grosso&#039;, &#039;Verza&#039;, &#039;Scalogno&#039;, &#039;Acciughe sotto sale&#039;, &#039;Aceto di vino rosso&#039;]</td></tr><tr><td style="text-align:left">Anguilla in umido (Capitone)</td><td style="text-align:left">[&#039;Olio extravergine doliva&#039;, &#039;Prezzemolo&#039;, &#039;Vino bianco&#039;, &#039;Basilico&#039;, &#039;Cipolle&#039;, &#039;Pomodori San Marzano&#039;, &#039;Anguilla&#039;]</td></tr><tr><td style="text-align:left">Sfilati con crema al tonno e fiori di cappero</td><td style="text-align:left">[&#039;Formaggio fresco spalmabile&#039;, &#039;Panna fresca liquida&#039;, &#039;Aceto di vino bianco&#039;, &#039;Tonno sottolio&#039;, &#039;Capperi&#039;, &#039;Sfilati al pomodoro al forno&#039;]</td></tr><tr><td style="text-align:left">Pakora</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Carote&#039;, &#039;Peperoncino fresco&#039;, &#039;Patate&#039;, &#039;Olio di semi di arachide&#039;, &#039;Coriandolo&#039;, &#039;Farina di ceci&#039;, &#039;Lievito istantaneo per preparazioni salate&#039;, &#039;Cipolle rosse&#039;, &#039;Acqua gassata&#039;, &#039;Curry&#039;]</td></tr><tr><td style="text-align:left">Melanzane ripiene</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Passata di pomodoro&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Vino bianco&#039;, &#039;Basilico&#039;, &#039;Cipolle&#039;, &#039;Caciocavallo&#039;, &#039;Maiale&#039;, &#039;Pane raffermo&#039;, &#039;Melanzane&#039;]</td></tr></table>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table><tr><th>ricetta</th><th>ingredienti</th></tr><tr><td style="text-align:left">Vellutata di barbabietola con Emmentaler DOP</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Acqua&#039;, &#039;Olio extravergine doliva&#039;, &#039;Pepe nero&#039;, &#039;Noce moscata&#039;, &#039;Rosmarino&#039;, &#039;Patate&#039;, &#039;Timo&#039;, &#039;Pane&#039;, &#039;Salvia&#039;, &#039;Cipolle rosse&#039;, &#039;Barbabietole&#039;, &#039;Emmentaler DOP&#039;]</td></tr><tr><td style="text-align:left">Sfoglie classiche con hummus</td><td style="text-align:left">[&#039;Sale fino&#039;, &#039;Olio extravergine doliva&#039;, &#039;Succo di limone&#039;, &#039;Aglio&#039;, &#039;Prezzemolo&#039;, &#039;Ceci secchi&#039;, &#039;Curcuma in polvere&#039;, &#039;Cumino&#039;, &#039;Tahina&#039;, &#039;La Bottega di Olivia&amp;Marino&#039;]</td></tr><tr><td style="text-align:left">Salsa caramello</td><td style="text-align:left">[&#039;Zucchero&#039;, &#039;Acqua&#039;, &#039;Baccello di vaniglia&#039;]</td></tr><tr><td style="text-align:left">Confettura pere e zenzero</td><td style="text-align:left">[&#039;Zucchero&#039;, &#039;Succo di limone&#039;, &#039;Zenzero fresco&#039;, &#039;Pere&#039;]</td></tr><tr><td style="text-align:left">Crema di formaggio alle more</td><td style="text-align:left">[&#039;Mascarpone&#039;, &#039;Savoiardi&#039;, &#039;Zucchero a velo&#039;, &#039;Ricotta vaccina&#039;, &#039;More&#039;, &#039;Granella di nocciole&#039;, &#039;Marsala alluovo&#039;]</td></tr></table>
 </div>
 
 </div>
@@ -19133,12 +19146,10 @@ Opzione scelta: tempo_preparazione
 <span class="s2">OPTIONAL MATCH (r)&lt;-[:WROTE]-(a:Author)-[:WROTE]-&gt;(r2)</span>
 <span class="s2">WITH r2, COUNT(*) AS n_dati_comuni, COLLECT(DISTINCT d.name) AS diete_comuni,COLLECT(DISTINCT c.name) AS categorie_comuni, a.name AS autore_comune</span>
 <span class="s2">RETURN r2.name AS ricetta_suggerita, categorie_comuni, diete_comuni, n_dati_comuni, autore_comune</span>
-<span class="s2">ORDER BY n_dati_comuni DESC </span>
+<span class="s2">ORDER BY n_dati_comuni DESC, autore_comune IS NULL </span>
 <span class="s2">LIMIT 5</span>
 <span class="s2">&quot;&quot;&quot;</span>
-<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">ris</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -19152,14 +19163,14 @@ Opzione scelta: tempo_preparazione
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputArea-child">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>ricetta_suggerita</th><th>categorie_comuni</th><th>diete_comuni</th><th>n_dati_comuni</th><th>autore_comune</th></tr><tr><td style="text-align:left">Quinoa stew with squash, prunes &amp; pomegranate</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Healthy vegan&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Vegan&#039;, &#039;Dairy-free&#039;, &#039;Vegetarian&#039;, &#039;Healthy&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Guacamole &amp; mango salad with black beans</td><td style="text-align:left">[&#039;Healthy vegan&#039;, &#039;Vegan summer&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;, &#039;Low-calorie&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan chickpea curry jacket potatoes</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Healthy vegan&#039;, &#039;Vegan gluten-free&#039;]</td><td style="text-align:left">[&#039;Healthy&#039;, &#039;Vegan&#039;, &#039;Vegetarian&#039;, &#039;Gluten-free&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Chargrilled vegetable tacos with smoky salsa</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Healthy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Low-calorie&#039;, &#039;Healthy&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Avocado hummus &amp; cruditÃ©s</td><td style="text-align:left">[&#039;Easy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegetarian&#039;, &#039;Gluten-free&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;, &#039;Low-calorie&#039;]</td><td style="text-align:right">10</td><td style="text-align:left">Sophie Godwin</td></tr></table>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table><tr><th>ricetta_suggerita</th><th>categorie_comuni</th><th>diete_comuni</th><th>n_dati_comuni</th><th>autore_comune</th></tr><tr><td style="text-align:left">Quinoa stew with squash, prunes &amp; pomegranate</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Easy vegan&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;, &#039;Dairy-free&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Guacamole &amp; mango salad with black beans</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Healthy&#039;, &#039;Gluten-free&#039;, &#039;Low-calorie&#039;, &#039;Vegetarian&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">15</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan chickpea curry jacket potatoes</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Healthy vegan&#039;, &#039;Easy vegan&#039;]</td><td style="text-align:left">[&#039;Gluten-free&#039;, &#039;Vegetarian&#039;, &#039;Healthy&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Chargrilled vegetable tacos with smoky salsa</td><td style="text-align:left">[&#039;Healthy vegan&#039;, &#039;Easy vegan&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegan&#039;, &#039;Healthy&#039;, &#039;Low-calorie&#039;, &#039;Vegetarian&#039;]</td><td style="text-align:right">12</td><td style="text-align:left">null</td></tr><tr><td style="text-align:left">Vegan Eton mess</td><td style="text-align:left">[&#039;Vegan gluten-free&#039;, &#039;Vegan summer&#039;]</td><td style="text-align:left">[&#039;Vegetarian&#039;, &#039;Gluten-free&#039;, &#039;Dairy-free&#039;, &#039;Egg-free&#039;, &#039;Vegan&#039;]</td><td style="text-align:right">10</td><td style="text-align:left">Sophie Godwin</td></tr></table>
 </div>
 
 </div>
@@ -19175,9 +19186,7 @@ Opzione scelta: tempo_preparazione
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Ricerca-una-ricetta-in-base-a-una-keyword">Ricerca una ricetta in base a una keyword<a class="anchor-link" href="#Ricerca-una-ricetta-in-base-a-una-keyword">&#182;</a></h3><p><mark> TODO arrivata qui
-The Top 5 tags co-occurring with la parola Pasta, with respective frequency count</p>
-
+<h3 id="Quali-ingredienti-sono-usati-pi%C3%B9-spesso-con-la-pasta?">Quali ingredienti sono usati pi&#249; spesso con la pasta?<a class="anchor-link" href="#Quali-ingredienti-sono-usati-pi%C3%B9-spesso-con-la-pasta?">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -19186,19 +19195,18 @@ The Top 5 tags co-occurring with la parola Pasta, with respective frequency coun
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
-<span class="s2">MATCH (i:Ingredient)&lt;-[:CONTAINS_INGREDIENT]-()-[:CONTAINS_INGREDIENT]-&gt;(i2:Ingredient)</span>
-<span class="s2">WHERE toLower(i.name)=&quot;pasta&quot;</span>
-<span class="s2">RETURN i2.name, count(*) as freq</span>
-<span class="s2">ORDER BY freq DESC </span>
+<span class="s2">MATCH (pasta:Ingredient)&lt;-[:CONTAINS_INGREDIENT]-()-[:CONTAINS_INGREDIENT]-&gt;(i:Ingredient)</span>
+<span class="s2">WHERE toLower(pasta.name)=&quot;pasta&quot;</span>
+<span class="s2">WITH i, count(*) as frequenza</span>
+<span class="s2">RETURN i.name AS ingrediente, frequenza</span>
+<span class="s2">ORDER BY frequenza DESC </span>
 <span class="s2">LIMIT 10</span>
 <span class="s2">&quot;&quot;&quot;</span>
-<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">ris</span><span class="o">.</span><span class="n">sample_size</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">ris</span>
+<span class="n">display</span><span class="p">(</span><span class="n">print_first_n</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -19212,14 +19220,14 @@ The Top 5 tags co-occurring with la parola Pasta, with respective frequency coun
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputArea-child">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>i2.name</th><th>freq</th></tr><tr><td style="text-align:left">olive oil</td><td style="text-align:right">65</td></tr><tr><td style="text-align:left">parmesan</td><td style="text-align:right">44</td></tr><tr><td style="text-align:left">garlic clove</td><td style="text-align:right">41</td></tr><tr><td style="text-align:left">onion</td><td style="text-align:right">25</td></tr><tr><td style="text-align:left">lemon</td><td style="text-align:right">23</td></tr><tr><td style="text-align:left">pesto</td><td style="text-align:right">17</td></tr><tr><td style="text-align:left">parsley</td><td style="text-align:right">14</td></tr><tr><td style="text-align:left">chopped tomato</td><td style="text-align:right">12</td></tr><tr><td style="text-align:left">basil</td><td style="text-align:right">12</td></tr><tr><td style="text-align:left">tomato</td><td style="text-align:right">11</td></tr></table>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table><tr><th>ingrediente</th><th>frequenza</th></tr><tr><td style="text-align:left">olive oil</td><td style="text-align:right">65</td></tr><tr><td style="text-align:left">parmesan</td><td style="text-align:right">44</td></tr><tr><td style="text-align:left">garlic clove</td><td style="text-align:right">41</td></tr><tr><td style="text-align:left">onion</td><td style="text-align:right">25</td></tr><tr><td style="text-align:left">lemon</td><td style="text-align:right">23</td></tr><tr><td style="text-align:left">pesto</td><td style="text-align:right">17</td></tr><tr><td style="text-align:left">parsley</td><td style="text-align:right">14</td></tr><tr><td style="text-align:left">chopped tomato</td><td style="text-align:right">12</td></tr><tr><td style="text-align:left">basil</td><td style="text-align:right">12</td></tr><tr><td style="text-align:left">tomato</td><td style="text-align:right">11</td></tr></table>
 </div>
 
 </div>
@@ -19244,10 +19252,20 @@ The Top 5 tags co-occurring with la parola Pasta, with respective frequency coun
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_columns</span><span class="p">(</span><span class="n">lista</span><span class="p">,</span> <span class="n">n_colonne</span><span class="p">):</span>
+    <span class="c1"># max_len = max([len(i) for i in lista])</span>
+    <span class="k">if</span> <span class="n">n_colonne</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">lista</span><span class="p">[::</span><span class="mi">2</span><span class="p">],</span><span class="n">lista</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   </span><span class="si">{:&lt;60}{:&lt;}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">))</span>
+    <span class="k">if</span> <span class="n">n_colonne</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">lista</span><span class="p">[::</span><span class="mi">3</span><span class="p">],</span><span class="n">lista</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">3</span><span class="p">],</span><span class="n">lista</span><span class="p">[</span><span class="mi">2</span><span class="p">::</span><span class="mi">3</span><span class="p">]):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   </span><span class="si">{:&lt;30}{:&lt;30}{:&lt;}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">))</span>
+
+
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
 <span class="s2">MATCH (r_gz:Recipe {fonte:&quot;GialloZafferano&quot;}), (r_bbc:Recipe {fonte:&quot;BBC GoodFood&quot;})</span>
 <span class="s2">WITH apoc.coll.intersection(COLLECT(DISTINCT r_gz.name), COLLECT(DISTINCT r_bbc.name)) as ricette_comuni</span>
 <span class="s2">RETURN size(ricette_comuni) AS num_ricette_comuni, ricette_comuni</span>
@@ -19261,8 +19279,7 @@ The Top 5 tags co-occurring with la parola Pasta, with respective frequency coun
 <span class="c1"># Stampo le ricette su tre colonne</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Nomi delle ricette:&quot;</span><span class="p">)</span>
 <span class="n">lista_ricette</span> <span class="o">=</span> <span class="n">diz_ris</span><span class="p">[</span><span class="s2">&quot;ricette_comuni&quot;</span><span class="p">]</span>
-<span class="k">for</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">lista_ricette</span><span class="p">[::</span><span class="mi">3</span><span class="p">],</span><span class="n">lista_ricette</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">3</span><span class="p">],</span><span class="n">lista_ricette</span><span class="p">[</span><span class="mi">2</span><span class="p">::</span><span class="mi">3</span><span class="p">]):</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;   </span><span class="si">{:&lt;30}{:&lt;30}{:&lt;}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">))</span>
+<span class="n">print_columns</span><span class="p">(</span><span class="n">lista_ricette</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
     
 </pre></div>
 
@@ -19308,15 +19325,54 @@ Nomi delle ricette:
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Modifiche">Modifiche<a class="anchor-link" href="#Modifiche">&#182;</a></h2><p>Come si può notare, alcuni ingredienti che sono allergeni non sono impostati come tali nel database (es. farina). Ho quindi creato il seguente script per dare la possibilità all'utente di cambiare la property is_allergene di un certo ingrediente.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;MATCH (r:Recipe {name:&quot;Limoncello&quot;}) RETURN r&quot;&quot;&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ingrediente</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+<span class="k">while</span> <span class="n">ingrediente</span><span class="o">==</span><span class="s2">&quot;&quot;</span><span class="p">:</span>
+    <span class="n">ingrediente</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Inserisci nome dell&#39;ingrediente da modificare: &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ecco gli ingredienti trovati per la ricerca &#39;&quot;</span><span class="o">+</span><span class="n">ingrediente</span><span class="o">+</span><span class="s2">&quot;&#39;&quot;</span><span class="p">)</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;MATCH (i:Ingredient) WHERE toLower(i.name) CONTAINS &#39;&quot;</span><span class="o">+</span><span class="n">ingrediente</span><span class="o">+</span><span class="s2">&quot;&#39; RETURN i.name AS ingrediente&quot;</span> 
+<span class="n">ris</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()</span>
+<span class="n">ris</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span><span class="p">[</span><span class="s2">&quot;ingrediente&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">ris</span><span class="p">]</span>
+<span class="n">print_columns</span><span class="p">(</span><span class="n">ris</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+
+<span class="n">ingrediente2</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+<span class="k">while</span> <span class="n">ingrediente2</span><span class="o">==</span><span class="s2">&quot;&quot;</span><span class="p">:</span>
+    <span class="n">ingrediente2</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Inserisci il nome dell&#39;ingrediente da modificare, oppure inserisci 0 per modificare tutti quelli stampati: &quot;</span><span class="p">)</span>
+
+<span class="n">opzione_allergene</span><span class="o">=</span><span class="s2">&quot;&quot;</span>
+<span class="k">while</span> <span class="n">opzione_allergene</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span><span class="p">:</span>
+    <span class="n">opzione_allergene</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Modificare l&#39;ingrediente/gli ingredienti come: </span><span class="se">\n</span><span class="s2">1. Allergene/i</span><span class="se">\n</span><span class="s2">2. Non allergene/i</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">opzione_allergene</span> <span class="o">=</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">opzione_allergene</span><span class="o">==</span><span class="s2">&quot;1&quot;</span> <span class="k">else</span> <span class="p">(</span><span class="kc">False</span> <span class="k">if</span> <span class="n">opzione_allergene</span><span class="o">==</span><span class="s2">&quot;2&quot;</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">Hai scelto di impostare&quot;</span> <span class="o">+</span> \
+        <span class="s2">&quot; come&quot;</span> <span class="o">+</span> <span class="p">(</span><span class="s2">&quot; non&quot;</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">opzione_allergene</span> <span class="k">else</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; allergen&quot;</span> <span class="o">+</span> 
+        <span class="p">(</span><span class="s2">&quot;e l&#39;ingrediente &quot;</span> <span class="o">+</span> <span class="n">ingrediente2</span> <span class="k">if</span> <span class="n">ingrediente2</span> <span class="o">!=</span> <span class="s2">&quot;0&quot;</span> <span class="k">else</span> <span class="s2">&quot;i gli ingredienti: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">ris</span><span class="p">))</span> <span class="o">+</span>
+        <span class="s2">&quot;. &quot;</span>
+        <span class="p">)</span>
+
+<span class="n">where_clause</span> <span class="o">=</span> <span class="s2">&quot;toLower(i.name) CONTAINS &#39;&quot;</span><span class="o">+</span><span class="n">ingrediente</span><span class="o">+</span><span class="s2">&quot;&#39;&quot;</span>  <span class="k">if</span> <span class="n">ingrediente2</span><span class="o">==</span><span class="s2">&quot;0&quot;</span> <span class="k">else</span> <span class="s2">&quot;i.name=&#39;&quot;</span><span class="o">+</span><span class="n">ingrediente2</span><span class="o">+</span><span class="s2">&quot;&#39;&quot;</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;MATCH (i:Ingredient) WHERE &quot;</span><span class="o">+</span><span class="n">where_clause</span><span class="o">+</span><span class="s2">&quot; SET i.is_allergene=&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">opzione_allergene</span><span class="p">)</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -19330,14 +19386,56 @@ Nomi delle ricette:
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Ecco gli ingredienti trovati per la ricerca &#39;farina&#39;
+   Farina 00                                                   Farina Manitoba
+   Farina di grano saraceno                                    Farina 0
+   Farina di ceci                                              Farina di mandorle
+   Farina                                                      Farina di nocciole
+   Farina di mais                                              Farina di mais fioretto
+   Farina di pistacchi                                         Farina di castagne
+   Farina integrale                                            Tortillas di farina
+   Farina di riso                                              Farina 1
+   Farina di frumento                                          Farina per pinsa
+   Farina per polenta taragna                                  Farina di farro integrale
+   Farina istantanea per polenta                               Farina di mais bramata
+   Farina 2                                                    Farina di farro
+   Farina di Kamut®                                            Farina di grano duro
+   Farina di mais giallo                                       Farina istantanea per polenta taragna
+   Farina di segale                                            Farina di cocco
+   Farina di semi di carrube                                   Farina di mais integrale per polenta istantanea
+   Farina di riso senza glutine                                Farina per chapati
+   Farina di mais bianco                                       Farina di avena
+   Farina di tapioca                                           Farina di mais e cereali per polenta istantanea
+   Farina di mais bramata bianca                               Farina di mais senza glutine
+   Farina di grano saraceno senza glutine                      Farina di grano arso
+   Farina di riso integrale                                    Farina di lupini
+   Farina di mais fumetto                                      Farina di teff
+   Farina per pane senza glutine                               Farina di riso venere
+   Farina di castagne senza glutine                            Farina di amaranto
+   Farina di mais integrale                                    Farina di quinoa
+   Farina integrale di miglio                                  Farina di enkir
+   Chicchi di farina di legumi (lenticchie rosse e ceci)       Chicchi di farina di legumi (lenticchie rosse
+   Farina di canapa                                            Chicchi di farina di legumi (lenticchie rosse e piselli)
+
+
+Hai scelto di modificare come allergene l&#39;ingrediente Farina 00. 
+</pre>
+</div>
+</div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>r</th></tr><tr><td style="text-align:left">(_20872:Recipe {cookingTime: 0, description: &quot;Make up a batch of this boozy lemony drink - it&#039;s great as a homemade gift or poured over ice cream&quot;, fonte: &#039;BBC GoodFood&#039;, id: &#039;102024&#039;, name: &#039;Limoncello&#039;, preparationTime: 900, skillLevel: &#039;Easy&#039;})</td></tr><tr><td style="text-align:left">(_31998:Recipe {description: &#039;Per realizzare il limoncello lavate i limoni sotto il getto dell\u2019acqua corrente sfregate la buccia con una spugnetta nuova per eliminare eventuali impurit\u00e0, quindi asciugate i limoni con un canovaccio Sbucciate i limoni con un pelapatate, dovrete prelevare solo la scorza gialla e non la parte bianca che risulterebbe amara Prendete un recipiente di vetro con chiusura ermetica, versate all\u2019interno l\u2019alcol richiudete il barattolo Trascorsi i 30 giorni recuperate le scorze e preparate lo sciroppo: in un tegame versate l\u2019acqua portate al bollore lo sciroppo e, una volta raggiunto il bollore spegnete il fuoco, versate lo sciroppo in una brocca Agitate il barattolo per mescolare lo sciroppo, quindi lasciatelo ancora riposare Trascorso il tempo di riposo riprendete il barattolo con il liquore, agitatelo e poi filtratelo attraverso un colino (13-14) e raccogliete il liquore all\u2019interno di una bottiglia. Il vostro limoncello fatto in casa \u00e8 pronto per essere degustato &#039;, fonte: &#039;GialloZafferano&#039;, id: &#039;385&#039;, name: &#039;Limoncello&#039;, persone_pezzi: &#039;10&#039;})</td></tr></table>
+(No data)
 </div>
 
 </div>
@@ -19353,32 +19451,30 @@ Nomi delle ricette:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Inserimenti">Inserimenti<a class="anchor-link" href="#Inserimenti">&#182;</a></h2>
+<h2 id="Cancellazioni">Cancellazioni<a class="anchor-link" href="#Cancellazioni">&#182;</a></h2><p>Ho inserito il seguente script per dare la possibilità all'utente di cancellare una ricetta. Ho inserito &quot;DETACH&quot; per eliminare anche gli archi legati al nodo Recipe da eliminare.</p>
+
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Modifiche">Modifiche<a class="anchor-link" href="#Modifiche">&#182;</a></h2>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nome_ricetta</span><span class="o">=</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Inserisci nome della ricetta che desideri eliminare: &quot;</span><span class="p">)</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;MATCH (r:Recipe {name: &#39;&quot;</span><span class="o">+</span><span class="n">nome_ricetta</span><span class="o">+</span><span class="s2">&quot;&#39;})  DETACH DELETE (r)&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Ricetta &quot;</span> <span class="o">+</span> <span class="n">nome_ricetta</span> <span class="o">+</span> <span class="s2">&quot; eliminata correttamente!&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Cancellazioni">Cancellazioni<a class="anchor-link" href="#Cancellazioni">&#182;</a></h2>
-</div>
-</div>
-</div>
+
 </div>
 </body>
 
