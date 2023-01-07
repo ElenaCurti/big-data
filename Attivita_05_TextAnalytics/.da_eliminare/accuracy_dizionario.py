@@ -1,20 +1,37 @@
-accuracy1 = 0.8604			#0.8686
-accuracy2 = 0.8548			#0.87
-accuracy3 = 0.412				#0.41
-accuracy4 = 0.7894			#0.7896
-accuracy5 = 0.5962			#0.5864
-accuracy6 = 0.8752			#0.875
+# accuracy1 = 0.8604			#0.8686
+# accuracy2 = 0.8548			#0.87
+# accuracy3 = 0.412				#0.41
+# accuracy4 = 0.7894			#0.7896
+# accuracy5 = 0.5962			#0.5864
+# accuracy6 = 0.8752			#0.875
 
-#(con word frequency)
-accuracy7 = 0.8706				
-accuracy8 = 0.8584			
-accuracy9 = 0.8174 		# con word occurrency: 0.83	
+# #(con word frequency)
+# accuracy7 = 0.8706				
+# accuracy8 = 0.8584			
+# accuracy9 = 0.8174 		# con word occurrency: 0.83	
 			
-#(con dimensione di test set = dimensione di train set:)
-accuracy10 = 0.8774			
-accuracy11 = 0.8742			
-accuracy12 = 0.8882				
-accuracy13 = 0.7902		
+# #(con dimensione di test set = dimensione di train set:)
+# accuracy10 = 0.8774			
+# accuracy11 = 0.8742			
+# accuracy12 = 0.8882				
+# accuracy13 = 0.7902		
+
+
+accuracy1 = 0.8551			
+accuracy2 = 0.8628  		
+accuracy3 = 0.4322	
+accuracy4 = 0.7704		
+accuracy5 = 0.6112		
+accuracy6 = 0.8594		
+accuracy7 = 0.8614				
+accuracy8 = 0.8692			
+accuracy9 = 0.8346 		
+accuracy10 = 0.8785			
+accuracy11 = 0.8845			
+accuracy12 = 0.8855				
+accuracy13 = 0.7874		
+
+
 
 dizionario_plot = {}
 dizionario_plot["1.Originale"] = accuracy1

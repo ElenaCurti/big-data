@@ -38,11 +38,11 @@ def getReviewData(lista_overall,  field="reviewText", funzione_tokenize=None):
     """
     reviews = []
     for overall in lista_overall:
-        # for review in DATABASE.reviews.find({"overall": overall}).limit(REVIEWS_PER_CLASSE):
-        for review in DATABASE.reviews.aggregate([
-            { '$match' :{"overall": overall}},  
-            { '$match': { '$expr': { '$lt': [0.5, {'$rand': {} } ] } } },   # Prendo le reviews in modo random ogni volta
-            { '$limit' : REVIEWS_PER_CLASSE}]):
+        for review in DATABASE.reviews.find({"overall": overall}).limit(REVIEWS_PER_CLASSE):
+        # for review in DATABASE.reviews.aggregate([
+        #     { '$match' :{"overall": overall}},  
+        #     { '$match': { '$expr': { '$lt': [0.5, {'$rand': {} } ] } } },   # Prendo le reviews in modo random ogni volta
+        #     { '$limit' : REVIEWS_PER_CLASSE}]):
             if funzione_tokenize == None:
                 reviews.append((review[field],str(overall))) 
             else:
@@ -68,22 +68,24 @@ def get_classifier_and_mean_accuracy(lista_overall, funzione_filtra_reviews=lamb
     # Run dei test e accuracy
     accuracy = []
 
+    # Prendo le reviews
+    reviews = getReviewData(lista_overall, **kwargs)
+    reviews = funzione_filtra_reviews(reviews)
+    sentimAnalyzer = SentimentAnalyzer() 
+
+    # e le features
+    if feat_extractor == None:
+        allWordsNeg = sentimAnalyzer.all_words([mark_negation(doc) for doc in reviews])    
+        unigramFeats = sentimAnalyzer.unigram_word_feats(allWordsNeg, min_freq=4)   
+        sentimAnalyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigramFeats)
+    else:
+        sentimAnalyzer.add_feat_extractor(feat_extractor)
+
+    featureSets = list(sentimAnalyzer.apply_features(reviews))
+
     for i in range(NUM_RUN):
-        # Prendo le reviews
-        reviews = getReviewData(lista_overall, **kwargs)
-        reviews = funzione_filtra_reviews(reviews)
         
-        # Sentiment analyzer e applicazione delle feature
-        sentimAnalyzer = SentimentAnalyzer() 
-
-        if feat_extractor == None:
-            allWordsNeg = sentimAnalyzer.all_words([mark_negation(doc) for doc in reviews])    
-            unigramFeats = sentimAnalyzer.unigram_word_feats(allWordsNeg, min_freq=4)   
-            sentimAnalyzer.add_feat_extractor(extract_unigram_feats, unigrams=unigramFeats)
-        else:
-            sentimAnalyzer.add_feat_extractor(feat_extractor)
-
-        featureSets = sentimAnalyzer.apply_features(reviews)
+        random.shuffle(featureSets) 
         trainSet, testSet = featureSets[REVIEWS_PER_CLASSE_TEST:], featureSets[:REVIEWS_PER_CLASSE_TEST]
 
         # Classificatore e accuracy
@@ -93,7 +95,7 @@ def get_classifier_and_mean_accuracy(lista_overall, funzione_filtra_reviews=lamb
 
         accuracy.append(evalu["Accuracy"])
 
-    return classifier, round(sum(accuracy)/len(accuracy), 4)
+    return classifier, round(sum(accuracy)/len(accuracy), 4) 
 
 print("--------------------------\nVersione 1 (originale): Word tokenizer di nltk con due classi """)
 
@@ -120,7 +122,7 @@ classifier2.show_most_informative_features()
 print("--------------------------\nVersione 3: Classificazione a cinque classi""")
 
 
-classifier3, accuracy3 = get_classifier_and_mean_accuracy([float(i) for i in range(1,6)], funzione_tokenize=nltk.word_tokenize)
+classifier3, accuracy3 = get_classifier_and_mean_accuracy([float(i) for i in range(1,6)], funzione_tokenize=Tokenizer().tokenize)
 print("Accuracy:", accuracy3)
 dizionario_plot["3.Cinque classi"] = accuracy3
 
@@ -130,7 +132,7 @@ classifier3.show_most_informative_features()
 print('--------------------------\nVersione 4: Uso del field "summary"')
 
 
-classifier4, accuracy4 = get_classifier_and_mean_accuracy([1.0, 5.0], field="summary", funzione_tokenize=nltk.word_tokenize)
+classifier4, accuracy4 = get_classifier_and_mean_accuracy([1.0, 5.0], field="summary", funzione_tokenize=Tokenizer().tokenize)
 print("Accuracy:", accuracy4)
 dizionario_plot["4.Summary"] = accuracy4
 
@@ -154,7 +156,7 @@ def filtra_solo_aggettivi(reviews):
             new_reviews.append((solo_aggettivi,classe)) 
     return new_reviews
 
-classifier5, accuracy5 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=nltk.word_tokenize, funzione_filtra_reviews=filtra_solo_aggettivi)
+classifier5, accuracy5 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=Tokenizer().tokenize, funzione_filtra_reviews=filtra_solo_aggettivi)
 print("Accuracy:", accuracy5)
 dizionario_plot["5.Solo aggettivi"] = accuracy5
 
@@ -166,7 +168,7 @@ def conta_parole(words):
     wfreq=[words.count(w) for w in words]
     return dict(zip(words,wfreq))
 
-classifier6, accuracy6 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=nltk.word_tokenize, feat_extractor=conta_parole)
+classifier6, accuracy6 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=Tokenizer().tokenize, feat_extractor=conta_parole)
 print("Accuracy:", accuracy6)
 dizionario_plot["6.Frequency word"] = accuracy6
 
@@ -187,7 +189,7 @@ def filtra_non_stop_words(reviews):
     reviews = [([wnl.lemmatize(parola) for parola in rec if parola not in stop_words], classe) for (rec,classe) in reviews]
     return reviews
     
-classifier7, accuracy7 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=nltk.word_tokenize,  funzione_filtra_reviews=filtra_non_stop_words, feat_extractor=conta_parole)
+classifier7, accuracy7 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_tokenize=Tokenizer().tokenize,  funzione_filtra_reviews=filtra_non_stop_words)
 print("Accuracy:", accuracy7)
 dizionario_plot["7.WordNetLemmatizer"] = accuracy7
 
@@ -202,12 +204,12 @@ nlp = spacy.load("en_core_web_sm")
 def spacy_lemmatizer(reviews):    
     new_reviews = []
     for (testo, classe) in reviews:
-        doc = nlp(testo)
+        doc = nlp(testo.lower())
         lemmas = [token.lemma_ for token in doc if token.lemma_ not in stop_words] 
         new_reviews.append((lemmas, classe))    
     return new_reviews
     
-classifier8, accuracy8 = get_classifier_and_mean_accuracy([1.0, 5.0],funzione_filtra_reviews=spacy_lemmatizer, feat_extractor=conta_parole)
+classifier8, accuracy8 = get_classifier_and_mean_accuracy([1.0, 5.0],funzione_filtra_reviews=spacy_lemmatizer)
 print("Accuracy:", accuracy8)
 dizionario_plot["8.Spacy"] = accuracy8
 
@@ -241,7 +243,7 @@ def seleziona_keyword(reviews):
         reviews[i] = (get_keywords_in_text(reviews[i][0]), reviews[i][1])
     return reviews
 
-classifier9, accuracy9 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_filtra_reviews=seleziona_keyword, feat_extractor=conta_parole) 
+classifier9, accuracy9 = get_classifier_and_mean_accuracy([1.0, 5.0], funzione_filtra_reviews=seleziona_keyword) 
 print("Accuracy:", accuracy9)
 dizionario_plot["9.lemmatize,opinion_lexicon"] = accuracy9
 
