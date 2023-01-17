@@ -17850,7 +17850,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <center>Progetto realizzato da Elena Curti (matr. 185431)
-<h1 id="Crimes">Crimes<a class="anchor-link" href="#Crimes">&#182;</a></h1></center>
+<h1 id="Crimes-Database">Crimes Database<a class="anchor-link" href="#Crimes-Database">&#182;</a></h1></center>
 <h2 id="Introduzione">Introduzione<a class="anchor-link" href="#Introduzione">&#182;</a></h2><h2 id="Requisiti">Requisiti<a class="anchor-link" href="#Requisiti">&#182;</a></h2>
 </div>
 </div>
@@ -18003,7 +18003,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="PageRank">PageRank<a class="anchor-link" href="#PageRank">&#182;</a></h3>
+<h3 id="Creazione-della-proiezione">Creazione della proiezione<a class="anchor-link" href="#Creazione-della-proiezione">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -18057,12 +18057,82 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Memory-estimation">Memory estimation<a class="anchor-link" href="#Memory-estimation">&#182;</a></h3>
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">CALL gds.pageRank.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span><span class="n">NOME_GRAPH_OFFICERS</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;pageRank&#39; })</span>
+<span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Page Rank&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+
+<span class="s2">UNION ALL</span>
+
+<span class="s2">CALL gds.degree.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span><span class="n">NOME_GRAPH_OFFICERS</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;degree&#39; })</span>
+<span class="s2">YIELD  nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Degree Centrality&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">&quot;&quot;&quot;</span> <span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<table><tr><th>algoritmo</th><th>nodeCount</th><th>relationshipCount</th><th>bytesMin</th><th>bytesMax</th><th>requiredMemory</th></tr><tr><td style="text-align:left">Page Rank</td><td style="text-align:right">29762</td><td style="text-align:right">57524</td><td style="text-align:right">718808</td><td style="text-align:right">718808</td><td style="text-align:left">701 KiB</td></tr><tr><td style="text-align:left">Degree Centrality</td><td style="text-align:right">29762</td><td style="text-align:right">57524</td><td style="text-align:right">56</td><td style="text-align:right">56</td><td style="text-align:left">56 Bytes</td></tr></table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="PageRank">PageRank<a class="anchor-link" href="#PageRank">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
@@ -18074,7 +18144,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="s2">LIMIT 10 ;</span>
 <span class="s2">&quot;&quot;&quot;</span>
 <span class="n">print_n_results</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
-<span class="n">check_results</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18099,18 +18168,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 
 </div>
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>False</pre>
-</div>
-
-</div>
 
 </div>
 
@@ -18132,7 +18189,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
@@ -18189,7 +18246,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
@@ -18246,7 +18303,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
@@ -18278,7 +18335,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table><tr><th>badge_number</th><th>nome</th><th>cognome</th><th>values</th></tr><tr><td style="text-align:left">48-0216838</td><td style="text-align:left">Madelon</td><td style="text-align:left">DeSousa</td><td style="text-align:left">{hub: 0.009576619680386747, auth: 0.05312791339882031}</td></tr><tr><td style="text-align:left">04-5664884</td><td style="text-align:left">Cloe</td><td style="text-align:left">Ings</td><td style="text-align:left">{hub: 0.009002022499563543, auth: 0.04994023859489109}</td></tr><tr><td style="text-align:left">58-9758255</td><td style="text-align:left">Kania</td><td style="text-align:left">Notti</td><td style="text-align:left">{hub: 0.008810490105955809, auth: 0.04887768032691469}</td></tr><tr><td style="text-align:left">27-2227814</td><td style="text-align:left">Worthy</td><td style="text-align:left">Nettles</td><td style="text-align:left">{hub: 0.008618957712348075, auth: 0.04781512205893828}</td></tr><tr><td style="text-align:left">86-7588000</td><td style="text-align:left">Ricca</td><td style="text-align:left">Miskimmon</td><td style="text-align:left">{hub: 0.008427425318740338, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">41-5548000</td><td style="text-align:left">Winonah</td><td style="text-align:left">Skynner</td><td style="text-align:left">{hub: 0.008427425318740338, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">79-9843712</td><td style="text-align:left">Olenolin</td><td style="text-align:left">Klehyn</td><td style="text-align:left">{hub: 0.008427425318740338, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">36-7678091</td><td style="text-align:left">Simmonds</td><td style="text-align:left">Greensall</td><td style="text-align:left">{hub: 0.008235892925132604, auth: 0.045690005522985466}</td></tr><tr><td style="text-align:left">34-6222792</td><td style="text-align:left">Hollyanne</td><td style="text-align:left">Orcott</td><td style="text-align:left">{hub: 0.008235892925132604, auth: 0.045690005522985466}</td></tr><tr><td style="text-align:left">73-9322216</td><td style="text-align:left">Hedy</td><td style="text-align:left">Vinson</td><td style="text-align:left">{hub: 0.008235892925132604, auth: 0.045690005522985466}</td></tr></table>
+<table><tr><th>badge_number</th><th>nome</th><th>cognome</th><th>values</th></tr><tr><td style="text-align:left">48-0216838</td><td style="text-align:left">Madelon</td><td style="text-align:left">DeSousa</td><td style="text-align:left">{hub: 0.009576619680387082, auth: 0.05312791339882031}</td></tr><tr><td style="text-align:left">04-5664884</td><td style="text-align:left">Cloe</td><td style="text-align:left">Ings</td><td style="text-align:left">{hub: 0.009002022499563857, auth: 0.04994023859489109}</td></tr><tr><td style="text-align:left">58-9758255</td><td style="text-align:left">Kania</td><td style="text-align:left">Notti</td><td style="text-align:left">{hub: 0.008810490105956116, auth: 0.04887768032691469}</td></tr><tr><td style="text-align:left">27-2227814</td><td style="text-align:left">Worthy</td><td style="text-align:left">Nettles</td><td style="text-align:left">{hub: 0.008618957712348375, auth: 0.04781512205893828}</td></tr><tr><td style="text-align:left">86-7588000</td><td style="text-align:left">Ricca</td><td style="text-align:left">Miskimmon</td><td style="text-align:left">{hub: 0.008427425318740633, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">41-5548000</td><td style="text-align:left">Winonah</td><td style="text-align:left">Skynner</td><td style="text-align:left">{hub: 0.008427425318740633, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">79-9843712</td><td style="text-align:left">Olenolin</td><td style="text-align:left">Klehyn</td><td style="text-align:left">{hub: 0.008427425318740633, auth: 0.046752563790961876}</td></tr><tr><td style="text-align:left">36-7678091</td><td style="text-align:left">Simmonds</td><td style="text-align:left">Greensall</td><td style="text-align:left">{hub: 0.008235892925132892, auth: 0.045690005522985466}</td></tr><tr><td style="text-align:left">34-6222792</td><td style="text-align:left">Hollyanne</td><td style="text-align:left">Orcott</td><td style="text-align:left">{hub: 0.008235892925132892, auth: 0.045690005522985466}</td></tr><tr><td style="text-align:left">73-9322216</td><td style="text-align:left">Hedy</td><td style="text-align:left">Vinson</td><td style="text-align:left">{hub: 0.008235892925132892, auth: 0.045690005522985466}</td></tr></table>
 </div>
 
 </div>
@@ -18292,7 +18349,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span><span class="o">=</span><span class="s2">&quot;&quot;&quot; </span>
@@ -18340,6 +18397,18 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conclusioni">Conclusioni<a class="anchor-link" href="#Conclusioni">&#182;</a></h3><p>...</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="2.-Trovare-i-gruppi-di-criminali">2. Trovare i gruppi di criminali<a class="anchor-link" href="#2.-Trovare-i-gruppi-di-criminali">&#182;</a></h2>
 </div>
 </div>
@@ -18349,11 +18418,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Creo il project</span>
-<span class="n">NOME_GRAPH_CRIMINALS</span> <span class="o">=</span> <span class="s2">&quot;criminals&quot;</span>
+<span class="n">NOME_GRAPH_CRIMINALS</span> <span class="o">=</span> <span class="s2">&quot;criminals-groups&quot;</span>
 <span class="n">includi_conoscenti</span> <span class="o">=</span> <span class="kc">False</span>
 <span class="k">if</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;call gds.graph.exists(&#39;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span><span class="s2">&quot;&#39;)&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;exists&quot;</span><span class="p">]:</span>
   <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s1">&#39;call gds.graph.drop(&quot;&#39;</span><span class="o">+</span><span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span><span class="s1">&#39;&quot;)&#39;</span><span class="p">)</span>
@@ -18424,19 +18493,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
-<span class="s2">CALL gds.labelPropagation.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;community&#39; })</span>
+<span class="s2">CALL gds.louvain.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;community&#39; })</span>
 <span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
-<span class="s2">RETURN &quot;labelPropagation&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Louvain&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
 
 <span class="s2">UNION ALL</span>
 
-<span class="s2">CALL gds.louvain.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;community&#39; })</span>
+<span class="s2">CALL gds.wcc.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_CRIMINALS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, { writeProperty: &#39;component&#39; })</span>
 <span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
-<span class="s2">RETURN &quot;louvain&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Weakly Connected Components&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
 
 <span class="s2">&quot;&quot;&quot;</span> <span class="p">)</span>
 </pre></div>
@@ -18454,12 +18523,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>algoritmo</th><th>nodeCount</th><th>relationshipCount</th><th>bytesMin</th><th>bytesMax</th><th>requiredMemory</th></tr><tr><td style="text-align:left">labelPropagation</td><td style="text-align:right">29</td><td style="text-align:right">30</td><td style="text-align:right">2288</td><td style="text-align:right">5872</td><td style="text-align:left">[2288 Bytes ... 5872 Bytes]</td></tr><tr><td style="text-align:left">louvain</td><td style="text-align:right">29</td><td style="text-align:right">30</td><td style="text-align:right">7153</td><td style="text-align:right">566272</td><td style="text-align:left">[7153 Bytes ... 553 KiB]</td></tr></table>
+<table><tr><th>algoritmo</th><th>nodeCount</th><th>relationshipCount</th><th>bytesMin</th><th>bytesMax</th><th>requiredMemory</th></tr><tr><td style="text-align:left">Louvain</td><td style="text-align:right">29</td><td style="text-align:right">30</td><td style="text-align:right">7153</td><td style="text-align:right">566272</td><td style="text-align:left">[7153 Bytes ... 553 KiB]</td></tr><tr><td style="text-align:left">Weakly Connected Components</td><td style="text-align:right">29</td><td style="text-align:right">30</td><td style="text-align:right">328</td><td style="text-align:right">328</td><td style="text-align:left">328 Bytes</td></tr></table>
 </div>
 
 </div>
@@ -18484,7 +18553,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_in_columns</span><span class="p">(</span><span class="n">my_list</span><span class="p">):</span>
@@ -18513,7 +18582,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
@@ -18583,7 +18652,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
@@ -18655,7 +18724,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
@@ -18722,7 +18791,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
@@ -18797,79 +18866,18 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">NOME_GRAPH_SHORTEST_PATH</span> <span class="o">=</span> <span class="s2">&quot;criminals2&quot;</span>
-<span class="k">if</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;call gds.graph.exists(&#39;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_SHORTEST_PATH</span><span class="o">+</span><span class="s2">&quot;&#39;)&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;exists&quot;</span><span class="p">]:</span>
-  <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s1">&#39;call gds.graph.drop(&quot;&#39;</span><span class="o">+</span><span class="n">NOME_GRAPH_SHORTEST_PATH</span><span class="o">+</span><span class="s1">&#39;&quot;)&#39;</span><span class="p">)</span>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Prendo due persone: una coinvolta in un crimine di tipo Drugs e l'altra pregiudicata ma che non abbia mai compiuto un crimine Drugs. Queste due persone inoltre non devono conoscersi direttamente:</p>
 
-
-<span class="c1"># graph.run(&quot;&quot;&quot; </span>
-<span class="c1"># CALL gds.graph.project.cypher(</span>
-<span class="c1">#     &#39;&quot;&quot;&quot; +NOME_GRAPH_SHORTEST_PATH+&quot;&quot;&quot;&#39;,</span>
-<span class="c1">#     &#39;MATCH (p:Person) RETURN id(p) as id&#39;, </span>
-<span class="c1">#     &#39;</span>
-<span class="c1">#       MATCH p=(root)-[]-&gt;(friend_or_home)-[*0..2]-&gt;(loc:Location)</span>
-<span class="c1">#       WHERE (friend_or_home:Person OR friend_or_home:Location) AND id(root)=2</span>
-<span class="c1">#       RETURN p</span>
-<span class="c1">#     &#39;)</span>
-<span class="c1"># &quot;&quot;&quot;)</span>
-</pre></div>
-
-     </div>
 </div>
 </div>
 </div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
-<span class="s2">MATCH p=(root)-[]-&gt;(friend_or_home)-[*0..2]-&gt;(loc:Location)</span>
-<span class="s2">      WHERE (friend_or_home:Person OR friend_or_home:Location) AND id(root)=2</span>
-<span class="s2">      RETURN p</span>
-
-<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>p</th></tr><tr><td style="text-align:left">(Benjamin)-[:KNOWS {}]-&gt;(Frances)-[:CURRENT_ADDRESS {}]-&gt;(_753)</td></tr><tr><td style="text-align:left">(Benjamin)-[:KNOWS_PHONE {}]-&gt;(Frances)-[:CURRENT_ADDRESS {}]-&gt;(_753)</td></tr><tr><td style="text-align:left">(Benjamin)-[:KNOWS_SN {}]-&gt;(Brandon)-[:CURRENT_ADDRESS {}]-&gt;(_854)</td></tr></table>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -18878,12 +18886,99 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">graph</span><span class="o">.</span><span class="n">run</span> <span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
-<span class="s2">//  crimini senza colpevole avvenuti in luoghi in cui altri crimini vennero commessi</span>
-<span class="s2">match (loc:Location)&lt;--(c1:Crime)&lt;--(p:Person), (loc)&lt;--(c2:Crime)</span>
-<span class="s2">where c2&lt;&gt;c1 AND NOT EXISTS ( (c2)&lt;--(:Person))</span>
-<span class="s2"> return c1, p, loc, c2</span>
-<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (p1:Person)--&gt;(c1:Crime {type:&quot;Drugs&quot;}), (p2:Person)--&gt;(c2:Crime)</span>
+<span class="s2">WHERE NOT EXISTS ( (p2)--&gt;(:Crime {type:&quot;Drugs&quot;} )) AND NOT EXISTS ( (p1)-[]-(p2))</span>
+<span class="s2">RETURN p1.nhs_no AS spacciatore_nhs_no, p1.name AS spacciatore_name, p2.nhs_no AS pregiudicato_nhs_no, p2.name AS pregiudicato_name</span>
+<span class="s2">LIMIT 1</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">display</span><span class="p">(</span><span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">))</span>
+
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">spacciatore_nhs_no</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;spacciatore_nhs_no&quot;</span><span class="p">]</span>
+<span class="n">pregiudicato_nhs_no</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;pregiudicato_nhs_no&quot;</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table><tr><th>spacciatore_nhs_no</th><th>spacciatore_name</th><th>pregiudicato_nhs_no</th><th>pregiudicato_name</th></tr><tr><td style="text-align:left">879-22-8665</td><td style="text-align:left">Raymond</td><td style="text-align:left">821-11-2735</td><td style="text-align:left">Stephanie</td></tr></table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Creo la proiezione:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">NOME_GRAPH_DRUGS</span> <span class="o">=</span> <span class="s2">&quot;drugs-groups&quot;</span>
+<span class="k">if</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s2">&quot;call gds.graph.exists(&#39;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span><span class="s2">&quot;&#39;)&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;exists&quot;</span><span class="p">]:</span>
+  <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="s1">&#39;call gds.graph.drop(&quot;&#39;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span><span class="s1">&#39;&quot;)&#39;</span><span class="p">)</span>
+
+
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">  CALL gds.graph.project.cypher(</span>
+<span class="s2">    &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;,</span>
+<span class="s2">    &#39;MATCH (p) RETURN id(p) as id&#39;,</span>
+<span class="s2">    &#39;MATCH (a)-[r]-(b)</span>
+<span class="s2">     RETURN id(a) as source, id(b) as target, </span>
+<span class="s2">      CASE</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:CURRENT_ADDRESS]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:HAS_PHONE]-(b) ) THEN 5</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:HAS_POSTCODE]-(b) ) THEN 2</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:POSTCODE_IN_AREA]-(b) ) THEN 3</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:LOCATION_IN_AREA]-(b) ) THEN 3</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:CALLER]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:CALLED]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:OCCURRED_AT]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:INVOLVED_IN]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:PARTY_TO]-(b) ) THEN 1        </span>
+<span class="s2">        WHEN EXISTS ( (a)-[:KNOWS_LW]-(b) ) THEN 1</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:FAMILY_REL]-(b) ) THEN 2</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:KNOWS_PHONE]-(b) ) THEN 7</span>
+<span class="s2">        WHEN EXISTS ( (a)-[:KNOWS_SN]-(b) ) THEN 9</span>
+<span class="s2">        ELSE 1000</span>
+<span class="s2">      END AS peso, type(r) AS type&#39;,</span>
+<span class="s2">    {validateRelationships:false}</span>
+<span class="s2">);  </span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18899,12 +18994,30 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
 
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<table><tr><th>c1</th><th>p</th><th>loc</th><th>c2</th></tr><tr><td style="text-align:left">(_1332:Crime {date: &#039;31/08/2017&#039;, id: &#039;04b0d2f1b563a455d55b2f2c24ef86564f1146630fc7d392e657ecf5f47303da&#039;, last_outcome: &#039;Investigation complete; no suspect identified&#039;, type: &#039;Robbery&#039;})</td><td style="text-align:left">(_214:Person {name: &#039;Rebecca&#039;, nhs_no: &#039;785-79-1645&#039;, surname: &#039;Long&#039;})</td><td style="text-align:left">(_2840:Location {address: &#039;173 Park Hill Street&#039;, latitude: 53.582779, longitude: -2.443191, postcode: &#039;BL1 4AR&#039;})</td><td style="text-align:left">(_32724:Crime {date: &#039;11/08/2017&#039;, id: &#039;0739499f54f4870d877750641425068e1faadf1ca3326390cd6090f539cb5f7e&#039;, last_outcome: &#039;Unable to prosecute suspect&#039;, type: &#039;Violence and sexual offences&#039;})</td></tr><tr><td style="text-align:left">(_1332:Crime {date: &#039;31/08/2017&#039;, id: &#039;04b0d2f1b563a455d55b2f2c24ef86564f1146630fc7d392e657ecf5f47303da&#039;, last_outcome: &#039;Investigation complete; no suspect identified&#039;, type: &#039;Robbery&#039;})</td><td style="text-align:left">(_214:Person {name: &#039;Rebecca&#039;, nhs_no: &#039;785-79-1645&#039;, surname: &#039;Long&#039;})</td><td style="text-align:left">(_2840:Location {address: &#039;173 Park Hill Street&#039;, latitude: 53.582779, longitude: -2.443191, postcode: &#039;BL1 4AR&#039;})</td><td style="text-align:left">(_32705:Crime {date: &#039;26/08/2017&#039;, id: &#039;641be159fa3babeb0bf1e29d66ffabe6c394e6035f55aaee004f4b827c57d316&#039;, last_outcome: &#039;Investigation complete; no suspect identified&#039;, type: &#039;Criminal damage and arson&#039;})</td></tr><tr><td style="text-align:left">(_1329:Crime {date: &#039;19/08/2017&#039;, id: &#039;34f309ebafbd1c46b5c4832f63321a10330835a5ae323952419439b69633bb2c&#039;, last_outcome: &#039;Unable to prosecute suspect&#039;, type: &#039;Public order&#039;})</td><td style="text-align:left">(_630:Person {name: &#039;Amanda&#039;, nhs_no: &#039;455-19-0708&#039;, surname: &#039;Robertson&#039;})</td><td style="text-align:left">(_2838:Location {address: &#039;139 Back Russell Close&#039;, latitude: 53.582117, longitude: -2.447263, postcode: &#039;BL1 4BA&#039;})</td><td style="text-align:left">(_32702:Crime {date: &#039;9/08/2017&#039;, id: &#039;ce587a21f0961ba1c829efae6ef35dc746fa689f6df0a1c1074d138e8df7a2e6&#039;, last_outcome: &#039;Under investigation&#039;, type: &#039;Burglary&#039;})</td></tr></table>
+<table><tr><th>nodeQuery</th><th>relationshipQuery</th><th>graphName</th><th>nodeCount</th><th>relationshipCount</th><th>projectMillis</th></tr><tr><td style="text-align:left">MATCH (p) RETURN id(p) as id</td><td style="text-align:left">MATCH (a)-[r]-(b)
+     RETURN id(a) as source, id(b) as target, 
+      CASE
+        WHEN EXISTS ( (a)-[:CURRENT_ADDRESS]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:HAS_PHONE]-(b) ) THEN 5
+        WHEN EXISTS ( (a)-[:HAS_POSTCODE]-(b) ) THEN 2
+        WHEN EXISTS ( (a)-[:POSTCODE_IN_AREA]-(b) ) THEN 3
+        WHEN EXISTS ( (a)-[:LOCATION_IN_AREA]-(b) ) THEN 3
+        WHEN EXISTS ( (a)-[:CALLER]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:CALLED]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:OCCURRED_AT]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:INVOLVED_IN]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:PARTY_TO]-(b) ) THEN 1        
+        WHEN EXISTS ( (a)-[:KNOWS_LW]-(b) ) THEN 1
+        WHEN EXISTS ( (a)-[:FAMILY_REL]-(b) ) THEN 2
+        WHEN EXISTS ( (a)-[:KNOWS_PHONE]-(b) ) THEN 7
+        WHEN EXISTS ( (a)-[:KNOWS_SN]-(b) ) THEN 9
+        ELSE 1000
+      END AS peso, type(r) AS type</td><td style="text-align:left">drugs-groups</td><td style="text-align:right">61521</td><td style="text-align:right">211680</td><td style="text-align:right">3334</td></tr></table>
 </div>
 
 </div>
@@ -18913,6 +19026,433 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Memory-estimation">Memory estimation<a class="anchor-link" href="#Memory-estimation">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_n_results</span><span class="p">(</span><span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.shortestPath.dijkstra.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_DRUGS</span> <span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, targetNode: target, relationshipWeightProperty: &#39;peso&#39;, writeRelationshipType: &#39;PATH&#39;})</span>
+<span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Dijkstra con pesi&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+
+<span class="s2">UNION ALL</span>
+
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.allShortestPaths.delta.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_DRUGS</span> <span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, relationshipWeightProperty: &#39;peso&#39;, writeRelationshipType: &#39;PATH&#39; })</span>
+<span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;All Shortest Paths con pesi&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+
+<span class="s2">UNION ALL</span>
+
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.shortestPath.dijkstra.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_DRUGS</span> <span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, targetNode: target, writeRelationshipType: &#39;PATH&#39;})</span>
+<span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;Dijkstra senza pesi&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+
+<span class="s2">UNION ALL</span>
+
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.allShortestPaths.delta.write.estimate(&#39;&quot;&quot;&quot;</span> <span class="o">+</span> <span class="n">NOME_GRAPH_DRUGS</span> <span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, writeRelationshipType: &#39;PATH&#39;})</span>
+<span class="s2">YIELD nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory</span>
+<span class="s2">RETURN &quot;All Shortest Paths senza pesi&quot; as algoritmo, nodeCount, relationshipCount, bytesMin, bytesMax, requiredMemory;</span>
+
+<span class="s2">&quot;&quot;&quot;</span> <span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table><tr><th>algoritmo</th><th>nodeCount</th><th>relationshipCount</th><th>bytesMin</th><th>bytesMax</th><th>requiredMemory</th></tr><tr><td style="text-align:left">Dijkstra con pesi</td><td style="text-align:right">61521</td><td style="text-align:right">211680</td><td style="text-align:right">1984768</td><td style="text-align:right">1984768</td><td style="text-align:left">1938 KiB</td></tr><tr><td style="text-align:left">All Shortest Paths con pesi</td><td style="text-align:right">61521</td><td style="text-align:right">211680</td><td style="text-align:right">1599856</td><td style="text-align:right">4646760</td><td style="text-align:left">[1562 KiB ... 4537 KiB]</td></tr><tr><td style="text-align:left">Dijkstra senza pesi</td><td style="text-align:right">61521</td><td style="text-align:right">211680</td><td style="text-align:right">1984768</td><td style="text-align:right">1984768</td><td style="text-align:left">1938 KiB</td></tr><tr><td style="text-align:left">All Shortest Paths senza pesi</td><td style="text-align:right">61521</td><td style="text-align:right">211680</td><td style="text-align:right">1599856</td><td style="text-align:right">4646760</td><td style="text-align:left">[1562 KiB ... 4537 KiB]</td></tr></table>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Dijkstra-con-pesi">Dijkstra con pesi<a class="anchor-link" href="#Dijkstra-con-pesi">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_results_shortest_path</span><span class="p">(</span><span class="n">cq</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Funzione che stampa i risultati dello shortest path in modo piu&#39; leggibile &quot;&quot;&quot;</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span><span class="o">.</span><span class="n">data</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Costo totale:&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;totalCost&quot;</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Costo ad ogni nodo:&quot;</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;costs&quot;</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Shortest Path:&quot;</span><span class="p">)</span>
+
+    <span class="n">ordine_nodi</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;ordine_nodi&quot;</span><span class="p">]</span>
+    <span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span> 
+    <span class="k">for</span> <span class="n">nodo</span> <span class="ow">in</span> <span class="n">ordine_nodi</span><span class="p">:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="n">tipo_nodo</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">nodo</span><span class="o">.</span><span class="n">labels</span><span class="p">)[</span><span class="mi">1</span><span class="p">:]</span>
+        <span class="n">diz</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">nodo</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">tipo_nodo</span> <span class="o">==</span> <span class="s2">&quot;Person&quot;</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">diz</span><span class="p">[</span><span class="s2">&quot;name&quot;</span><span class="p">]</span><span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">diz</span><span class="p">[</span><span class="s2">&quot;surname&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot; (&quot;</span> <span class="o">+</span><span class="n">diz</span><span class="p">[</span><span class="s2">&quot;nhs_no&quot;</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;)&quot;</span>
+        <span class="k">elif</span> <span class="n">tipo_nodo</span> <span class="o">==</span> <span class="s2">&quot;Crime&quot;</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Reato del &quot;</span> <span class="o">+</span> <span class="n">diz</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;. Tipo: &quot;</span><span class="o">+</span><span class="n">diz</span><span class="p">[</span><span class="s2">&quot;type&quot;</span><span class="p">]</span><span class="o">+</span><span class="s2">&quot;. Esito: &quot;</span><span class="o">+</span> <span class="n">diz</span><span class="p">[</span><span class="s2">&quot;last_outcome&quot;</span><span class="p">]</span> 
+        <span class="k">elif</span> <span class="n">tipo_nodo</span> <span class="o">==</span> <span class="s2">&quot;Location&quot;</span> <span class="ow">or</span> <span class="n">tipo_nodo</span> <span class="o">==</span> <span class="s2">&quot;Area&quot;</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">tipo_nodo</span> <span class="o">+</span> <span class="s2">&quot; = &quot;</span> <span class="o">+</span>  <span class="nb">str</span><span class="p">(</span><span class="n">diz</span><span class="p">)[</span><span class="mi">1</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;&#39;&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">nodo</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+
+
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.shortestPath.dijkstra.stream( &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, targetNode: target, relationshipWeightProperty: &#39;peso&#39;})</span>
+<span class="s2">YIELD index, sourceNode, targetNode, totalCost, nodeIds, costs, path</span>
+<span class="s2">WITH totalCost, [nodeId IN nodeIds | gds.util.asNode(nodeId)] AS ordine_nodi, costs</span>
+<span class="s2">RETURN totalCost, ordine_nodi, costs ;</span>
+<span class="s2">&quot;&quot;&quot;</span> 
+
+<span class="n">print_results_shortest_path</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+    
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Costo totale: 12.0
+Costo ad ogni nodo: [0.0, 2.0, 3.0, 4.0, 7.0, 10.0, 11.0, 12.0]
+Shortest Path:
+	 Raymond Walker (879-22-8665)
+	 Phillip Williamson (337-28-4424)
+	 Reato del 26/08/2017. Tipo: Vehicle crime. Esito: Investigation complete; no suspect identified
+	 Location = postcode: BL7 9AR, address: 46 High Meadows, latitude: 53.619804, longitude: -2.415218
+	 Area = areaCode: BL7
+	 Location = postcode: BL7 9YT, address: 60 Deakins Mill Way, latitude: 53.62624, longitude: -2.442588
+	 Reato del 16/08/2017. Tipo: Violence and sexual offences. Esito: Unable to prosecute suspect
+	 Stephanie Hughes (821-11-2735)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="Dijkstra_con_pesi.png" alt="Dijkstra_con_pesi" /></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="All-Shortest-Path-con-pesi">All Shortest Path con pesi<a class="anchor-link" href="#All-Shortest-Path-con-pesi">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.allShortestPaths.delta.stream( &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, relationshipWeightProperty: &#39;peso&#39;})</span>
+<span class="s2">YIELD index, sourceNode, targetNode, totalCost, nodeIds, costs, path</span>
+<span class="s2">WITH targetNode, totalCost, [nodeId IN nodeIds | gds.util.asNode(nodeId)] AS ordine_nodi, costs</span>
+<span class="s2">WHERE targetNode = id(target)</span>
+<span class="s2">RETURN totalCost, ordine_nodi, costs; </span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="c1"># print(cq)</span>
+<span class="n">print_results_shortest_path</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Costo totale: 12.0
+Costo ad ogni nodo: [0.0, 2.0, 3.0, 4.0, 7.0, 10.0, 11.0, 12.0]
+Shortest Path:
+	 Raymond Walker (879-22-8665)
+	 Kathleen Peters (250-75-5238)
+	 Reato del 31/08/2017. Tipo: Vehicle crime. Esito: Investigation complete; no suspect identified
+	 Location = postcode: BL7 9DW, address: 103 Threadfold Way, latitude: 53.614334, longitude: -2.426834
+	 Area = areaCode: BL7
+	 Location = postcode: BL7 9YT, address: 60 Deakins Mill Way, latitude: 53.62624, longitude: -2.442588
+	 Reato del 16/08/2017. Tipo: Violence and sexual offences. Esito: Unable to prosecute suspect
+	 Stephanie Hughes (821-11-2735)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="All_shortest_path_con_pesi.png" alt="All_shortest_path_con_pesi" /></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Dijkstra-senza-pesi">Dijkstra senza pesi<a class="anchor-link" href="#Dijkstra-senza-pesi">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.shortestPath.dijkstra.stream( &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source, targetNode: target})</span>
+<span class="s2">YIELD index, sourceNode, targetNode, totalCost, nodeIds, costs, path</span>
+<span class="s2">WITH totalCost, [nodeId IN nodeIds | gds.util.asNode(nodeId)] AS ordine_nodi, costs </span>
+<span class="s2">RETURN totalCost, ordine_nodi, costs; </span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="c1"># print(cq)</span>
+<span class="n">print_results_shortest_path</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Costo totale: 7.0
+Costo ad ogni nodo: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
+Shortest Path:
+	 Raymond Walker (879-22-8665)
+	 Phillip Williamson (337-28-4424)
+	 Brian Morales (335-71-7747)
+	 Brenda Edwards (778-24-6852)
+	 Ashley Bennett (508-10-3584)
+	 Diane Bradley (338-31-6051)
+	 Pamela Gibson (838-11-7607)
+	 Stephanie Hughes (821-11-2735)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="Dijkstra_senza_pesi.png" alt="Dijkstra_senza_pesi" /></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="All-Shortest-Path-(senza-pesi)">All Shortest Path (senza pesi)<a class="anchor-link" href="#All-Shortest-Path-(senza-pesi)">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO controllare che i risultati siano coerenti con le immagini!</span>
+<span class="n">cq</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot; </span>
+<span class="s2">MATCH (source:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">spacciatore_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;}), (target:Person {nhs_no: &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">pregiudicato_nhs_no</span><span class="o">+</span><span class="s2">&quot;&quot;&quot;&#39;})</span>
+<span class="s2">CALL gds.allShortestPaths.delta.stream( &#39;&quot;&quot;&quot;</span><span class="o">+</span><span class="n">NOME_GRAPH_DRUGS</span><span class="o">+</span> <span class="s2">&quot;&quot;&quot;&#39;, {sourceNode: source})</span>
+<span class="s2">YIELD index, sourceNode, targetNode, totalCost, nodeIds, costs, path</span>
+<span class="s2">WITH targetNode, totalCost, [nodeId IN nodeIds | gds.util.asNode(nodeId)] AS ordine_nodi, costs</span>
+<span class="s2">WHERE targetNode = id(target)</span>
+<span class="s2">RETURN totalCost, ordine_nodi, costs; </span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">print_results_shortest_path</span><span class="p">(</span><span class="n">cq</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Costo totale: 7.0
+Costo ad ogni nodo: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
+Shortest Path:
+	 Raymond Walker (879-22-8665)
+	 Kathleen Peters (250-75-5238)
+	 Alan Ward (881-20-2396)
+	 Philip Gardner (775-75-2532)
+	 Ashley Bennett (508-10-3584)
+	 Diane Bradley (338-31-6051)
+	 Pamela Gibson (838-11-7607)
+	 Stephanie Hughes (821-11-2735)
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="All_shortest_path_senza_pesi.png" alt="All_shortest_path_senza_pesi" /></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Conclusioni">Conclusioni<a class="anchor-link" href="#Conclusioni">&#182;</a></h3><p>...</p>
+
+</div>
+</div>
+</div>
 </div>
 </body>
 
